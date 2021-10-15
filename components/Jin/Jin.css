@@ -1,0 +1,36 @@
+.jin {
+  align-items: flex-start;
+  display: flex;
+  height: 134px;
+  justify-content: center;
+  left: 281px;
+  min-width: 103px;
+  position: absolute;
+  top: 305px;
+}
+
+.overlap-group12-2 {
+  height: 223px;
+  margin-top: -29px;
+  position: relative;
+  width: 223px;
+}
+
+.jin-1 {
+  left: 92px;
+  letter-spacing: 0;
+  line-height: 21px;
+  position: absolute;
+  top: 34px;
+  white-space: nowrap;
+}
+
+.x1 {
+  height: 223px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 223px;
+}
+

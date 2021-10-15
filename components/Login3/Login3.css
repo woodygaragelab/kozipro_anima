@@ -1,0 +1,144 @@
+.login-1 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  margin-right: 0.34px;
+  margin-top: 20px;
+  min-width: 344px;
+}
+
+.overlap-group3-6 {
+  border-radius: 2px;
+  height: 50px;
+  position: relative;
+  width: 344px;
+}
+
+.button-backgrounds-black-1 {
+  border-radius: 2px;
+  cursor: pointer;
+  height: 50px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 344px;
+}
+
+.white-03pt-radius {
+  background-color: var(--black);
+  border-radius: 3px;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+}
+
+.white-04pt-radius {
+  background-color: var(--black);
+  border-radius: 4px;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+}
+
+.white-05pt-radius {
+  background-color: var(--black);
+  border-radius: 5px;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+}
+
+.white-06pt-radius {
+  background-color: var(--black);
+  border-radius: 6px;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+}
+
+.white-07pt-radius {
+  background-color: var(--black);
+  border-radius: 7px;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+}
+
+.white-08pt-radius {
+  cursor: pointer;
+  height: 100%;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.white-09pt-radius {
+  background-color: var(--black);
+  border-radius: 9px;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+}
+
+.white-10pt-radius {
+  background-color: var(--black);
+  border-radius: 10px;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+}
+
+.white-11pt-radius {
+  background-color: var(--black);
+  border-radius: 11px;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+}
+
+.white-12pt-radius {
+  background-color: var(--black);
+  border-radius: 12px;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+}
+
+.white-13pt-radius {
+  background-color: var(--black);
+  border-radius: 13px;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+}
+
+.white-14pt-radius {
+  background-color: var(--black);
+  border-radius: 14px;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+}
+
+.white-max-radius {
+  background-color: var(--black);
+  border-radius: 100px;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+}
+

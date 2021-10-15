@@ -1,0 +1,57 @@
+.simplified-header-2 {
+  align-items: flex-start;
+  display: flex;
+  height: 90px;
+  left: 1px;
+  min-width: 375px;
+  position: fixed;
+  top: 0;
+}
+
+.overlap-group-32 {
+  height: 90px;
+  position: relative;
+  width: 375px;
+}
+
+.overlap-group-item {
+  height: 44px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 375px;
+}
+
+.x20-11 {
+  height: 21px;
+  left: 338px;
+  object-fit: cover;
+  position: absolute;
+  top: 58px;
+  width: 25px;
+}
+
+.x19-4 {
+  cursor: pointer;
+  height: 25px;
+  left: 9px;
+  object-fit: cover;
+  position: absolute;
+  top: 54px;
+  width: 22px;
+}
+
+.simplified-header-2.simplified-header-3,
+.simplified-header-2.simplified-header-5,
+.simplified-header-2.simplified-header-6,
+.simplified-header-2.simplified-header-7,
+.simplified-header-2.simplified-header-9 {
+  left: 0;
+}
+
+.simplified-header-2.simplified-header-5 .x19-4,
+.simplified-header-2.simplified-header-6 .x19-4,
+.simplified-header-2.simplified-header-7 .x19-4 {
+  cursor: unset;
+}
+

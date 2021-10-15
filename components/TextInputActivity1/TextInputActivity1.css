@@ -1,0 +1,146 @@
+.textinputactivity1 {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 812px;
+  position: relative;
+  width: 375px;
+}
+
+.flex-row-11 {
+  align-items: center;
+  display: flex;
+  margin-left: 1.0px;
+  margin-top: 100px;
+  min-width: 309px;
+  position: relative;
+}
+
+.days-1 {
+  align-items: flex-end;
+  display: flex;
+  height: 32px;
+  left: 92px;
+  min-width: 126px;
+  position: absolute;
+  top: 0;
+}
+
+.overlap-group1-10 {
+  height: 31px;
+  margin-bottom: -0.5px;
+  position: relative;
+  width: 126px;
+}
+
+.yyyymmdd-1 {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: absolute;
+  text-align: center;
+  top: 2px;
+  white-space: nowrap;
+}
+
+.x9-2 {
+  height: 30px;
+  left: 12px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 0;
+}
+
+.x10-2 {
+  height: 30px;
+  left: 83px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 0;
+}
+
+.flex-col-20 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 14px;
+  min-height: 666px;
+  position: relative;
+  width: 375px;
+}
+
+.x30::-webkit-scrollbar {
+  display: none;
+  width: 0;
+}
+
+.x30 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 465px;
+  overflow-y: scroll;
+  width: 305px;
+}
+
+.overlap-group1-11 {
+  height: 446px;
+  position: relative;
+  width: 305px;
+}
+
+.x274 {
+  display: flex;
+  flex-direction: column;
+  height: 446px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 305px;
+}
+
+.x90,
+.x90-1,
+.x90-2,
+.x90-3 {
+  background-color: var(--white);
+  border-radius: 26px;
+  height: 400px;
+  margin-top: 19.5px;
+}
+
+.paste-your-message-contexts {
+  background-color: transparent;
+  border: 0;
+  height: 388px;
+  left: 14px;
+  letter-spacing: 0;
+  line-height: 15px;
+  padding: 0;
+  position: absolute;
+  top: 54px;
+  width: 280px;
+}
+
+.paste-your-message-contexts::placeholder {
+  color: #93939a99;
+}
+
+.overlap-group-43 {
+  height: 446px;
+  margin-top: 65px;
+  position: relative;
+  width: 305px;
+}
+
+.overlap-group5-4 {
+  height: 67px;
+  margin-left: 1.0px;
+  margin-top: 10px;
+  position: relative;
+  width: 344px;
+}
+

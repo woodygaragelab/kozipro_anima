@@ -1,0 +1,48 @@
+.photochoose1 {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 812px;
+  overflow: hidden;
+  position: relative;
+  width: 375px;
+}
+
+.flex-row-6 {
+  align-items: center;
+  display: flex;
+  height: 242px;
+  margin-right: 0.59px;
+  margin-top: 32px;
+  min-width: 317px;
+  position: relative;
+}
+
+.flex-col-14 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 42px;
+  min-height: 242px;
+  width: 205px;
+}
+
+.x5-1 {
+  height: 205px;
+  object-fit: cover;
+  width: 205px;
+}
+
+.add-photo {
+  letter-spacing: 0;
+  line-height: 15px;
+  margin-left: 2.53px;
+  margin-top: 15px;
+  min-height: 22px;
+  min-width: 74px;
+  text-align: center;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+

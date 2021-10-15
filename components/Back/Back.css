@@ -1,0 +1,28 @@
+.back {
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 25px;
+  margin-bottom: 22.77px;
+  width: 15px;
+}
+
+.back.forward {
+  margin-left: 39px;
+}
+
+.back.back-1,
+.back.back-2 {
+  left: 0;
+  margin-bottom: unset;
+  position: absolute;
+  top: 4px;
+}
+
+.back.forward-1,
+.back.forward-2 {
+  left: 293px;
+  margin-bottom: unset;
+  position: absolute;
+  top: 4px;
+}
+

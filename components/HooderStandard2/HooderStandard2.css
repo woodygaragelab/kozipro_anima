@@ -1,0 +1,24 @@
+.hooder-standard-1 {
+  display: flex;
+  height: 88px;
+  left: -1px;
+  position: fixed;
+  top: 724px;
+  width: 377px;
+}
+
+.hooder-4 {
+  align-items: flex-start;
+  background-color: var(--white-2);
+  display: flex;
+  height: 88px;
+  min-width: 377px;
+  opacity: 0.72;
+  padding: 10.4px 13px;
+}
+
+.hooder-standard-1.hooder-standard-3 {
+  left: -2px;
+  top: 727px;
+}
+

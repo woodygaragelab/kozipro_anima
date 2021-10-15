@@ -1,0 +1,30 @@
+.waitingactivity2 {
+  align-items: center;
+  background-color: var(--white);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  height: 812px;
+  overflow: hidden;
+  position: relative;
+  width: 375px;
+}
+
+.heart-1 {
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 123px;
+  margin-top: 303px;
+  width: 123px;
+}
+
+.heart-1 video {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.heart-1 img {
+  object-fit: cover;
+}
+

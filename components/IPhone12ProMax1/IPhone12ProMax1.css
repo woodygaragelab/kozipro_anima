@@ -1,0 +1,28 @@
+.iphone-12-pro-max-1 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 926px;
+  padding: 215.2px 62.5px;
+  width: 428px;
+}
+
+.ht {
+  letter-spacing: 0;
+  line-height: 163px;
+  margin-left: 2.0px;
+  min-height: 247px;
+  white-space: nowrap;
+}
+
+.title {
+  align-self: flex-end;
+  letter-spacing: 0;
+  line-height: 163px;
+  margin-top: 16px;
+  min-height: 247px;
+  min-width: 301px;
+  white-space: nowrap;
+}
+

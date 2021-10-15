@@ -1,0 +1,17 @@
+.login-4 {
+  align-items: flex-start;
+  display: flex;
+  height: 54px;
+  left: 150px;
+  min-width: 44px;
+  position: absolute;
+  top: 13px;
+}
+
+.button-backgrounds-black-2 {
+  height: 0;
+  margin-left: -150px;
+  margin-top: -3px;
+  width: 0;
+}
+

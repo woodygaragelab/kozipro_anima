@@ -1,0 +1,37 @@
+.explanation5 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 812px;
+  overflow: hidden;
+  position: relative;
+  width: 375px;
+}
+
+.overlap-group8-2 {
+  height: 722px;
+  margin-left: -2px;
+  margin-top: 90px;
+  position: relative;
+  width: 379px;
+}
+
+.overlap-group7-4 {
+  height: 639px;
+  left: 2px;
+  position: absolute;
+  top: 0;
+  width: 377px;
+}
+
+.text-9 {
+  left: 69px;
+  letter-spacing: 0;
+  line-height: 40px;
+  position: absolute;
+  text-align: center;
+  top: 480px;
+  white-space: nowrap;
+}
+

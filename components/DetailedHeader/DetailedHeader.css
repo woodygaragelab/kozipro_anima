@@ -1,0 +1,60 @@
+.detailed-header {
+  background-color: var(--remy);
+  display: flex;
+  height: 90px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 375px;
+}
+
+.x6 {
+  align-items: flex-end;
+  display: flex;
+  height: 27px;
+  margin-left: 150.5px;
+  margin-top: 45px;
+  width: 74px;
+}
+
+.kozipro {
+  height: 29px;
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-bottom: -5.5px;
+  text-align: center;
+  white-space: nowrap;
+  width: 74px;
+}
+
+.detailed-header.detailed-header-4 .x6 {
+  margin-left: 129.5px;
+  width: 116px;
+}
+
+.detailed-header.detailed-header-4 .kozipro {
+  width: 116px;
+}
+
+.detailed-header.detailed-header-5 .x6,
+.detailed-header.detailed-header-10 .x6 {
+  margin-left: 135.5px;
+  width: 104px;
+}
+
+.detailed-header.detailed-header-5 .kozipro,
+.detailed-header.detailed-header-10 .kozipro {
+  width: 104px;
+}
+
+.detailed-header.detailed-header-6 .x6,
+.detailed-header.detailed-header-11 .x6 {
+  margin-left: 145.5px;
+  width: 84px;
+}
+
+.detailed-header.detailed-header-6 .kozipro,
+.detailed-header.detailed-header-11 .kozipro {
+  width: 84px;
+}
+

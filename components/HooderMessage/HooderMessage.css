@@ -1,0 +1,19 @@
+.hooder-message {
+  display: flex;
+  height: 88px;
+  left: 0;
+  position: fixed;
+  top: 729px;
+  width: 375px;
+}
+
+.hooder-3 {
+  align-items: flex-start;
+  background-color: var(--white-2);
+  display: flex;
+  height: 88px;
+  min-width: 375px;
+  opacity: 0.72;
+  padding: 10.4px 13px;
+}
+

@@ -1,0 +1,42 @@
+.simplified-header {
+  align-items: flex-start;
+  display: flex;
+  height: 90px;
+  left: 0;
+  min-width: 375px;
+  position: fixed;
+  top: 0;
+}
+
+.overlap-group3 {
+  height: 90px;
+  position: relative;
+  width: 375px;
+}
+
+.x20-1 {
+  height: 21px;
+  left: 338px;
+  object-fit: cover;
+  position: absolute;
+  top: 58px;
+  width: 25px;
+}
+
+.x19 {
+  height: 25px;
+  left: 9px;
+  object-fit: cover;
+  position: absolute;
+  top: 54px;
+  width: 22px;
+}
+
+.simplified-header.simplified-header-4 .x19 {
+  cursor: pointer;
+}
+
+.simplified-header.simplified-header-8 {
+  left: 1px;
+}
+
