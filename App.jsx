@@ -306,7 +306,7 @@ const photochoose1Data = {
 };
 
 const detailedHeader6Data = {
-    children: "Heart Rate 6 13:18",
+    children: "Heart Rate 6 13:20",
     className: "detailed-header-5",
 };
 
