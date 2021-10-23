@@ -222,7 +222,7 @@ const x133Data = {
 };
 
 const hooderHeartrate3Data = {
-    heartRate: "Heart rate",
+    heartRate: "Heart rate 3",
     x6: "/img/file---6@1x.png",
 };
 
@@ -306,7 +306,7 @@ const photochoose1Data = {
 };
 
 const detailedHeader6Data = {
-    children: "Heart Rate",
+    children: "Heart Rate 6",
     className: "detailed-header-5",
 };
 
@@ -421,7 +421,7 @@ const login3Data = {
 };
 
 const hooderHeartrate32Data = {
-    heartRate: "Heart rate",
+    heartRate: "Heart rate 32",
     x6: "/img/file---6@1x.png",
     className: "hooder-heartrate-1",
 };
@@ -517,7 +517,7 @@ const login6Data = {
 };
 
 const hooderMessage2Data = {
-    heartRate: "Heart rate",
+    heartRate: "Heart rate 2",
     x6: "/img/file---6@1x.png",
     x7: "/img/file---7@1x.png",
 };
@@ -721,7 +721,7 @@ const explanation6Data = {
 };
 
 const detailedHeader11Data = {
-    children: "Heart Rate",
+    children: "Heart Rate 11",
     className: "detailed-header-10",
 };
 
@@ -1011,7 +1011,7 @@ const avatar75Data = {
 };
 
 const hooderScore22Data = {
-    heartRate: "Heart rate",
+    heartRate: "Heart rate 22",
     x6: "/img/file---6@1x.png",
     message: "Message",
     x8: "/img/file---8@1x.png",
