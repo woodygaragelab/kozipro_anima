@@ -306,7 +306,11 @@ const photochoose1Data = {
 };
 
 const detailedHeader6Data = {
+<<<<<<< HEAD
     children: "Heart Rate 6 13:05",
+=======
+    children: "Heart Rate 6 12:45",
+>>>>>>> parent of 6a519f7... Revert "HR 12:45"
     className: "detailed-header-5",
 };
 
