@@ -5,19 +5,19 @@ import Login from "./components/Login";
 import Explanation1 from "./components/Explanation1";
 import Explanation2 from "./components/Explanation2";
 import Explanation3 from "./components/Explanation3";
-import Photochoose1 from "./components/Photochoose1";
-import EventActivity2 from "./components/EventActivity2";
-import TextInputActivity1 from "./components/TextInputActivity1";
 import Explanation4 from "./components/Explanation4";
 import Explanation5 from "./components/Explanation5";
 import Explanation6 from "./components/Explanation6";
-import WaitingActivity1 from "./components/WaitingActivity1";
-import FinalScoreActivity1 from "./components/FinalScoreActivity1";
-import WaitingActivity2 from "./components/WaitingActivity2";
-import Fail from "./components/Fail";
 import Explanation7 from "./components/Explanation7";
 import Explanation8 from "./components/Explanation8";
 import Main from "./components/Main";
+import Photochoose1 from "./components/Photochoose1";
+import EventActivity2 from "./components/EventActivity2";
+import WaitingActivity1 from "./components/WaitingActivity1";
+import TextInputActivity1 from "./components/TextInputActivity1";
+import FinalScoreActivity1 from "./components/FinalScoreActivity1";
+import WaitingActivity2 from "./components/WaitingActivity2";
+import Fail from "./components/Fail";
 import IPhone12ProMax1 from "./components/IPhone12ProMax1";
 
 function App() {
@@ -39,9 +39,9 @@ function App() {
                 your special moments.
               </>
             }
-            simplifiedHeader4Props={explanation2Data.simplifiedHeader4Props}
             x133Props={explanation2Data.x133Props}
             hooderHeartrate3Props={explanation2Data.hooderHeartrate3Props}
+            simplifiedHeader4Props={explanation2Data.simplifiedHeader4Props}
           />
         </Route>
         <Route path="/explanation3">
