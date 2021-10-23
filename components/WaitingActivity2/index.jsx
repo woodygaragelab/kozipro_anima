@@ -2,11 +2,11 @@ import React from "react";
 import { Link } from "react-router-dom";
 import SimplifiedHeader4 from "../SimplifiedHeader4";
 import Loading from "../Loading";
-import HooderStandard2 from "../HooderStandard2";
+import HooderStandard32 from "../HooderStandard32";
 import "./WaitingActivity2.css";
 
 function WaitingActivity2(props) {
-  const { heart, simplifiedHeader4Props, hooderStandard2Props } = props;
+  const { heart, simplifiedHeader4Props, loadingProps, hooderStandard32Props } = props;
 
   return (
     <div className="container-center-horizontal">
@@ -15,18 +15,13 @@ function WaitingActivity2(props) {
           className={simplifiedHeader4Props.className}
           detailedHeaderProps={simplifiedHeader4Props.detailedHeaderProps}
         />
-        <div className="heart-1" style={{ backgroundImage: `url(${heart})` }}>
-          <img
-            width="100%"
-            height="100%"
-            src="https://anima-uploads.s3.amazonaws.com/projects/61558e45ee42a07e6b5724d6/files/heartbeats.gif"
-          />
-        </div>
-        <Loading />
-        <HooderStandard2
-          className={hooderStandard2Props.className}
-          x6942Props={hooderStandard2Props.x6942Props}
-          x704Props={hooderStandard2Props.x704Props}
+        <div className="heart-1" style={{ backgroundImage: `url(${heart})` }}></div>
+        <Loading className={loadingProps.className} />
+        <HooderStandard32
+          className={hooderStandard32Props.className}
+          x6822Props={hooderStandard32Props.x6822Props}
+          x6822Props2={hooderStandard32Props.x6822Props2}
+          x6822Props3={hooderStandard32Props.x6822Props3}
         />
       </div>
     </div>

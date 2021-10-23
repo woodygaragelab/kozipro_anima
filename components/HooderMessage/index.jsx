@@ -1,6 +1,6 @@
 import React from "react";
 import X6822 from "../X6822";
-import X692 from "../X692";
+import X6942 from "../X6942";
 import X702 from "../X702";
 import "./HooderMessage.css";
 
@@ -11,7 +11,7 @@ function HooderMessage(props) {
     <div className="hooder-message">
       <div className="hooder-3 border-2px-mist-gray">
         <X6822 className={x6822Props.className} />
-        <X692 />
+        <X6942 />
         <X702 />
       </div>
     </div>

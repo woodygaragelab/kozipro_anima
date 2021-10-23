@@ -1,8 +1,7 @@
 .fail {
-  align-items: center;
+  align-items: flex-start;
   background-color: var(--white);
   display: flex;
-  flex-direction: column;
   height: 812px;
   overflow: hidden;
   position: relative;
@@ -15,9 +14,10 @@
   font-size: 25px;
   letter-spacing: 0;
   line-height: 25px;
-  margin-left: 12.0px;
+  margin-left: 132px;
   margin-top: 390px;
   min-height: 35px;
   width: 123px;
+  z-index: 1;
 }
 

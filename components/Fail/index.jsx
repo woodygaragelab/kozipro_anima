@@ -1,21 +1,25 @@
 import React from "react";
 import SimplifiedHeader4 from "../SimplifiedHeader4";
-import HooderStandard3 from "../HooderStandard3";
+import HooderStandard32 from "../HooderStandard32";
 import "./Fail.css";
 
 function Fail(props) {
-  const { tryAgain, simplifiedHeader4Props, hooderStandard3Props } = props;
+  const { tryAgain, simplifiedHeader4Props, hooderStandard32Props } = props;
 
   return (
     <div className="container-center-horizontal">
       <div className="fail screen">
-        <SimplifiedHeader4 detailedHeaderProps={simplifiedHeader4Props.detailedHeaderProps} />
-        <div className="try-again">{tryAgain}</div>
-        <HooderStandard3
-          x685Props={hooderStandard3Props.x685Props}
-          x692Props={hooderStandard3Props.x692Props}
-          x704Props={hooderStandard3Props.x704Props}
+        <SimplifiedHeader4
+          className={simplifiedHeader4Props.className}
+          detailedHeaderProps={simplifiedHeader4Props.detailedHeaderProps}
         />
+        <HooderStandard32
+          className={hooderStandard32Props.className}
+          x6822Props={hooderStandard32Props.x6822Props}
+          x6822Props2={hooderStandard32Props.x6822Props2}
+          x6822Props3={hooderStandard32Props.x6822Props3}
+        />
+        <div className="try-again">{tryAgain}</div>
       </div>
     </div>
   );

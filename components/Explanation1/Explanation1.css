@@ -3,26 +3,18 @@
   background-color: var(--white);
   cursor: pointer;
   display: flex;
-  flex-direction: column;
   height: 812px;
   overflow: hidden;
   position: relative;
   width: 375px;
 }
 
-.overlap-group13 {
-  height: 722px;
+.overlap-group12-1 {
+  height: 639px;
   margin-top: 90px;
   position: relative;
   width: 387px;
-}
-
-.overlap-group12-1 {
-  height: 639px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 387px;
+  z-index: 1;
 }
 
 .x13::-webkit-scrollbar {

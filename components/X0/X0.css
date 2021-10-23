@@ -7,7 +7,7 @@
   width: 295px;
 }
 
-.flex-row-10 {
+.flex-row-22 {
   align-items: flex-start;
   display: flex;
   height: 22px;
@@ -40,7 +40,7 @@
   width: 15px;
 }
 
-.flex-col-19 {
+.flex-col-32 {
   align-items: flex-start;
   display: flex;
   flex-direction: column;

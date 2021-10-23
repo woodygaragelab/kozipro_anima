@@ -9,22 +9,22 @@ function HooderMessage2(props) {
 
   return (
     <div className="hooder-message-1">
-      <div className="hooder-7 border-2px-mist-gray">
+      <div className="hooder-10 border-2px-mist-gray">
         <Link to="/eventactivity2">
-          <div className="x68-10">
-            <div className="overlap-group-44">
-              <div className="event-mark-14">
-                <div className="heart-rate-14 sfcompact-bold-dove-gray-13px">{heartRate}</div>
+          <div className="x68-15">
+            <div className="overlap-group-46">
+              <div className="event-mark-15">
+                <div className="heart-rate-15 sfcompact-bold-dove-gray-13px">{heartRate}</div>
               </div>
-              <img className="x6-16" src={x6} />
+              <img className="x6-14" src={x6} />
             </div>
           </div>
         </Link>
         <Link to="/main">
-          <div className="x69-6">
-            <div className="overlap-group1-12">
+          <div className="x69-4">
+            <div className="overlap-group1-20">
               <HeartMark3 />
-              <img className="x7-8" src={x7} />
+              <img className="x7-15" src={x7} />
             </div>
           </div>
         </Link>

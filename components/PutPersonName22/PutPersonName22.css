@@ -5,9 +5,10 @@
   margin-left: 1.78px;
   margin-top: 165px;
   min-width: 297px;
+  z-index: 4;
 }
 
-.overlap-group3-5 {
+.overlap-group3-8 {
   height: 28px;
   margin-bottom: -1.5px;
   position: relative;
@@ -23,7 +24,7 @@
   width: 295px;
 }
 
-.place-6 {
+.place-10 {
   height: 28px;
   left: 0;
   letter-spacing: 0;
@@ -36,10 +37,12 @@
 .put-person-name-1.put-person-name-2 {
   margin-left: unset;
   margin-top: unset;
+  z-index: unset;
 }
 
 .put-person-name-1.put-person-name {
   margin-left: unset;
   margin-top: 12px;
+  z-index: unset;
 }
 

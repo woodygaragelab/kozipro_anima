@@ -1,20 +1,12 @@
 .main {
-  align-items: flex-start;
   background-color: var(--white);
   display: flex;
-  flex-direction: column;
-  height: 812px;
+  height: 100vh;
+  min-height: 812px;
+  min-width: 375px;
   overflow: hidden;
   position: relative;
-  width: 375px;
-}
-
-.overlap-group11-5 {
-  height: 725px;
-  margin-left: -0.5px;
-  margin-top: 90px;
-  position: relative;
-  width: 378px;
+  width: 100%;
 }
 
 .x14-2::-webkit-scrollbar {
@@ -25,16 +17,18 @@
 .x14-2 {
   align-items: flex-end;
   display: flex;
+  flex: 1;
   flex-direction: column;
-  left: 0;
-  min-height: 639px;
+  margin-bottom: 83px;
+  margin-left: -0.5px;
+  margin-top: 90px;
+  min-height: calc(100.00% - 173px);
   overflow: scroll;
-  position: absolute;
-  top: 0;
-  width: 376px;
+  width: 375.5px;
+  z-index: 1;
 }
 
-.flex-row-22 {
+.flex-row-16 {
   align-items: flex-start;
   display: flex;
   height: 683px;
@@ -43,7 +37,7 @@
   min-width: 790px;
 }
 
-.flex-col-31 {
+.flex-col-24 {
   align-items: flex-start;
   align-self: flex-end;
   display: flex;
@@ -61,13 +55,13 @@
   min-width: 102px;
 }
 
-.overlap-group-52 {
+.overlap-group-38 {
   height: 129px;
   position: relative;
   width: 102px;
 }
 
-.place-11 {
+.place-8 {
   left: 18px;
   letter-spacing: 0;
   line-height: 21px;
@@ -76,7 +70,7 @@
   white-space: nowrap;
 }
 
-.flex-row-23 {
+.flex-row-17 {
   align-items: center;
   display: flex;
   height: 480px;
@@ -93,7 +87,7 @@
   min-width: 102px;
 }
 
-.flex-col-32 {
+.flex-col-25 {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
@@ -102,7 +96,7 @@
   width: 296px;
 }
 
-.flex-row-24 {
+.flex-row-18 {
   align-items: center;
   display: flex;
   height: 329px;
@@ -118,7 +112,7 @@
   min-width: 102px;
 }
 
-.flex-col-33 {
+.flex-col-26 {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
@@ -145,7 +139,7 @@
   min-width: 102px;
 }
 
-.me-9 {
+.me-8 {
   left: 33px;
   letter-spacing: 0;
   line-height: 21px;
@@ -154,7 +148,7 @@
   white-space: nowrap;
 }
 
-.overlap-group2-25 {
+.overlap-group2-24 {
   height: 129px;
   margin-left: 44.0px;
   margin-top: 22px;
@@ -162,7 +156,7 @@
   width: 102px;
 }
 
-.flex-col-34 {
+.flex-col-27 {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
@@ -191,7 +185,7 @@
   min-width: 102px;
 }
 
-.overlap-group6-9 {
+.overlap-group6-8 {
   height: 129px;
   margin-right: -120.0px;
   margin-top: 35px;

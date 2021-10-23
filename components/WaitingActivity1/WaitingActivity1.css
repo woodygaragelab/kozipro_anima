@@ -16,6 +16,7 @@
   height: 123px;
   margin-top: 303px;
   width: 123px;
+  z-index: 1;
 }
 
 .heart video {

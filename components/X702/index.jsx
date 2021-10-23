@@ -3,7 +3,7 @@ import "./X702.css";
 
 function X702() {
   return (
-    <div className="x70-3">
+    <div className="x70-8">
       <div className="overlap-group2-18">
         <div className="message-mark-13">
           <div className="message-13 sfcompact-bold-brick-red-13px">Message</div>

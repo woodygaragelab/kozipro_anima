@@ -2,22 +2,24 @@
   display: flex;
   height: 88px;
   left: 0;
-  position: absolute;
-  top: 578px;
+  position: fixed;
+  top: 724px;
   width: 375px;
+  z-index: 7;
 }
 
-.hooder-7 {
+.hooder-10 {
   align-items: flex-start;
   background-color: var(--white-2);
   display: flex;
-  height: 88px;
+  flex: 1;
   min-width: 375px;
   opacity: 0.72;
   padding: 10.4px 13px;
+  position: relative;
 }
 
-.x68-10 {
+.x68-15 {
   align-items: flex-start;
   cursor: pointer;
   display: flex;
@@ -25,14 +27,14 @@
   min-width: 62px;
 }
 
-.overlap-group-44 {
+.overlap-group-46 {
   height: 44px;
   margin-top: 0;
   position: relative;
   width: 64px;
 }
 
-.event-mark-14 {
+.event-mark-15 {
   display: flex;
   height: 17px;
   left: 0;
@@ -41,7 +43,7 @@
   width: 64px;
 }
 
-.heart-rate-14 {
+.heart-rate-15 {
   flex: 1;
   letter-spacing: 0;
   line-height: 13px;
@@ -53,7 +55,7 @@
   width: 64px;
 }
 
-.x6-16 {
+.x6-14 {
   height: 28px;
   left: 17px;
   object-fit: cover;
@@ -62,7 +64,7 @@
   width: 30px;
 }
 
-.x69-6 {
+.x69-4 {
   align-items: flex-end;
   cursor: pointer;
   display: flex;
@@ -71,13 +73,13 @@
   min-width: 34px;
 }
 
-.overlap-group1-12 {
+.overlap-group1-20 {
   height: 44px;
   position: relative;
   width: 36px;
 }
 
-.x7-8 {
+.x7-15 {
   height: 28px;
   left: 2px;
   object-fit: cover;

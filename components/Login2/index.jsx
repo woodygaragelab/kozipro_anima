@@ -9,7 +9,7 @@ function Login2(props) {
     <a href="javascript:SubmitForm('form2')">
       <div className="login">
         <div className="overlap-group-4">
-          <Link to="/main" onClick={window.event.stopPropagation()}>
+          <Link to="/main">
             <div className="button-backgrounds-black"></div>
           </Link>
           <div className="buttons-label-light">

@@ -1,23 +1,25 @@
-.hooder-score-5 {
+.hooder-score-4 {
+  bottom: -3px;
   display: flex;
   height: 88px;
   left: 0;
-  position: absolute;
-  top: 637px;
-  width: 377px;
+  position: fixed;
+  width: calc(100.00% + 2px);
+  z-index: 3;
 }
 
-.hooder-15 {
+.hooder-9 {
   align-items: flex-start;
   background-color: var(--white-2);
   display: flex;
-  height: 88px;
+  flex: 1;
   min-width: 377px;
   opacity: 0.72;
   padding: 10.4px 13px;
+  position: relative;
 }
 
-.x68-12 {
+.x68-14 {
   align-items: flex-end;
   cursor: pointer;
   display: flex;
@@ -25,13 +27,13 @@
   min-width: 62px;
 }
 
-.overlap-group-53 {
+.overlap-group-39 {
   height: 44px;
   position: relative;
   width: 64px;
 }
 
-.event-mark-15 {
+.event-mark-14 {
   display: flex;
   height: 17px;
   left: 0;
@@ -40,7 +42,7 @@
   width: 64px;
 }
 
-.heart-rate-15 {
+.heart-rate-14 {
   flex: 1;
   letter-spacing: 0;
   line-height: 13px;
@@ -52,7 +54,7 @@
   width: 64px;
 }
 
-.x6-19 {
+.x6-13 {
   height: 28px;
   left: 16px;
   object-fit: cover;
@@ -69,7 +71,7 @@
   min-width: 53px;
 }
 
-.overlap-group2-26 {
+.overlap-group2-25 {
   height: 46px;
   position: relative;
   width: 55px;
@@ -95,7 +97,7 @@
   width: 55px;
 }
 
-.x8-16 {
+.x8-15 {
   height: 30px;
   left: 13px;
   object-fit: cover;

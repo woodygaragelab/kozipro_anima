@@ -6,6 +6,7 @@
   min-width: 375px;
   position: fixed;
   top: 0;
+  z-index: 3;
 }
 
 .overlap-group3 {
@@ -32,11 +33,22 @@
   width: 22px;
 }
 
-.simplified-header.simplified-header-4 .x19 {
+.simplified-header.simplified-header-1,
+.simplified-header.simplified-header-2,
+.simplified-header.simplified-header-3,
+.simplified-header.simplified-header-4,
+.simplified-header.simplified-header-5,
+.simplified-header.simplified-header-7,
+.simplified-header.simplified-header-9 {
+  z-index: 2;
+}
+
+.simplified-header.simplified-header-7 .x19 {
   cursor: pointer;
 }
 
 .simplified-header.simplified-header-8 {
   left: 1px;
+  z-index: 2;
 }
 

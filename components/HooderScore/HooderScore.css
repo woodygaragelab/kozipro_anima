@@ -1,34 +1,31 @@
 .hooder-score {
   display: flex;
   height: 88px;
-  left: 4px;
-  position: absolute;
-  top: 637px;
+  left: 0;
+  position: fixed;
+  top: 727px;
   width: 377px;
+  z-index: 3;
 }
 
-.hooder-8 {
+.hooder-4 {
   align-items: flex-start;
   background-color: var(--white-2);
   display: flex;
-  height: 88px;
+  flex: 1;
   min-width: 377px;
   opacity: 0.72;
   padding: 10.4px 13px;
+  position: relative;
 }
 
 .hooder-score.hooder-score-1 {
-  left: 0;
-  top: 634px;
+  left: -2px;
+  top: 724px;
 }
 
 .hooder-score.hooder-score-2 {
-  left: 2px;
-  top: 634px;
-}
-
-.hooder-score.hooder-score-3,
-.hooder-score.hooder-score-4 {
-  left: 0;
+  left: -1px;
+  top: 724px;
 }
 

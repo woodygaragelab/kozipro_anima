@@ -4,10 +4,11 @@
   display: flex;
   height: 90px;
   left: 0;
-  min-width: 375px;
+  min-width: 100%;
   padding: 8.0px 15px;
   position: fixed;
   top: 0;
+  z-index: 1;
 }
 
 .overlap-group1-22 {
@@ -16,7 +17,7 @@
   width: 343px;
 }
 
-.x6-18 {
+.x6-16 {
   align-items: flex-start;
   display: flex;
   height: 64px;
@@ -89,7 +90,7 @@
   min-width: 24px;
 }
 
-.overlap-group-47 {
+.overlap-group-48 {
   align-items: flex-start;
   border: 1px solid #00000059;
   border-radius: 2.67px;
@@ -127,7 +128,7 @@
   white-space: nowrap;
 }
 
-.text-11 {
+.text-12 {
   color: var(--dove-gray);
   font-family: var(--font-family-hiraginokaku_gothic_pron-w3);
   font-size: var(--font-size-s);

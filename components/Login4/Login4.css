@@ -11,3 +11,13 @@
   opacity: 0.6;
 }
 
+.login-2.login-4 {
+  background-color: var(--new-york-pink);
+  border-radius: 8px;
+  cursor: pointer;
+  height: 50px;
+  left: 0;
+  top: 0;
+  width: 344px;
+}
+

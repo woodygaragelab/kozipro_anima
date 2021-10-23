@@ -11,7 +11,7 @@
 
 .overlap-group-6 {
   align-items: flex-start;
-  background-image: url(/img/file---5@1x.png);
+  background-image: url(/static/img/file---5@1x.png);
   background-position: 50% 50%;
   background-size: cover;
   display: flex;
@@ -37,9 +37,9 @@
 .avatar-10.avatar-6-2 .overlap-group-6,
 .avatar-10.avatar-7-2 .overlap-group-6,
 .avatar-10.avatar-8-2 .overlap-group-6,
+.avatar-10.avatar-5 .overlap-group-6,
 .avatar-10.avatar-6 .overlap-group-6,
-.avatar-10.avatar-7 .overlap-group-6,
-.avatar-10.avatar-8 .overlap-group-6 {
+.avatar-10.avatar-7 .overlap-group-6 {
   height: 223px;
   margin-top: -60px;
   min-width: 222px;
@@ -98,15 +98,14 @@
   padding: 65.0px 67.7px;
 }
 
-.avatar-10.avatar-5-3 .overlap-group-6 {
-  background-image: url(..//img/file---5@1x.png);
+.avatar-10.avatar-8-3 .overlap-group-6 {
   height: 193px;
   margin-top: -45px;
   min-width: 192px;
   padding: 57px 63px;
 }
 
-.avatar-10.avatar-5 .overlap-group-6 {
+.avatar-10.avatar-8 .overlap-group-6 {
   background-image: url(..//img/file---5@1x.png);
   height: 133px;
   margin-top: -15px;

@@ -1,14 +1,13 @@
-.loading,
-.loading-2 {
+.loading {
   display: flex;
   height: 24px;
   margin-left: 1.0px;
   margin-top: 44px;
   width: 90px;
+  z-index: 2;
 }
 
-.loading-1,
-.loading-3 {
+.loading-1 {
   flex: 1;
   letter-spacing: 0;
   line-height: 20px;
@@ -18,5 +17,9 @@
   text-align: center;
   white-space: nowrap;
   width: 88px;
+}
+
+.loading.loading-2 {
+  z-index: 1;
 }
 

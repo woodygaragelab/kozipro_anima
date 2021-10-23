@@ -11,13 +11,14 @@
   align-items: flex-start;
   background-color: var(--white-2);
   display: flex;
-  height: 88px;
+  flex: 1;
   min-width: 375px;
   opacity: 0.72;
   padding: 10.4px 13px;
+  position: relative;
 }
 
-.x68-7 {
+.x68-12 {
   align-items: flex-start;
   display: flex;
   margin-top: 4.78px;
@@ -31,7 +32,7 @@
   width: 64px;
 }
 
-.event-mark-7 {
+.event-mark-12 {
   display: flex;
   height: 17px;
   left: 0;
@@ -40,7 +41,7 @@
   width: 64px;
 }
 
-.heart-rate-7 {
+.heart-rate-12 {
   flex: 1;
   letter-spacing: 0;
   line-height: 13px;
@@ -52,7 +53,7 @@
   width: 64px;
 }
 
-.x6-5 {
+.x6-11 {
   height: 29px;
   left: 16px;
   object-fit: cover;
@@ -62,6 +63,8 @@
 }
 
 .hooder-heartrate.hooder-heartrate-1 {
-  top: 585px;
+  position: fixed;
+  top: 725px;
+  z-index: 6;
 }
 

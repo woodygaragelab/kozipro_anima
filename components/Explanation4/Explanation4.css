@@ -2,27 +2,19 @@
   align-items: flex-start;
   background-color: var(--white);
   display: flex;
-  flex-direction: column;
   height: 812px;
   overflow: hidden;
   position: relative;
   width: 375px;
 }
 
-.overlap-group8-1 {
-  height: 725px;
+.overlap-group7-3 {
+  height: 639px;
   margin-left: -4px;
   margin-top: 90px;
   position: relative;
   width: 381px;
-}
-
-.overlap-group7-3 {
-  height: 639px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 381px;
+  z-index: 1;
 }
 
 .x17-2 {
@@ -39,7 +31,7 @@
 .x3-72 {
   background-color: var(--white);
   border-radius: 160.5px/98.5px;
-  filter: blur(16.305200576782227px);;
+  filter: blur(16.31px);;
   height: 197px;
   left: 31px;
   opacity: 0.8;
@@ -48,7 +40,7 @@
   width: 321px;
 }
 
-.text-8 {
+.text-5 {
   left: 102px;
   letter-spacing: 0;
   line-height: 40px;
@@ -58,7 +50,7 @@
   white-space: nowrap;
 }
 
-.x19-11 {
+.x19-7 {
   height: 23px;
   left: 180px;
   object-fit: cover;

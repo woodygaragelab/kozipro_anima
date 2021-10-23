@@ -9,7 +9,7 @@ function HooderScore(props) {
 
   return (
     <div className={`hooder-score ${className || ""}`}>
-      <div className="hooder-8 border-2px-mist-gray">
+      <div className="hooder-4 border-2px-mist-gray">
         <X6822 className={x6822Props.className} />
         <X6932 />
         <X704 className={x704Props.className} />

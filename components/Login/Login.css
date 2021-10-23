@@ -16,6 +16,7 @@
   margin-top: 470px;
   min-height: 103px;
   width: 296px;
+  z-index: 2;
 }
 
 .overlap-group2 {

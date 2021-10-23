@@ -1,13 +1,14 @@
 import React from "react";
-import ButtonsLabelLight2 from "../ButtonsLabelLight2";
+import { Link } from "react-router-dom";
+import ButtonsLabelLight from "../ButtonsLabelLight";
 import "./Login4.css";
 
 function Login4(props) {
-  const { className } = props;
+  const { className, buttonsLabelLightProps } = props;
 
   return (
     <div className={`login-2 ${className || ""}`}>
-      <ButtonsLabelLight2 />
+      <ButtonsLabelLight className={buttonsLabelLightProps.className} />
     </div>
   );
 }

@@ -9,7 +9,7 @@
   width: 375px;
 }
 
-.flex-row-6 {
+.flex-row-19 {
   align-items: center;
   display: flex;
   height: 242px;
@@ -17,9 +17,10 @@
   margin-top: 32px;
   min-width: 317px;
   position: relative;
+  z-index: 1;
 }
 
-.flex-col-14 {
+.flex-col-28 {
   align-items: center;
   display: flex;
   flex-direction: column;

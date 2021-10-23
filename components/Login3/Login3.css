@@ -2,12 +2,13 @@
   align-items: flex-start;
   cursor: pointer;
   display: flex;
-  margin-right: 0.34px;
+  margin-left: 1.0px;
   margin-top: 20px;
   min-width: 344px;
+  z-index: 9;
 }
 
-.overlap-group3-6 {
+.overlap-group3-9 {
   border-radius: 2px;
   height: 50px;
   position: relative;

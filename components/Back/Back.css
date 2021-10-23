@@ -10,19 +10,35 @@
   margin-left: 39px;
 }
 
-.back.back-1,
-.back.back-2 {
-  left: 0;
+.back.back-1 {
+  left: 34px;
   margin-bottom: unset;
-  position: absolute;
-  top: 4px;
+  position: fixed;
+  top: 104px;
+  z-index: 7;
 }
 
-.back.forward-1,
-.back.forward-2 {
-  left: 293px;
+.back.forward-1 {
+  left: 327px;
   margin-bottom: unset;
-  position: absolute;
-  top: 4px;
+  position: fixed;
+  top: 104px;
+  z-index: 8;
+}
+
+.back.back-2 {
+  left: 34px;
+  margin-bottom: unset;
+  position: fixed;
+  top: 104px;
+  z-index: 3;
+}
+
+.back.forward-2 {
+  left: 327px;
+  margin-bottom: unset;
+  position: fixed;
+  top: 104px;
+  z-index: 4;
 }
 

@@ -9,12 +9,12 @@ function HooderHeartrate3(props) {
   return (
     <div className={`hooder-heartrate ${className || ""}`}>
       <div className="hooder-1 border-2px-mist-gray">
-        <div className="x68-7">
+        <div className="x68-12">
           <div className="overlap-group-30">
-            <div className="event-mark-7">
-              <div className="heart-rate-7 sfcompact-bold-brick-red-13px">{heartRate}</div>
+            <div className="event-mark-12">
+              <div className="heart-rate-12 sfcompact-bold-brick-red-13px">{heartRate}</div>
             </div>
-            <img className="x6-5" src={x6} />
+            <img className="x6-11" src={x6} />
           </div>
         </div>
         <X6942 />
