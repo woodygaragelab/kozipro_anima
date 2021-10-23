@@ -1,0 +1,50 @@
+.days {
+  align-items: flex-end;
+  display: flex;
+  height: 32px;
+  left: 126px;
+  min-width: 126px;
+  position: fixed;
+  top: 100px;
+  z-index: 3;
+}
+
+.overlap-group-42 {
+  height: 31px;
+  margin-bottom: -0.5px;
+  position: relative;
+  width: 126px;
+}
+
+.yyyymmdd {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: absolute;
+  text-align: center;
+  top: 2px;
+  white-space: nowrap;
+}
+
+.x9-1 {
+  height: 30px;
+  left: 12px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 0;
+}
+
+.x10-1 {
+  height: 30px;
+  left: 83px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 0;
+}
+
+.days.days-1 {
+  z-index: 5;
+}
+
