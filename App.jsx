@@ -5,19 +5,19 @@ import Login from "./components/Login";
 import Explanation1 from "./components/Explanation1";
 import Explanation2 from "./components/Explanation2";
 import Explanation3 from "./components/Explanation3";
-import Photochoose1 from "./components/Photochoose1";
-import EventActivity2 from "./components/EventActivity2";
-import TextInputActivity1 from "./components/TextInputActivity1";
 import Explanation4 from "./components/Explanation4";
 import Explanation5 from "./components/Explanation5";
 import Explanation6 from "./components/Explanation6";
-import WaitingActivity1 from "./components/WaitingActivity1";
-import FinalScoreActivity1 from "./components/FinalScoreActivity1";
-import WaitingActivity2 from "./components/WaitingActivity2";
-import Fail from "./components/Fail";
 import Explanation7 from "./components/Explanation7";
 import Explanation8 from "./components/Explanation8";
 import Main from "./components/Main";
+import Photochoose1 from "./components/Photochoose1";
+import EventActivity2 from "./components/EventActivity2";
+import WaitingActivity1 from "./components/WaitingActivity1";
+import TextInputActivity1 from "./components/TextInputActivity1";
+import FinalScoreActivity1 from "./components/FinalScoreActivity1";
+import WaitingActivity2 from "./components/WaitingActivity2";
+import Fail from "./components/Fail";
 import IPhone12ProMax1 from "./components/IPhone12ProMax1";
 
 function App() {
@@ -39,9 +39,9 @@ function App() {
                 your special moments.
               </>
             }
-            simplifiedHeader4Props={explanation2Data.simplifiedHeader4Props}
             x133Props={explanation2Data.x133Props}
             hooderHeartrate3Props={explanation2Data.hooderHeartrate3Props}
+            simplifiedHeader4Props={explanation2Data.simplifiedHeader4Props}
           />
         </Route>
         <Route path="/explanation3">
@@ -53,33 +53,17 @@ function App() {
                 how you are feeling in your mind.
               </>
             }
-            simplifiedHeader4Props={explanation3Data.simplifiedHeader4Props}
             x133Props={explanation3Data.x133Props}
+            simplifiedHeader4Props={explanation3Data.simplifiedHeader4Props}
             hooderMessageProps={explanation3Data.hooderMessageProps}
           />
         </Route>
-        <Route path="/photochoose1">
-          <Photochoose1
-            x5="/img/file---5@1x.png"
-            addPhoto="Add Photo"
-            simplifiedHeader2Props={photochoose1Data.simplifiedHeader2Props}
-            backProps={photochoose1Data.backProps}
-            back2Props={photochoose1Data.back2Props}
-            hooderStandard2Props={photochoose1Data.hooderStandard2Props}
-          />
-        </Route>
-        <Route path="/eventactivity2">
-          <EventActivity2 {...eventActivity2Data} />
-        </Route>
-        <Route path="/textinputactivity1">
-          <TextInputActivity1 {...textInputActivity1Data} />
-        </Route>
         <Route path="/explanation4">
           <Explanation4
-            text8="Check out your score."
+            text5="Check out your score."
             x19="/img/file---19@1x.png"
-            simplifiedHeader4Props={explanation4Data.simplifiedHeader4Props}
             x133Props={explanation4Data.x133Props}
+            simplifiedHeader4Props={explanation4Data.simplifiedHeader4Props}
             hooderScoreProps={explanation4Data.hooderScoreProps}
           />
         </Route>
@@ -92,37 +76,13 @@ function App() {
                 you might be intereseted in.
               </>
             }
-            simplifiedHeader2Props={explanation5Data.simplifiedHeader2Props}
-            x133Props={explanation5Data.x133Props}
             hooderScoreProps={explanation5Data.hooderScoreProps}
+            x133Props={explanation5Data.x133Props}
+            simplifiedHeader2Props={explanation5Data.simplifiedHeader2Props}
           />
         </Route>
         <Route path="/explanation6">
           <Explanation6 {...explanation6Data} />
-        </Route>
-        <Route path="/waitingactivity1">
-          <WaitingActivity1
-            heart="/img/heart-icon-palepink-10@1x.png"
-            simplifiedHeader4Props={waitingActivity1Data.simplifiedHeader4Props}
-            hooderStandard2Props={waitingActivity1Data.hooderStandard2Props}
-          />
-        </Route>
-        <Route path="/finalscoreactivity-1">
-          <FinalScoreActivity1 {...finalScoreActivity1Data} />
-        </Route>
-        <Route path="/waitingactivity2">
-          <WaitingActivity2
-            heart="/img/heart-icon-palepink-10@1x.png"
-            simplifiedHeader4Props={waitingActivity2Data.simplifiedHeader4Props}
-            hooderStandard2Props={waitingActivity2Data.hooderStandard2Props}
-          />
-        </Route>
-        <Route path="/fail">
-          <Fail
-            tryAgain="Try again!"
-            simplifiedHeader4Props={failData.simplifiedHeader4Props}
-            hooderStandard3Props={failData.hooderStandard3Props}
-          />
         </Route>
         <Route path="/explanation7">
           <Explanation7 {...explanation7Data} />
@@ -136,9 +96,50 @@ function App() {
         <Route path="/">
           <Main {...mainData} />
         </Route>
-        {/* <Route path="/:path(|iphone-12-pro-max-1)">
+        <Route path="/photochoose1">
+          <Photochoose1
+            x5="/img/file---5@1x.png"
+            addPhoto="Add Photo"
+            simplifiedHeader2Props={photochoose1Data.simplifiedHeader2Props}
+            backProps={photochoose1Data.backProps}
+            back2Props={photochoose1Data.back2Props}
+            hooderStandard32Props={photochoose1Data.hooderStandard32Props}
+          />
+        </Route>
+        <Route path="/eventactivity2">
+          <EventActivity2 {...eventActivity2Data} />
+        </Route>
+        <Route path="/waitingactivity1">
+          <WaitingActivity1
+            heart="https://anima-uploads.s3.amazonaws.com/projects/61558e45ee42a07e6b5724d6/files/heart-gif-brown.gif"
+            simplifiedHeader4Props={waitingActivity1Data.simplifiedHeader4Props}
+            hooderStandard32Props={waitingActivity1Data.hooderStandard32Props}
+          />
+        </Route>
+        <Route path="/textinputactivity1">
+          <TextInputActivity1 {...textInputActivity1Data} />
+        </Route>
+        <Route path="/finalscoreactivity-1">
+          <FinalScoreActivity1 {...finalScoreActivity1Data} />
+        </Route>
+        <Route path="/waitingactivity2">
+          <WaitingActivity2
+            heart="https://anima-uploads.s3.amazonaws.com/projects/61558e45ee42a07e6b5724d6/files/heartbeats.gif"
+            simplifiedHeader4Props={waitingActivity2Data.simplifiedHeader4Props}
+            loadingProps={waitingActivity2Data.loadingProps}
+            hooderStandard32Props={waitingActivity2Data.hooderStandard32Props}
+          />
+        </Route>
+        <Route path="/fail">
+          <Fail
+            tryAgain="Try again!"
+            simplifiedHeader4Props={failData.simplifiedHeader4Props}
+            hooderStandard32Props={failData.hooderStandard32Props}
+          />
+        </Route>
+        <Route path="/:path(|iphone-12-pro-max-1)">
           <IPhone12ProMax1 ht="ht" title="test" />
-        </Route> */}
+        </Route>
       </Switch>
     </Router>
   );
@@ -171,20 +172,29 @@ const loginData = {
     login2Props: login2Data,
 };
 
-const detailedHeader2Data = {
-    children: "Kozipro",
-};
-
-const simplifiedHeader42Data = {
-    detailedHeaderProps: detailedHeader2Data,
-};
-
 const avatar22Data = {
     src: "/img/file-3@1x.png",
 };
 
 const avatar5Data = {
     className: "avatar",
+};
+
+const detailedHeader2Data = {
+    children: "Kozipro",
+};
+
+const simplifiedHeader42Data = {
+    className: "simplified-header-1",
+    detailedHeaderProps: detailedHeader2Data,
+};
+
+const x6822Data = {
+    className: "",
+};
+
+const hooderStandard32Data = {
+    x6822Props: x6822Data,
 };
 
 const explanation1Data = {
@@ -195,17 +205,10 @@ const explanation1Data = {
     place4: "Name",
     place5: "Name",
     text2: <>Who is the one in your heart?<br />Discover your true love!</>,
-    simplifiedHeader4Props: simplifiedHeader42Data,
     avatar2Props: avatar22Data,
     avatarProps: avatar5Data,
-};
-
-const detailedHeader3Data = {
-    children: "Kozipro",
-};
-
-const simplifiedHeader43Data = {
-    detailedHeaderProps: detailedHeader3Data,
+    simplifiedHeader4Props: simplifiedHeader42Data,
+    hooderStandard32Props: hooderStandard32Data,
 };
 
 const avatar23Data = {
@@ -226,18 +229,19 @@ const hooderHeartrate3Data = {
     x6: "/img/file---6@1x.png",
 };
 
-const explanation2Data = {
-    simplifiedHeader4Props: simplifiedHeader43Data,
-    x133Props: x133Data,
-    hooderHeartrate3Props: hooderHeartrate3Data,
-};
-
-const detailedHeader4Data = {
+const detailedHeader3Data = {
     children: "Kozipro",
 };
 
-const simplifiedHeader44Data = {
-    detailedHeaderProps: detailedHeader4Data,
+const simplifiedHeader43Data = {
+    className: "simplified-header-2",
+    detailedHeaderProps: detailedHeader3Data,
+};
+
+const explanation2Data = {
+    x133Props: x133Data,
+    hooderHeartrate3Props: hooderHeartrate3Data,
+    simplifiedHeader4Props: simplifiedHeader43Data,
 };
 
 const avatar24Data = {
@@ -253,6 +257,15 @@ const x1332Data = {
     avatarProps3: avatar15Data,
 };
 
+const detailedHeader4Data = {
+    children: "Kozipro",
+};
+
+const simplifiedHeader44Data = {
+    className: "simplified-header-3",
+    detailedHeaderProps: detailedHeader4Data,
+};
+
 const x68222Data = {
     className: "x68-1",
 };
@@ -262,18 +275,346 @@ const hooderMessageData = {
 };
 
 const explanation3Data = {
-    simplifiedHeader4Props: simplifiedHeader44Data,
     x133Props: x1332Data,
+    simplifiedHeader4Props: simplifiedHeader44Data,
     hooderMessageProps: hooderMessageData,
 };
 
+const avatar25Data = {
+    src: "/img/file-3@1x.png",
+};
+
+const avatar20Data = {
+    className: "avatar-3",
+};
+
+const x1333Data = {
+    className: "x13-3",
+    avatar2Props3: avatar25Data,
+    avatarProps3: avatar20Data,
+};
+
 const detailedHeader5Data = {
-    children: "Registration",
-    className: "detailed-header-4",
+    children: "Kozipro",
+};
+
+const simplifiedHeader45Data = {
+    className: "simplified-header-4",
+    detailedHeaderProps: detailedHeader5Data,
+};
+
+const x68223Data = {
+    className: "x68-2",
+};
+
+const x7043Data = {
+    className: "x70-2",
+};
+
+const hooderScoreData = {
+    x6822Props: x68223Data,
+    x704Props: x7043Data,
+};
+
+const explanation4Data = {
+    x133Props: x1333Data,
+    simplifiedHeader4Props: simplifiedHeader45Data,
+    hooderScoreProps: hooderScoreData,
+};
+
+const x68224Data = {
+    className: "x68-3",
+};
+
+const x7044Data = {
+    className: "x70-3",
+};
+
+const hooderScore2Data = {
+    className: "hooder-score-1",
+    x6822Props: x68224Data,
+    x704Props: x7044Data,
+};
+
+const avatar27Data = {
+    src: "/img/file-3@1x.png",
+};
+
+const avatar30Data = {
+    className: "avatar-4",
+};
+
+const x1334Data = {
+    className: "x13-4",
+    avatar2Props3: avatar27Data,
+    avatarProps3: avatar30Data,
+};
+
+const detailedHeader6Data = {
+    children: "Kozipro",
+    className: "",
 };
 
 const simplifiedHeader2Data = {
-    detailedHeaderProps: detailedHeader5Data,
+    detailedHeaderProps: detailedHeader6Data,
+};
+
+const explanation5Data = {
+    hooderScoreProps: hooderScore2Data,
+    x133Props: x1334Data,
+    simplifiedHeader2Props: simplifiedHeader2Data,
+};
+
+const avatar31Data = {
+    className: "avatar-9-1",
+};
+
+const avatar32Data = {
+    className: "avatar-9-2",
+};
+
+const avatar33Data = {
+    className: "avatar-9-3",
+};
+
+const avatar210Data = {
+    src: "/img/file-3@1x.png",
+    className: "avatar-19",
+};
+
+const avatar34Data = {
+    className: "avatar-9-4",
+};
+
+const avatar35Data = {
+    className: "avatar-9-5",
+};
+
+const avatar36Data = {
+    className: "avatar-9-6",
+};
+
+const avatar37Data = {
+    className: "avatar-9-7",
+};
+
+const avatar38Data = {
+    className: "avatar-9-8",
+};
+
+const avatar39Data = {
+    className: "avatar-9",
+};
+
+const x68225Data = {
+    className: "x68-4",
+};
+
+const x7045Data = {
+    className: "x70-4",
+};
+
+const hooderScore3Data = {
+    className: "hooder-score-2",
+    x6822Props: x68225Data,
+    x704Props: x7045Data,
+};
+
+const detailedHeader7Data = {
+    children: "Kozipro",
+};
+
+const simplifiedHeader46Data = {
+    className: "simplified-header-5",
+    detailedHeaderProps: detailedHeader7Data,
+};
+
+const explanation6Data = {
+    place: "Name",
+    place2: "Name",
+    place3: "Name",
+    me: "Me",
+    place4: "Name",
+    place5: "Name",
+    place6: "Name",
+    place7: "Name",
+    place8: "Name",
+    place9: "Name",
+    text7: <>Find people<br />who might be intereseted in you.</>,
+    avatarProps: avatar31Data,
+    avatar2Props: avatar32Data,
+    avatar3Props: avatar33Data,
+    avatar2Props2: avatar210Data,
+    avatar4Props: avatar34Data,
+    avatar5Props: avatar35Data,
+    avatar6Props: avatar36Data,
+    avatar7Props: avatar37Data,
+    avatar8Props: avatar38Data,
+    avatar9Props: avatar39Data,
+    hooderScoreProps: hooderScore3Data,
+    simplifiedHeader4Props: simplifiedHeader46Data,
+};
+
+const detailedHeader8Data = {
+    children: "Kozipro",
+};
+
+const simplifiedHeader22Data = {
+    detailedHeaderProps: detailedHeader8Data,
+};
+
+const x68226Data = {
+    className: "x68-5",
+};
+
+const x7046Data = {
+    className: "x70-5",
+};
+
+const hooderScore4Data = {
+    x6822Props: x68226Data,
+    x704Props: x7046Data,
+};
+
+const avatar211Data = {
+    src: "/img/file-3@1x.png",
+};
+
+const avatar46Data = {
+    className: "avatar-5-2",
+};
+
+const avatar48Data = {
+    className: "avatar-5",
+};
+
+const explanation7Data = {
+    x15: "/img/file---15@1x.png",
+    x16: "/img/file---16@1x.png",
+    place: "Name",
+    place2: "Name",
+    place3: "Name",
+    place4: "Name",
+    me: "Me",
+    place5: "Name",
+    place6: "Name",
+    place7: "Name",
+    place8: "Name",
+    place9: "Name",
+    text12: <>Register neme and icon of <br />the people that you communicate with.</>,
+    simplifiedHeader2Props: simplifiedHeader22Data,
+    hooderScoreProps: hooderScore4Data,
+    avatar2Props: avatar211Data,
+    avatarProps: avatar46Data,
+    avatar2Props2: avatar48Data,
+};
+
+const detailedHeader9Data = {
+    children: "Kozipro",
+};
+
+const simplifiedHeader23Data = {
+    detailedHeaderProps: detailedHeader9Data,
+};
+
+const x68227Data = {
+    className: "x68-6",
+};
+
+const x7047Data = {
+    className: "x70-6",
+};
+
+const hooderScore5Data = {
+    x6822Props: x68227Data,
+    x704Props: x7047Data,
+};
+
+const avatar212Data = {
+    src: "/img/file-3@1x.png",
+};
+
+const avatar55Data = {
+    className: "avatar-6-2",
+};
+
+const avatar57Data = {
+    className: "avatar-6",
+};
+
+const explanation8Data = {
+    place: "Name",
+    place2: "Name",
+    place3: "Name",
+    place4: "Name",
+    me: "Me",
+    place5: "Name",
+    place6: "Name",
+    place7: "Name",
+    place8: "Name",
+    place9: "Name",
+    letsStart: "Let’s start♡",
+    simplifiedHeader2Props: simplifiedHeader23Data,
+    hooderScoreProps: hooderScore5Data,
+    avatar2Props: avatar212Data,
+    avatarProps: avatar55Data,
+    avatar2Props2: avatar57Data,
+};
+
+const avatar213Data = {
+    src: "/img/file-3@1x.png",
+};
+
+const avatar64Data = {
+    className: "avatar-7-2",
+};
+
+const avatar66Data = {
+    className: "avatar-7",
+};
+
+const detailedHeader10Data = {
+    children: "Kozipro",
+};
+
+const simplifiedHeader24Data = {
+    className: "simplified-header-13",
+    detailedHeaderProps: detailedHeader10Data,
+};
+
+const hooderScore22Data = {
+    heartRate: "Heart rate",
+    x6: "/img/file---6@1x.png",
+    message: "Message",
+    x8: "/img/file---8@1x.png",
+};
+
+const mainData = {
+    place: "Name",
+    place2: "Name",
+    place3: "Name",
+    place4: "Name",
+    me: "Me",
+    place5: "Name",
+    place6: "Name",
+    place7: "Name",
+    place8: "Name",
+    place9: "Name",
+    avatar2Props: avatar213Data,
+    avatarProps: avatar64Data,
+    avatar2Props2: avatar66Data,
+    simplifiedHeader2Props: simplifiedHeader24Data,
+    hooderScore2Props: hooderScore22Data,
+};
+
+const detailedHeader11Data = {
+    children: "Registration",
+    className: "detailed-header-10",
+};
+
+const simplifiedHeader25Data = {
+    className: "simplified-header-14",
+    detailedHeaderProps: detailedHeader11Data,
 };
 
 const backData = {
@@ -285,34 +626,40 @@ const back2Data = {
     className: "forward",
 };
 
-const x69423Data = {
-    className: "x69-2",
+const x68228Data = {
+    className: "x68-7",
 };
 
-const x7043Data = {
-    className: "x70-2",
+const x69424Data = {
+    className: "x69-3",
 };
 
-const hooderStandard2Data = {
-    x6942Props: x69423Data,
-    x704Props: x7043Data,
+const x7048Data = {
+    className: "x70-7",
+};
+
+const hooderStandard322Data = {
+    className: "hooder-standard-1",
+    x6822Props: x68228Data,
+    x6822Props2: x69424Data,
+    x6822Props3: x7048Data,
 };
 
 const photochoose1Data = {
-    simplifiedHeader2Props: simplifiedHeader2Data,
+    simplifiedHeader2Props: simplifiedHeader25Data,
     backProps: backData,
     back2Props: back2Data,
-    hooderStandard2Props: hooderStandard2Data,
+    hooderStandard32Props: hooderStandard322Data,
 };
 
-const detailedHeader6Data = {
+const detailedHeader12Data = {
     children: "Heart Rate",
-    className: "detailed-header-5",
+    className: "detailed-header-11",
 };
 
-const simplifiedHeader22Data = {
-    className: "simplified-header-3",
-    detailedHeaderProps: detailedHeader6Data,
+const simplifiedHeader26Data = {
+    className: "simplified-header-15",
+    detailedHeaderProps: detailedHeader12Data,
 };
 
 const back3Data = {
@@ -427,25 +774,22 @@ const hooderHeartrate32Data = {
 };
 
 const eventActivity2Data = {
-    yyyyMmDd: "YYYY/MM/DD",
-    x9: "/img/file---10@1x.png",
-    x10: "/img/file---10@1x.png",
-    graph: "Graph",
-    graph2: "Graph",
     number: "186",
     number2: "117",
     number3: "48",
     x8: "/img/file--10@1x.png",
-    x92: "/img/file--10@1x.png",
-    x102: "/img/file--10@1x.png",
+    x9: "/img/file--10@1x.png",
+    x10: "/img/file--10@1x.png",
     x24: "/img/file---24@1x.png",
-    text5: "0:00",
-    text6: "12:00",
-    text7: "23:59",
+    text9: "0:00",
+    text10: "12:00",
+    text11: "23:59",
+    graph: "Graph",
+    graph2: "Graph",
     heart_Icon_Palepink: "/img/heart-icon-palepink-1@1x.png",
     ttTt: "TT:TT",
     heart_Icon_Palepink2: "/img/heart-icon-palepink-1@1x.png",
-    simplifiedHeader2Props: simplifiedHeader22Data,
+    simplifiedHeader2Props: simplifiedHeader26Data,
     backProps: back3Data,
     back2Props: back4Data,
     x0Props: x0Data,
@@ -460,14 +804,51 @@ const eventActivity2Data = {
     hooderHeartrate3Props: hooderHeartrate32Data,
 };
 
-const detailedHeader7Data = {
-    children: "Message",
-    className: "detailed-header-6",
+const detailedHeader13Data = {
+    children: "Heart Rate",
+    className: "detailed-header-12",
 };
 
-const simplifiedHeader45Data = {
-    className: "simplified-header-4",
-    detailedHeaderProps: detailedHeader7Data,
+const simplifiedHeader47Data = {
+    detailedHeaderProps: detailedHeader13Data,
+};
+
+const x68229Data = {
+    className: "x68-8",
+};
+
+const x69426Data = {
+    className: "x69-5",
+};
+
+const x70410Data = {
+    className: "x70-9",
+};
+
+const hooderStandard323Data = {
+    className: "hooder-standard-2",
+    x6822Props: x68229Data,
+    x6822Props2: x69426Data,
+    x6822Props3: x70410Data,
+};
+
+const waitingActivity1Data = {
+    simplifiedHeader4Props: simplifiedHeader47Data,
+    hooderStandard32Props: hooderStandard323Data,
+};
+
+const detailedHeader14Data = {
+    children: "Message",
+    className: "detailed-header-13",
+};
+
+const simplifiedHeader48Data = {
+    className: "simplified-header-7",
+    detailedHeaderProps: detailedHeader14Data,
+};
+
+const days2Data = {
+    className: "days-1",
 };
 
 const back5Data = {
@@ -496,24 +877,38 @@ const putPersonName20Data = {
     className: "put-person-name-5",
 };
 
-const buttonsLabelLight22Data = {
-    className: "buttons-label-light-4",
+const buttonsLabelLight2Data = {
+    className: "buttons-label-light-1-1",
+};
+
+const login4Data = {
+    buttonsLabelLightProps: buttonsLabelLight2Data,
+};
+
+const buttonsLabelLight3Data = {
+    className: "buttons-label-light-3",
 };
 
 const login5Data = {
-    buttonsLabelLight2Props: buttonsLabelLight22Data,
+    buttonsLabelLight2Props: buttonsLabelLight3Data,
+};
+
+const buttonsLabelLight4Data = {
+    className: "buttons-label-light-1",
 };
 
 const login42Data = {
     className: "login-3",
+    buttonsLabelLightProps: buttonsLabelLight4Data,
 };
 
-const buttonsLabelLight3Data = {
-    className: "buttons-label-light-2",
+const buttonsLabelLight5Data = {
+    className: "buttons-label-light-4",
 };
 
-const login6Data = {
-    buttonsLabelLightProps: buttonsLabelLight3Data,
+const login43Data = {
+    className: "login-4",
+    buttonsLabelLightProps: buttonsLabelLight5Data,
 };
 
 const hooderMessage2Data = {
@@ -523,9 +918,6 @@ const hooderMessage2Data = {
 };
 
 const textInputActivity1Data = {
-    yyyyMmDd: "YYYY/MM/DD",
-    x9: "/img/file---10@1x.png",
-    x10: "/img/file---10@1x.png",
     inputType: "text",
     inputPlaceholder: "Paste message",
     inputType2: "text",
@@ -534,217 +926,19 @@ const textInputActivity1Data = {
     inputPlaceholder3: "Paste message",
     inputType4: "text",
     inputPlaceholder4: "Paste message",
-    simplifiedHeader4Props: simplifiedHeader45Data,
+    simplifiedHeader4Props: simplifiedHeader48Data,
+    daysProps: days2Data,
     backProps: back5Data,
     back2Props: back6Data,
     putPersonNameProps: putPersonName17Data,
     putPersonName2Props: putPersonName18Data,
     putPersonName3Props: putPersonName19Data,
     putPersonName4Props: putPersonName20Data,
+    login4Props: login4Data,
     login5Props: login5Data,
-    login4Props: login42Data,
-    login6Props: login6Data,
+    login42Props: login42Data,
+    login43Props: login43Data,
     hooderMessage2Props: hooderMessage2Data,
-};
-
-const detailedHeader8Data = {
-    children: "Kozipro",
-};
-
-const simplifiedHeader46Data = {
-    detailedHeaderProps: detailedHeader8Data,
-};
-
-const avatar25Data = {
-    src: "/img/file-3@1x.png",
-};
-
-const avatar20Data = {
-    className: "avatar-3",
-};
-
-const x1333Data = {
-    className: "x13-3",
-    avatar2Props3: avatar25Data,
-    avatarProps3: avatar20Data,
-};
-
-const x68223Data = {
-    className: "x68-2",
-};
-
-const x7045Data = {
-    className: "x70-4",
-};
-
-const hooderScoreData = {
-    x6822Props: x68223Data,
-    x704Props: x7045Data,
-};
-
-const explanation4Data = {
-    simplifiedHeader4Props: simplifiedHeader46Data,
-    x133Props: x1333Data,
-    hooderScoreProps: hooderScoreData,
-};
-
-const detailedHeader9Data = {
-    children: "Kozipro",
-};
-
-const simplifiedHeader23Data = {
-    className: "simplified-header-5",
-    detailedHeaderProps: detailedHeader9Data,
-};
-
-const avatar27Data = {
-    src: "/img/file-3@1x.png",
-};
-
-const avatar30Data = {
-    className: "avatar-4",
-};
-
-const x1334Data = {
-    className: "x13-4",
-    avatar2Props3: avatar27Data,
-    avatarProps3: avatar30Data,
-};
-
-const x68224Data = {
-    className: "x68-3",
-};
-
-const x7046Data = {
-    className: "x70-5",
-};
-
-const hooderScore2Data = {
-    className: "hooder-score-1",
-    x6822Props: x68224Data,
-    x704Props: x7046Data,
-};
-
-const explanation5Data = {
-    simplifiedHeader2Props: simplifiedHeader23Data,
-    x133Props: x1334Data,
-    hooderScoreProps: hooderScore2Data,
-};
-
-const detailedHeader10Data = {
-    children: "Kozipro",
-};
-
-const simplifiedHeader47Data = {
-    detailedHeaderProps: detailedHeader10Data,
-};
-
-const avatar31Data = {
-    className: "avatar-9-1",
-};
-
-const avatar32Data = {
-    className: "avatar-9-2",
-};
-
-const avatar33Data = {
-    className: "avatar-9-3",
-};
-
-const avatar210Data = {
-    src: "/img/file-3@1x.png",
-    className: "avatar-19",
-};
-
-const avatar34Data = {
-    className: "avatar-9-4",
-};
-
-const avatar35Data = {
-    className: "avatar-9-5",
-};
-
-const avatar36Data = {
-    className: "avatar-9-6",
-};
-
-const avatar37Data = {
-    className: "avatar-9-7",
-};
-
-const avatar38Data = {
-    className: "avatar-9-8",
-};
-
-const avatar39Data = {
-    className: "avatar-9",
-};
-
-const x68225Data = {
-    className: "x68-4",
-};
-
-const x7047Data = {
-    className: "x70-6",
-};
-
-const hooderScore3Data = {
-    className: "hooder-score-2",
-    x6822Props: x68225Data,
-    x704Props: x7047Data,
-};
-
-const explanation6Data = {
-    place: "Name",
-    place2: "Name",
-    place3: "Name",
-    me: "Me",
-    place4: "Name",
-    place5: "Name",
-    place6: "Name",
-    place7: "Name",
-    place8: "Name",
-    place9: "Name",
-    text10: <>Find people<br />who might be intereseted in you.</>,
-    simplifiedHeader4Props: simplifiedHeader47Data,
-    avatarProps: avatar31Data,
-    avatar2Props: avatar32Data,
-    avatar3Props: avatar33Data,
-    avatar2Props2: avatar210Data,
-    avatar4Props: avatar34Data,
-    avatar5Props: avatar35Data,
-    avatar6Props: avatar36Data,
-    avatar7Props: avatar37Data,
-    avatar8Props: avatar38Data,
-    avatar9Props: avatar39Data,
-    hooderScoreProps: hooderScore3Data,
-};
-
-const detailedHeader11Data = {
-    children: "Heart Rate",
-    className: "detailed-header-10",
-};
-
-const simplifiedHeader48Data = {
-    detailedHeaderProps: detailedHeader11Data,
-};
-
-const x69425Data = {
-    className: "x69-4",
-};
-
-const x7048Data = {
-    className: "x70-7",
-};
-
-const hooderStandard22Data = {
-    x6942Props: x69425Data,
-    x704Props: x7048Data,
-};
-
-const waitingActivity1Data = {
-    simplifiedHeader4Props: simplifiedHeader48Data,
-    hooderStandard2Props: hooderStandard22Data,
 };
 
 const detailedHeader22Data = {
@@ -757,21 +951,21 @@ const detailedHeader22Data = {
     text1: "􀣌",
 };
 
-const avatar43Data = {
-    className: "avatar-5-2",
+const avatar70Data = {
+    className: "avatar-8-2",
 };
 
-const avatar211Data = {
+const avatar214Data = {
     src: "/img/file-3@1x.png",
 };
 
-const avatar212Data = {
+const avatar215Data = {
     src: "/img/nopath--------7-@1x.png",
-    className: "avatar-21",
+    className: "avatar-24",
 };
 
-const avatar47Data = {
-    className: "avatar-5-3",
+const avatar74Data = {
+    className: "avatar-8-3",
 };
 
 const jinData = {
@@ -779,20 +973,20 @@ const jinData = {
     x1: "/img/file---1@1x.png",
 };
 
-const avatar48Data = {
-    className: "avatar-5",
+const avatar75Data = {
+    className: "avatar-8",
 };
 
-const x6853Data = {
-    className: "x68-11",
+const x682210Data = {
+    className: "x68-9",
 };
 
-const x69324Data = {
-    className: "x69-10",
+const x69327Data = {
+    className: "x69-11",
 };
 
-const x7049Data = {
-    className: "x70-8",
+const x70411Data = {
+    className: "x70-10",
 };
 
 const finalScoreActivity1Data = {
@@ -808,230 +1002,86 @@ const finalScoreActivity1Data = {
     place8: "Name",
     place9: "Name",
     detailedHeader2Props: detailedHeader22Data,
-    avatarProps3: avatar43Data,
-    avatar2Props: avatar211Data,
-    avatar22Props: avatar212Data,
-    avatar2Props24: avatar47Data,
+    avatarProps3: avatar70Data,
+    avatar2Props: avatar214Data,
+    avatar22Props: avatar215Data,
+    avatar2Props24: avatar74Data,
     jinProps: jinData,
-    avatar3Props2: avatar48Data,
-    avatar3Props22: x6853Data,
-    x70Props2: x69324Data,
-    x70Props22: x7049Data,
+    avatar3Props2: avatar75Data,
+    avatar3Props22: x682210Data,
+    x70Props2: x69327Data,
+    x70Props22: x70411Data,
 };
 
-const detailedHeader12Data = {
+const detailedHeader15Data = {
     children: "Message",
-    className: "detailed-header-11",
+    className: "detailed-header-14",
 };
 
 const simplifiedHeader49Data = {
     className: "simplified-header-8",
-    detailedHeaderProps: detailedHeader12Data,
+    detailedHeaderProps: detailedHeader15Data,
 };
 
-const x69426Data = {
-    className: "x69-5",
+const loading2Data = {
+    className: "loading-2",
 };
 
-const x70410Data = {
-    className: "x70-9",
+const x682211Data = {
+    className: "x68-10",
 };
 
-const hooderStandard23Data = {
-    className: "hooder-standard-3",
-    x6942Props: x69426Data,
-    x704Props: x70410Data,
-};
-
-const waitingActivity2Data = {
-    simplifiedHeader4Props: simplifiedHeader49Data,
-    hooderStandard2Props: hooderStandard23Data,
-};
-
-const detailedHeader13Data = {
-    children: "Kozipro",
-};
-
-const simplifiedHeader410Data = {
-    detailedHeaderProps: detailedHeader13Data,
-};
-
-const x6855Data = {
-    className: "x68-13",
-};
-
-const x6922Data = {
-    className: "x69-3",
-};
-
-const x70411Data = {
-    className: "x70-10",
-};
-
-const hooderStandard3Data = {
-    x685Props: x6855Data,
-    x692Props: x6922Data,
-    x704Props: x70411Data,
-};
-
-const failData = {
-    simplifiedHeader4Props: simplifiedHeader410Data,
-    hooderStandard3Props: hooderStandard3Data,
-};
-
-const detailedHeader14Data = {
-    children: "Kozipro",
-};
-
-const simplifiedHeader24Data = {
-    className: "simplified-header-6",
-    detailedHeaderProps: detailedHeader14Data,
-};
-
-const avatar213Data = {
-    src: "/img/file-3@1x.png",
-};
-
-const avatar55Data = {
-    className: "avatar-6-2",
-};
-
-const avatar57Data = {
-    className: "avatar-6",
-};
-
-const x68226Data = {
-    className: "x68-5",
+const x69427Data = {
+    className: "x69-6",
 };
 
 const x70412Data = {
     className: "x70-11",
 };
 
-const hooderScore4Data = {
-    className: "hooder-score-3",
-    x6822Props: x68226Data,
-    x704Props: x70412Data,
+const hooderStandard324Data = {
+    className: "hooder-standard-3",
+    x6822Props: x682211Data,
+    x6822Props2: x69427Data,
+    x6822Props3: x70412Data,
 };
 
-const explanation7Data = {
-    x15: "/img/file---15@1x.png",
-    x16: "/img/file---16@1x.png",
-    place: "Name",
-    place2: "Name",
-    place3: "Name",
-    place4: "Name",
-    me: "Me",
-    place5: "Name",
-    place6: "Name",
-    place7: "Name",
-    place8: "Name",
-    place9: "Name",
-    text11: <>Register neme and icon of <br />the people that you communicate with.</>,
-    simplifiedHeader2Props: simplifiedHeader24Data,
-    avatar2Props: avatar213Data,
-    avatarProps: avatar55Data,
-    avatar2Props2: avatar57Data,
-    hooderScoreProps: hooderScore4Data,
-};
-
-const detailedHeader15Data = {
-    children: "Kozipro",
-};
-
-const simplifiedHeader25Data = {
-    className: "simplified-header-7",
-    detailedHeaderProps: detailedHeader15Data,
-};
-
-const avatar214Data = {
-    src: "/img/file-3@1x.png",
-};
-
-const avatar64Data = {
-    className: "avatar-7-2",
-};
-
-const avatar66Data = {
-    className: "avatar-7",
-};
-
-const x68227Data = {
-    className: "x68-6",
-};
-
-const x70413Data = {
-    className: "x70-12",
-};
-
-const hooderScore5Data = {
-    className: "hooder-score-4",
-    x6822Props: x68227Data,
-    x704Props: x70413Data,
-};
-
-const explanation8Data = {
-    place: "Name",
-    place2: "Name",
-    place3: "Name",
-    place4: "Name",
-    me: "Me",
-    place5: "Name",
-    place6: "Name",
-    place7: "Name",
-    place8: "Name",
-    place9: "Name",
-    letsStart: "Let’s start♡",
-    simplifiedHeader2Props: simplifiedHeader25Data,
-    avatar2Props: avatar214Data,
-    avatarProps: avatar64Data,
-    avatar2Props2: avatar66Data,
-    hooderScoreProps: hooderScore5Data,
+const waitingActivity2Data = {
+    simplifiedHeader4Props: simplifiedHeader49Data,
+    loadingProps: loading2Data,
+    hooderStandard32Props: hooderStandard324Data,
 };
 
 const detailedHeader16Data = {
     children: "Kozipro",
 };
 
-const simplifiedHeader26Data = {
+const simplifiedHeader410Data = {
     className: "simplified-header-9",
     detailedHeaderProps: detailedHeader16Data,
 };
 
-const avatar215Data = {
-    src: "/img/file-3@1x.png",
+const x682212Data = {
+    className: "x68-11",
 };
 
-const avatar73Data = {
-    className: "avatar-8-2",
+const x69428Data = {
+    className: "x69-7",
 };
 
-const avatar75Data = {
-    className: "avatar-8",
+const x70413Data = {
+    className: "x70-12",
 };
 
-const hooderScore22Data = {
-    heartRate: "Heart rate",
-    x6: "/img/file---6@1x.png",
-    message: "Message",
-    x8: "/img/file---8@1x.png",
+const hooderStandard325Data = {
+    className: "hooder-standard-4",
+    x6822Props: x682212Data,
+    x6822Props2: x69428Data,
+    x6822Props3: x70413Data,
 };
 
-const mainData = {
-    place: "Name",
-    place2: "Name",
-    place3: "Name",
-    place4: "Name",
-    me: "Me",
-    place5: "Name",
-    place6: "Name",
-    place7: "Name",
-    place8: "Name",
-    place9: "Name",
-    simplifiedHeader2Props: simplifiedHeader26Data,
-    avatar2Props: avatar215Data,
-    avatarProps: avatar73Data,
-    avatar2Props2: avatar75Data,
-    hooderScore2Props: hooderScore22Data,
+const failData = {
+    simplifiedHeader4Props: simplifiedHeader410Data,
+    hooderStandard32Props: hooderStandard325Data,
 };
 
