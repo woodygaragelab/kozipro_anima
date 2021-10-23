@@ -146,7 +146,7 @@ function App() {
 
 export default App;
 const detailedHeaderData = {
-    children: "Kozipro",
+    children: "Kozipro 0",
     className: "",
 };
 
@@ -172,7 +172,7 @@ const loginData = {
 };
 
 const detailedHeader2Data = {
-    children: "Kozipro",
+    children: "Kozipro 2",
 };
 
 const simplifiedHeader42Data = {
@@ -201,7 +201,7 @@ const explanation1Data = {
 };
 
 const detailedHeader3Data = {
-    children: "Kozipro",
+    children: "Kozipro 3",
 };
 
 const simplifiedHeader43Data = {
