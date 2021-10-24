@@ -523,9 +523,9 @@ const hooderMessage2Data = {
 };
 
 const textInputActivity1Data = {
-    yyyyMmDd: "YYYY/MM/DD",
-    x9: "/img/file---10@1x.png",
-    x10: "/img/file---10@1x.png",
+    // yyyyMmDd: "YYYY/MM/DD",
+    // x9: "/img/file---10@1x.png",
+    // x10: "/img/file---10@1x.png",
     inputType: "text",
     inputPlaceholder: "Paste message",
     inputType2: "text",
