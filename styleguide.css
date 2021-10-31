@@ -146,14 +146,6 @@
   font-weight: 400;
 }
 
-.meiryo-regular-normal-dove-gray-163px {
-  color: var(--dove-gray);
-  font-family: var(--font-family-meiryo-regular);
-  font-size: 163px;
-  font-style: normal;
-  font-weight: 400;
-}
-
 .border-1px-my-pink {
   border: 1px solid var(--my-pink);
 }

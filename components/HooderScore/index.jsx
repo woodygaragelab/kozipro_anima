@@ -1,18 +1,18 @@
 import React from "react";
-import X6822 from "../X6822";
-import X6932 from "../X6932";
-import X704 from "../X704";
+import X68 from "../X68";
+import X692 from "../X692";
+import X70 from "../X70";
 import "./HooderScore.css";
 
 function HooderScore(props) {
-  const { className, x6822Props, x704Props } = props;
+  const { className, x68Props, x70Props } = props;
 
   return (
     <div className={`hooder-score ${className || ""}`}>
-      <div className="hooder-4 border-2px-mist-gray">
-        <X6822 className={x6822Props.className} />
-        <X6932 />
-        <X704 className={x704Props.className} />
+      <div className="hooder-5 border-2px-mist-gray">
+        <X68 x6={x68Props.x6} className={x68Props.className} />
+        <X692 />
+        <X70 className={x70Props.className} />
       </div>
     </div>
   );

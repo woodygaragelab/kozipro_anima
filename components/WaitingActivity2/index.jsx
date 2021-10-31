@@ -1,27 +1,27 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import SimplifiedHeader4 from "../SimplifiedHeader4";
+import SimplifiedHeader from "../SimplifiedHeader";
 import Loading from "../Loading";
-import HooderStandard32 from "../HooderStandard32";
+import HooderStandard from "../HooderStandard";
 import "./WaitingActivity2.css";
 
 function WaitingActivity2(props) {
-  const { heart, simplifiedHeader4Props, loadingProps, hooderStandard32Props } = props;
+  const { heart, simplifiedHeaderProps, loadingProps, hooderStandardProps } = props;
 
   return (
     <div className="container-center-horizontal">
       <div className="waitingactivity2 screen" onclick="window.open('main.html', '_self');">
-        <SimplifiedHeader4
-          className={simplifiedHeader4Props.className}
-          detailedHeaderProps={simplifiedHeader4Props.detailedHeaderProps}
+        <SimplifiedHeader
+          className={simplifiedHeaderProps.className}
+          detailedHeaderProps={simplifiedHeaderProps.detailedHeaderProps}
         />
         <div className="heart-1" style={{ backgroundImage: `url(${heart})` }}></div>
         <Loading className={loadingProps.className} />
-        <HooderStandard32
-          className={hooderStandard32Props.className}
-          x6822Props={hooderStandard32Props.x6822Props}
-          x6822Props2={hooderStandard32Props.x6822Props2}
-          x6822Props3={hooderStandard32Props.x6822Props3}
+        <HooderStandard
+          className={hooderStandardProps.className}
+          x68Props={hooderStandardProps.x68Props}
+          x68Props2={hooderStandardProps.x68Props2}
+          x68Props3={hooderStandardProps.x68Props3}
         />
       </div>
     </div>

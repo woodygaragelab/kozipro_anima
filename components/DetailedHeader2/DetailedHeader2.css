@@ -90,7 +90,7 @@
   min-width: 24px;
 }
 
-.overlap-group-48 {
+.overlap-group-44 {
   align-items: flex-start;
   border: 1px solid #00000059;
   border-radius: 2.67px;
@@ -132,6 +132,7 @@
   color: var(--dove-gray);
   font-family: var(--font-family-hiraginokaku_gothic_pron-w3);
   font-size: var(--font-size-s);
+  font-weight: 400;
   height: 25px;
   left: 315px;
   letter-spacing: 0;

@@ -38,8 +38,9 @@
 .avatar-10.avatar-7-2 .overlap-group-6,
 .avatar-10.avatar-8-2 .overlap-group-6,
 .avatar-10.avatar-5 .overlap-group-6,
-.avatar-10.avatar-6 .overlap-group-6,
-.avatar-10.avatar-7 .overlap-group-6 {
+.avatar-10.avatar-7 .overlap-group-6,
+.avatar-10.avatar-8 .overlap-group-6 {
+  background-image: url(..//img/file---5@1x.png);
   height: 223px;
   margin-top: -60px;
   min-width: 222px;
@@ -98,14 +99,15 @@
   padding: 65.0px 67.7px;
 }
 
-.avatar-10.avatar-8-3 .overlap-group-6 {
+.avatar-10.avatar-6-3 .overlap-group-6 {
+  background-image: url(..//img/file---5@1x.png);
   height: 193px;
   margin-top: -45px;
   min-width: 192px;
   padding: 57px 63px;
 }
 
-.avatar-10.avatar-8 .overlap-group-6 {
+.avatar-10.avatar-6 .overlap-group-6 {
   background-image: url(..//img/file---5@1x.png);
   height: 133px;
   margin-top: -15px;

@@ -1,5 +1,5 @@
 import React from "react";
-import SimplifiedHeader4 from "../SimplifiedHeader4";
+import SimplifiedHeader from "../SimplifiedHeader";
 import Login2 from "../Login2";
 import "./Login.css";
 
@@ -13,14 +13,14 @@ function Login(props) {
     inputPlaceholder2,
     text1,
     clickHere,
-    simplifiedHeader4Props,
+    simplifiedHeaderProps,
     login2Props,
   } = props;
 
   return (
     <div className="container-center-horizontal">
       <form className="login1 screen" name="form2" action="form2" method="post">
-        <SimplifiedHeader4 detailedHeaderProps={simplifiedHeader4Props.detailedHeaderProps} />
+        <SimplifiedHeader detailedHeaderProps={simplifiedHeaderProps.detailedHeaderProps} />
         <div className="x273">
           <div className="overlap-group2">
             <img className="x5" src={x5} />

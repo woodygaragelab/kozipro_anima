@@ -8,7 +8,9 @@ function Login4(props) {
 
   return (
     <div className={`login-2 ${className || ""}`}>
-      <ButtonsLabelLight className={buttonsLabelLightProps.className} />
+      <ButtonsLabelLight className={buttonsLabelLightProps.className}>
+        {buttonsLabelLightProps.children}
+      </ButtonsLabelLight>
     </div>
   );
 }

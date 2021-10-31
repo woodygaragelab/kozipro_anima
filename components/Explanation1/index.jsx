@@ -2,8 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Avatar from "../Avatar";
 import Avatar2 from "../Avatar2";
-import SimplifiedHeader4 from "../SimplifiedHeader4";
-import HooderStandard32 from "../HooderStandard32";
+import SimplifiedHeader from "../SimplifiedHeader";
+import HooderStandard from "../HooderStandard";
 import "./Explanation1.css";
 
 function Explanation1(props) {
@@ -17,8 +17,8 @@ function Explanation1(props) {
     text2,
     avatar2Props,
     avatarProps,
-    simplifiedHeader4Props,
-    hooderStandard32Props,
+    simplifiedHeaderProps,
+    hooderStandardProps,
   } = props;
 
   return (
@@ -61,11 +61,11 @@ function Explanation1(props) {
           </div>
           <div className="text-2 sfcompact-bold-mahogany-18px">{text2}</div>
         </div>
-        <SimplifiedHeader4
-          className={simplifiedHeader4Props.className}
-          detailedHeaderProps={simplifiedHeader4Props.detailedHeaderProps}
+        <SimplifiedHeader
+          className={simplifiedHeaderProps.className}
+          detailedHeaderProps={simplifiedHeaderProps.detailedHeaderProps}
         />
-        <HooderStandard32 x6822Props={hooderStandard32Props.x6822Props} />
+        <HooderStandard x68Props={hooderStandardProps.x68Props} />
       </div>
     </div>
   );

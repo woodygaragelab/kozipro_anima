@@ -3,12 +3,14 @@ import ButtonsLabelLight from "../ButtonsLabelLight";
 import "./Login5.css";
 
 function Login5(props) {
-  const { buttonsLabelLight2Props } = props;
+  const { buttonsLabelLightProps } = props;
 
   return (
     <div className="login-5">
       <div className="button-backgrounds-black-2"></div>
-      <ButtonsLabelLight className={buttonsLabelLight2Props.className} />
+      <ButtonsLabelLight className={buttonsLabelLightProps.className}>
+        {buttonsLabelLightProps.children}
+      </ButtonsLabelLight>
     </div>
   );
 }

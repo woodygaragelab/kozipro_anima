@@ -2,7 +2,7 @@ import React from "react";
 import "./DetailedHeader2.css";
 
 function DetailedHeader2(props) {
-  const { time, score, cellularConnection, wifi, cap, logout, text1 } = props;
+  const { time, score, cellularConnection, wifi, cap, logout, text12 } = props;
 
   return (
     <div className="detailed-header-2 border-1px-my-pink">
@@ -17,14 +17,14 @@ function DetailedHeader2(props) {
           <img className="cellular-connection" src={cellularConnection} />
           <img className="wifi" src={wifi} />
           <div className="battery">
-            <div className="overlap-group-48">
+            <div className="overlap-group-44">
               <div className="capacity"></div>
             </div>
             <img className="cap" src={cap} />
           </div>
         </div>
         <div className="logout">{logout}</div>
-        <div className="text-12">{text1}</div>
+        <div className="text-12">{text12}</div>
       </div>
     </div>
   );

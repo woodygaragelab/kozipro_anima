@@ -50,7 +50,7 @@
   width: 290px;
 }
 
-.flex-row-6 {
+.flex-row-10 {
   align-items: flex-start;
   display: flex;
   height: 304px;
@@ -58,7 +58,7 @@
   min-width: 290px;
 }
 
-.flex-col-14 {
+.flex-col-19 {
   align-items: flex-start;
   align-self: flex-end;
   display: flex;
@@ -74,7 +74,7 @@
   width: 42px;
 }
 
-.place-5 {
+.place-7 {
   left: 7px;
   letter-spacing: 0;
   line-height: 8px;
@@ -83,7 +83,7 @@
   white-space: nowrap;
 }
 
-.flex-row-7 {
+.flex-row-11 {
   align-items: center;
   display: flex;
   height: 210px;
@@ -98,7 +98,7 @@
   width: 42px;
 }
 
-.flex-col-15 {
+.flex-col-20 {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
@@ -107,13 +107,13 @@
   width: 159px;
 }
 
-.flex-row-8 {
+.flex-row-12 {
   align-items: center;
   display: flex;
   min-width: 151px;
 }
 
-.overlap-group3-5 {
+.overlap-group3-7 {
   height: 53px;
   margin-top: 14.0px;
   position: relative;
@@ -135,7 +135,7 @@
   width: 82px;
 }
 
-.overlap-group-33 {
+.overlap-group-40 {
   height: 53px;
   left: 0;
   position: absolute;
@@ -156,7 +156,7 @@
   white-space: nowrap;
 }
 
-.overlap-group1-16 {
+.overlap-group1-20 {
   height: 53px;
   left: 40px;
   position: absolute;
@@ -172,7 +172,7 @@
   width: 42px;
 }
 
-.flex-row-9 {
+.flex-row-13 {
   align-items: flex-start;
   align-self: flex-end;
   display: flex;
@@ -188,7 +188,7 @@
   width: 42px;
 }
 
-.overlap-group5-4 {
+.overlap-group5-5 {
   height: 53px;
   margin-left: 60px;
   position: relative;
@@ -210,7 +210,7 @@
   width: 42px;
 }
 
-.text-7 {
+.text-10 {
   left: 52px;
   letter-spacing: 0;
   line-height: 40px;

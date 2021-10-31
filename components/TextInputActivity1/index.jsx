@@ -1,8 +1,8 @@
 import React from "react";
-import SimplifiedHeader4 from "../SimplifiedHeader4";
+import SimplifiedHeader from "../SimplifiedHeader";
 import Days from "../Days";
 import Back from "../Back";
-import PutPersonName from "../PutPersonName";
+import PutPersonName2 from "../PutPersonName2";
 import Login4 from "../Login4";
 import Login5 from "../Login5";
 import HooderMessage2 from "../HooderMessage2";
@@ -18,14 +18,14 @@ function TextInputActivity1(props) {
     inputPlaceholder3,
     inputType4,
     inputPlaceholder4,
-    simplifiedHeader4Props,
+    simplifiedHeaderProps,
     daysProps,
     backProps,
     back2Props,
-    putPersonNameProps,
     putPersonName2Props,
-    putPersonName3Props,
-    putPersonName4Props,
+    putPersonName22Props,
+    putPersonName23Props,
+    putPersonName24Props,
     login4Props,
     login5Props,
     login42Props,
@@ -36,17 +36,17 @@ function TextInputActivity1(props) {
   return (
     <div className="container-center-horizontal">
       <div className="textinputactivity1 screen">
-        <SimplifiedHeader4
-          className={simplifiedHeader4Props.className}
-          detailedHeaderProps={simplifiedHeader4Props.detailedHeaderProps}
+        <SimplifiedHeader
+          className={simplifiedHeaderProps.className}
+          detailedHeaderProps={simplifiedHeaderProps.detailedHeaderProps}
         />
         <Days className={daysProps.className} />
         <Back src={backProps.src} className={backProps.className} />
         <Back src={back2Props.src} className={back2Props.className} />
         <div className="x30">
-          <div className="overlap-group1-19">
+          <div className="overlap-group1-11">
             <div className="x274">
-              <PutPersonName className={putPersonNameProps.className} />
+              <PutPersonName2 className={putPersonName2Props.className} />
               <div className="x90 border-1px-mountain-mist"></div>
             </div>
             <textarea
@@ -56,9 +56,9 @@ function TextInputActivity1(props) {
               type={inputType}
             ></textarea>
           </div>
-          <div className="overlap-group-45">
+          <div className="overlap-group-38">
             <div className="x274">
-              <PutPersonName className={putPersonName2Props.className} />
+              <PutPersonName2 className={putPersonName22Props.className} />
               <div className="x90-1 border-1px-mountain-mist"></div>
             </div>
             <textarea
@@ -68,9 +68,9 @@ function TextInputActivity1(props) {
               type={inputType2}
             ></textarea>
           </div>
-          <div className="overlap-group-45">
+          <div className="overlap-group-38">
             <div className="x274">
-              <PutPersonName className={putPersonName3Props.className} />
+              <PutPersonName2 className={putPersonName23Props.className} />
               <div className="x90-2 border-1px-mountain-mist"></div>
             </div>
             <textarea
@@ -80,9 +80,9 @@ function TextInputActivity1(props) {
               type={inputType3}
             ></textarea>
           </div>
-          <div className="overlap-group-45">
+          <div className="overlap-group-38">
             <div className="x274">
-              <PutPersonName className={putPersonName4Props.className} />
+              <PutPersonName2 className={putPersonName24Props.className} />
               <div className="x90-3 border-1px-mountain-mist"></div>
             </div>
             <textarea
@@ -93,15 +93,16 @@ function TextInputActivity1(props) {
             ></textarea>
           </div>
         </div>
-        <div className="overlap-group5-7">
+        <div className="overlap-group5-4">
           <Login4 buttonsLabelLightProps={login4Props.buttonsLabelLightProps} />
-          <Login5 buttonsLabelLight2Props={login5Props.buttonsLabelLight2Props} />
+          <Login5 buttonsLabelLightProps={login5Props.buttonsLabelLightProps} />
           <Login4 className={login42Props.className} buttonsLabelLightProps={login42Props.buttonsLabelLightProps} />
           <Login4 className={login43Props.className} buttonsLabelLightProps={login43Props.buttonsLabelLightProps} />
         </div>
         <HooderMessage2
           heartRate={hooderMessage2Props.heartRate}
           x6={hooderMessage2Props.x6}
+          score={hooderMessage2Props.score}
           x7={hooderMessage2Props.x7}
         />
       </div>

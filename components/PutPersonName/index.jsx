@@ -5,10 +5,10 @@ function PutPersonName(props) {
   const { className } = props;
 
   return (
-    <div className={`put-person-name-3-1 ${className || ""}`}>
-      <div className="overlap-group-43">
-        <img className="x5-7" src="/img/file--5@1x.png" />
-        <input className="name sfprotext-regular-normal-mountain-mist-15px" name="name11" placeholder="Name" />
+    <div className={`put-person-name-1 ${className || ""}`}>
+      <div className="overlap-group3-5">
+        <img className="x5-2" src="/img/file--5@1x.png" />
+        <div className="place-6 sfprotext-regular-normal-mountain-mist-15px">name</div>
       </div>
     </div>
   );

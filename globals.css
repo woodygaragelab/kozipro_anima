@@ -31,12 +31,6 @@
   src: url("static/fonts/Meiryo Bold.ttf") format("truetype");
 }
 @font-face {
-  font-family: "Meiryo-Regular";
-  font-style: normal;
-  font-weight: 400;
-  src: url("static/fonts/meiryo.ttc");
-}
-@font-face {
   font-family: "SFCompact-Regular";
   font-style: normal;
   font-weight: 400;

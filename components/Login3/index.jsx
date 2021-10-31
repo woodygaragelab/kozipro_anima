@@ -4,12 +4,12 @@ import ButtonsLabelLight from "../ButtonsLabelLight";
 import "./Login3.css";
 
 function Login3(props) {
-  const { white08PtRadius } = props;
+  const { white08PtRadius, buttonsLabelLightProps } = props;
 
   return (
     <Link to="/waitingactivity1">
       <div className="login-1">
-        <div className="overlap-group3-9">
+        <div className="overlap-group3-6">
           <a href="javascript:SubmitForm('form4')">
             <div className="button-backgrounds-black-1">
               <div className="white-03pt-radius hidden"></div>
@@ -29,7 +29,7 @@ function Login3(props) {
               <div className="white-max-radius hidden"></div>
             </div>
           </a>
-          <ButtonsLabelLight />
+          <ButtonsLabelLight>{buttonsLabelLightProps.children}</ButtonsLabelLight>
         </div>
       </div>
     </Link>

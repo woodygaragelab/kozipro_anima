@@ -28,73 +28,73 @@ function Main(props) {
   return (
     <div className="main screen">
       <div className="x14-2">
-        <div className="flex-row-16">
-          <div className="flex-col-24">
+        <div className="flex-row-20">
+          <div className="flex-col-29">
             <Link to="/photochoose1">
               <div className="x271">
-                <div className="overlap-group-38">
+                <div className="overlap-group-47">
                   <Avatar />
-                  <div className="place-8 meiryo-bold-alto-21px">{place}</div>
+                  <div className="place-11 meiryo-bold-alto-21px">{place}</div>
                 </div>
               </div>
             </Link>
-            <div className="flex-row-17">
+            <div className="flex-row-21">
               <Link to="/photochoose1">
                 <div className="x270">
-                  <div className="overlap-group-38">
+                  <div className="overlap-group-47">
                     <Avatar />
-                    <div className="place-8 meiryo-bold-alto-21px">{place2}</div>
+                    <div className="place-11 meiryo-bold-alto-21px">{place2}</div>
                   </div>
                 </div>
               </Link>
-              <div className="flex-col-25">
-                <div className="flex-row-18">
+              <div className="flex-col-30">
+                <div className="flex-row-22">
                   <Link to="/photochoose1">
                     <div className="x266">
-                      <div className="overlap-group-38">
+                      <div className="overlap-group-47">
                         <Avatar />
-                        <div className="place-8 meiryo-bold-alto-21px">{place3}</div>
+                        <div className="place-11 meiryo-bold-alto-21px">{place3}</div>
                       </div>
                     </div>
                   </Link>
-                  <div className="flex-col-26">
+                  <div className="flex-col-31">
                     <Link to="/photochoose1">
                       <div className="link">
-                        <div className="overlap-group-38">
+                        <div className="overlap-group-47">
                           <Avatar />
-                          <div className="place-8 meiryo-bold-alto-21px">{place4}</div>
+                          <div className="place-11 meiryo-bold-alto-21px">{place4}</div>
                         </div>
                       </div>
                     </Link>
                     <Link to="/photochoose1" className="align-self-flex-end">
                       <div className="x263">
-                        <div className="overlap-group-38">
+                        <div className="overlap-group-47">
                           <Avatar2 src={avatar2Props.src} />
-                          <div className="me-8 meiryo-bold-sundown-21px">{me}</div>
+                          <div className="me-9 meiryo-bold-sundown-21px">{me}</div>
                         </div>
                       </div>
                     </Link>
                   </div>
                 </div>
-                <div className="overlap-group2-24">
+                <div className="overlap-group2-25">
                   <Avatar />
-                  <div className="place-8 meiryo-bold-alto-21px">{place5}</div>
+                  <div className="place-11 meiryo-bold-alto-21px">{place5}</div>
                 </div>
               </div>
-              <div className="flex-col-27">
+              <div className="flex-col-32">
                 <Link to="/photochoose1">
                   <div className="link">
-                    <div className="overlap-group-38">
+                    <div className="overlap-group-47">
                       <Avatar />
-                      <div className="place-8 meiryo-bold-alto-21px">{place6}</div>
+                      <div className="place-11 meiryo-bold-alto-21px">{place6}</div>
                     </div>
                   </div>
                 </Link>
                 <Link to="/photochoose1" className="align-self-flex-end">
                   <div className="x268">
-                    <div className="overlap-group-38">
+                    <div className="overlap-group-47">
                       <Avatar className={avatarProps.className} />
-                      <div className="place-8 meiryo-bold-alto-21px">{place7}</div>
+                      <div className="place-11 meiryo-bold-alto-21px">{place7}</div>
                     </div>
                   </div>
                 </Link>
@@ -103,16 +103,16 @@ function Main(props) {
           </div>
           <Link to="/photochoose1">
             <div className="x272">
-              <div className="overlap-group-38">
+              <div className="overlap-group-47">
                 <Avatar />
-                <div className="place-8 meiryo-bold-alto-21px">{place8}</div>
+                <div className="place-11 meiryo-bold-alto-21px">{place8}</div>
               </div>
             </div>
           </Link>
         </div>
-        <div className="overlap-group6-8">
+        <div className="overlap-group6-9">
           <Avatar className={avatar2Props2.className} />
-          <div className="place-8 meiryo-bold-alto-21px">{place9}</div>
+          <div className="place-11 meiryo-bold-alto-21px">{place9}</div>
         </div>
       </div>
       <SimplifiedHeader2
