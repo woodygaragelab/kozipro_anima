@@ -1,49 +1,47 @@
 .hooder-standard {
   display: flex;
   height: 88px;
-  left: 0;
+  left: -2px;
   position: fixed;
-  top: 724px;
-  width: 375px;
+  top: 727px;
+  width: 377px;
   z-index: 3;
 }
 
-.hooder {
+.hooder-2 {
   align-items: flex-start;
   background-color: var(--white-2);
   display: flex;
   flex: 1;
-  min-width: 375px;
+  min-width: 377px;
   opacity: 0.72;
   padding: 10.4px 13px;
   position: relative;
 }
 
 .hooder-standard.hooder-standard-1 {
-  left: -1px;
-  width: 377px;
-}
-
-.hooder-standard.hooder-standard-1 .hooder,
-.hooder-standard.hooder-standard-2 .hooder,
-.hooder-standard.hooder-standard-3 .hooder,
-.hooder-standard.hooder-standard-4 .hooder {
-  min-width: 377px;
+  left: 0;
+  top: 724px;
 }
 
 .hooder-standard.hooder-standard-2 {
-  width: 377px;
+  left: 0;
+  top: 724px;
+  width: 375px;
+}
+
+.hooder-standard.hooder-standard-2 .hooder-2 {
+  min-width: 375px;
 }
 
 .hooder-standard.hooder-standard-3 {
   left: -1px;
-  width: 377px;
+  top: 724px;
   z-index: 4;
 }
 
 .hooder-standard.hooder-standard-4 {
-  left: -2px;
-  top: 727px;
-  width: 377px;
+  left: -1px;
+  top: 724px;
 }
 

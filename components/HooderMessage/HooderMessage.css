@@ -3,12 +3,12 @@
   height: 88px;
   left: 0;
   position: fixed;
-  top: 729px;
+  top: 724px;
   width: 375px;
-  z-index: 3;
+  z-index: 7;
 }
 
-.hooder-3 {
+.hooder-1 {
   align-items: flex-start;
   background-color: var(--white-2);
   display: flex;
@@ -17,5 +17,95 @@
   opacity: 0.72;
   padding: 10.4px 13px;
   position: relative;
+}
+
+.x68-12 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  margin-top: 4.78px;
+  min-width: 62px;
+}
+
+.overlap-group-24 {
+  height: 44px;
+  margin-top: 0;
+  position: relative;
+  width: 64px;
+}
+
+.event-mark-12 {
+  display: flex;
+  height: 17px;
+  left: 0;
+  position: absolute;
+  top: 27px;
+  width: 64px;
+}
+
+.heart-rate-12 {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 13px;
+  margin-bottom: -4px;
+  margin-right: -2px;
+  margin-top: 2px;
+  text-align: center;
+  white-space: nowrap;
+  width: 64px;
+}
+
+.x6-11 {
+  height: 28px;
+  left: 17px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 30px;
+}
+
+.x69-7 {
+  align-items: flex-end;
+  cursor: pointer;
+  display: flex;
+  margin-left: 94px;
+  margin-top: 2.73px;
+  min-width: 34px;
+}
+
+.overlap-group1-11 {
+  height: 44px;
+  position: relative;
+  width: 36px;
+}
+
+.heart-mark-7 {
+  display: flex;
+  height: 17px;
+  left: 0;
+  position: absolute;
+  top: 27px;
+  width: 36px;
+}
+
+.score-8 {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 13px;
+  margin-bottom: -4px;
+  margin-right: -2px;
+  margin-top: 2px;
+  text-align: center;
+  white-space: nowrap;
+  width: 36px;
+}
+
+.x7-7 {
+  height: 28px;
+  left: 2px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 30px;
 }
 

@@ -19,7 +19,7 @@ function Explanation7(props) {
     place7,
     place8,
     place9,
-    text11,
+    text8,
     simplifiedHeader2Props,
     hooderScoreProps,
     avatar2Props,
@@ -30,71 +30,72 @@ function Explanation7(props) {
   return (
     <div className="container-center-horizontal">
       <div className="explanation7 screen">
-        <SimplifiedHeader2
-          className={simplifiedHeader2Props.className}
-          detailedHeaderProps={simplifiedHeader2Props.detailedHeaderProps}
+        <SimplifiedHeader2 detailedHeader2Props={simplifiedHeader2Props.detailedHeader2Props} />
+        <HooderScore
+          x68Props={hooderScoreProps.x68Props}
+          x69Props={hooderScoreProps.x69Props}
+          x70Props={hooderScoreProps.x70Props}
         />
-        <HooderScore x68Props={hooderScoreProps.x68Props} x70Props={hooderScoreProps.x70Props} />
-        <div className="overlap-group11-2">
-          <img className="x15-1" src={x15} />
+        <div className="overlap-group11-3">
+          <img className="x15-2" src={x15} />
           <img className="x16-1" src={x16} />
           <div className="x14">
-            <div className="flex-row-14">
-              <div className="flex-col-21">
-                <div className="overlap-group8-2">
+            <div className="flex-row-9">
+              <div className="flex-col-16">
+                <div className="overlap-group8-3">
                   <Avatar />
-                  <div className="place-8 meiryo-bold-alto-21px">{place}</div>
+                  <div className="place-7 meiryo-bold-alto-21px">{place}</div>
                 </div>
-                <div className="flex-row-15">
-                  <div className="overlap-group7-6">
+                <div className="flex-row-10">
+                  <div className="overlap-group7-7">
                     <Avatar />
-                    <div className="place-8 meiryo-bold-alto-21px">{place2}</div>
+                    <div className="place-7 meiryo-bold-alto-21px">{place2}</div>
                   </div>
-                  <div className="flex-col-22">
-                    <div className="flex-row-16">
-                      <div className="overlap-group3-8">
+                  <div className="flex-col-17">
+                    <div className="flex-row-11">
+                      <div className="overlap-group3-7">
                         <Avatar />
-                        <div className="place-8 meiryo-bold-alto-21px">{place3}</div>
+                        <div className="place-7 meiryo-bold-alto-21px">{place3}</div>
                       </div>
-                      <div className="flex-col-23">
-                        <div className="overlap-group-41">
+                      <div className="flex-col-18">
+                        <div className="overlap-group-38">
                           <Avatar />
-                          <div className="place-8 meiryo-bold-alto-21px">{place4}</div>
+                          <div className="place-7 meiryo-bold-alto-21px">{place4}</div>
                         </div>
-                        <div className="overlap-group-42">
+                        <div className="overlap-group-39">
                           <Avatar2 src={avatar2Props.src} />
-                          <div className="me-6 meiryo-bold-sundown-21px">{me}</div>
+                          <div className="me-7 meiryo-bold-sundown-21px">{me}</div>
                         </div>
                       </div>
                     </div>
                     <div className="overlap-group2-22">
                       <Avatar />
-                      <div className="place-8 meiryo-bold-alto-21px">{place5}</div>
+                      <div className="place-7 meiryo-bold-alto-21px">{place5}</div>
                     </div>
                   </div>
-                  <div className="flex-col-24">
-                    <div className="overlap-group-41">
+                  <div className="flex-col-19">
+                    <div className="overlap-group-38">
                       <Avatar />
-                      <div className="place-8 meiryo-bold-alto-21px">{place6}</div>
+                      <div className="place-7 meiryo-bold-alto-21px">{place6}</div>
                     </div>
-                    <div className="overlap-group5-6">
+                    <div className="overlap-group5-7">
                       <Avatar className={avatarProps.className} />
-                      <div className="place-8 meiryo-bold-alto-21px">{place7}</div>
+                      <div className="place-7 meiryo-bold-alto-21px">{place7}</div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="overlap-group9-1">
+              <div className="overlap-group9-2">
                 <Avatar />
-                <div className="place-8 meiryo-bold-alto-21px">{place8}</div>
+                <div className="place-7 meiryo-bold-alto-21px">{place8}</div>
               </div>
             </div>
-            <div className="overlap-group6-6">
+            <div className="overlap-group6-7">
               <Avatar className={avatar2Props2.className} />
-              <div className="place-8 meiryo-bold-alto-21px">{place9}</div>
+              <div className="place-7 meiryo-bold-alto-21px">{place9}</div>
             </div>
           </div>
-          <div className="text-11 sfcompact-bold-mahogany-18px">{text11}</div>
+          <div className="text-8 sfcompact-bold-mahogany-18px">{text8}</div>
         </div>
       </div>
     </div>

@@ -1,21 +1,19 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import DetailedHeader from "../DetailedHeader";
+import DetailedHeader2 from "../DetailedHeader2";
 import "./SimplifiedHeader2.css";
 
 function SimplifiedHeader2(props) {
-  const { className, detailedHeaderProps } = props;
+  const { className, detailedHeader2Props } = props;
 
   return (
     <div className={`simplified-header-10 ${className || ""}`}>
-      <div className="overlap-group-32">
-        <div className="overlap-group-item"></div>
-        <div className="overlap-group-item"></div>
-        <DetailedHeader className={detailedHeaderProps.className}>{detailedHeaderProps.children}</DetailedHeader>
-        <img className="x20-11" src="/img/file----20@1x.png" />
-        <Link to="/login1">
-          <img className="x19-4" src="/img/file----19@1x.png" />
-        </Link>
+      <div className="overlap-group6-5">
+        <div className="overlap-group6-item"></div>
+        <div className="overlap-group6-item"></div>
+        <DetailedHeader2 className={detailedHeader2Props.className}>{detailedHeader2Props.children}</DetailedHeader2>
+        <img className="x20-10" src="/img/file----20@1x.png" />
+        <img className="x19-2" src="/img/file----19@1x.png" />
       </div>
     </div>
   );

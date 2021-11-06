@@ -9,7 +9,7 @@
   width: 375px;
 }
 
-.flex-row-6 {
+.flex-row-22 {
   align-items: center;
   display: flex;
   height: 242px;
@@ -20,7 +20,7 @@
   z-index: 1;
 }
 
-.flex-col-14 {
+.flex-col-32 {
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -29,7 +29,7 @@
   width: 205px;
 }
 
-.x5-1 {
+.x5-27 {
   height: 205px;
   object-fit: cover;
   width: 205px;

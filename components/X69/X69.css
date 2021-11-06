@@ -1,12 +1,12 @@
 .x69 {
   align-items: flex-end;
   display: flex;
-  margin-left: 94px;
+  margin-left: 97px;
   margin-top: 2.73px;
   min-width: 34px;
 }
 
-.overlap-group1-1 {
+.overlap-group1-2 {
   height: 44px;
   position: relative;
   width: 36px;
@@ -21,7 +21,7 @@
   width: 36px;
 }
 
-.score {
+.score-1 {
   flex: 1;
   letter-spacing: 0;
   line-height: 13px;
@@ -42,10 +42,12 @@
   width: 30px;
 }
 
+.x69.x69-1,
+.x69.x69-2,
 .x69.x69-3,
+.x69.x69-4,
 .x69.x69-5,
-.x69.x69-6,
-.x69.x69-7 {
+.x69.x69-6 {
   margin-left: 95px;
 }
 

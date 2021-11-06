@@ -2,11 +2,11 @@ import React from "react";
 import "./ButtonsLabelLight.css";
 
 function ButtonsLabelLight(props) {
-  const { children, className } = props;
+  const { className } = props;
 
   return (
-    <div className={`buttons-label-light-2 ${className || ""}`}>
-      <div className="label-2 sfprotext-semi-bold-white-17px">{children}</div>
+    <div className={`buttons-label-light-4 ${className || ""}`}>
+      <div className="label sfprotext-semi-bold-white-17px">送信</div>
     </div>
   );
 }

@@ -9,7 +9,7 @@
   top: 26px;
 }
 
-.overlap-group-6 {
+.overlap-group-2 {
   align-items: flex-start;
   background-image: url(/static/img/file---5@1x.png);
   background-position: 50% 50%;
@@ -28,23 +28,37 @@
   width: 65px;
 }
 
-.avatar-10.avatar .overlap-group-6,
-.avatar-10.avatar-1 .overlap-group-6,
-.avatar-10.avatar-2 .overlap-group-6,
-.avatar-10.avatar-3 .overlap-group-6,
-.avatar-10.avatar-4 .overlap-group-6,
-.avatar-10.avatar-5-2 .overlap-group-6,
-.avatar-10.avatar-6-2 .overlap-group-6,
-.avatar-10.avatar-7-2 .overlap-group-6,
-.avatar-10.avatar-8-2 .overlap-group-6,
-.avatar-10.avatar-5 .overlap-group-6,
-.avatar-10.avatar-7 .overlap-group-6,
-.avatar-10.avatar-8 .overlap-group-6 {
-  background-image: url(..//img/file---5@1x.png);
+.avatar-10.avatar-13 .overlap-group-2,
+.avatar-10.avatar-1 .overlap-group-2,
+.avatar-10.avatar-2 .overlap-group-2,
+.avatar-10.avatar-3 .overlap-group-2,
+.avatar-10.avatar-4 .overlap-group-2,
+.avatar-10.avatar-5 .overlap-group-2,
+.avatar-10.avatar-6-2 .overlap-group-2,
+.avatar-10.avatar-7-2 .overlap-group-2,
+.avatar-10.avatar-8-2 .overlap-group-2,
+.avatar-10.avatar-6 .overlap-group-2,
+.avatar-10.avatar-7 .overlap-group-2,
+.avatar-10.avatar-8 .overlap-group-2 {
   height: 223px;
   margin-top: -60px;
   min-width: 222px;
   padding: 72px 78px;
+}
+
+.avatar-10.avatar-14 .overlap-group-2 {
+  height: 193px;
+  margin-top: -45px;
+  min-width: 192px;
+  padding: 57px 63px;
+}
+
+.avatar-10.avatar .overlap-group-2 {
+  background-image: url(..//img/file---5@1x.png);
+  height: 133px;
+  margin-top: -15px;
+  min-width: 132px;
+  padding: 27px 33px;
 }
 
 .avatar-10.avatar-9,
@@ -62,13 +76,13 @@
   top: 11px;
 }
 
-.avatar-10.avatar-9-1 .overlap-group-6,
-.avatar-10.avatar-9-2 .overlap-group-6,
-.avatar-10.avatar-9-3 .overlap-group-6,
-.avatar-10.avatar-9-4 .overlap-group-6,
-.avatar-10.avatar-9-5 .overlap-group-6,
-.avatar-10.avatar-9-6 .overlap-group-6,
-.avatar-10.avatar-9-8 .overlap-group-6 {
+.avatar-10.avatar-9-1 .overlap-group-2,
+.avatar-10.avatar-9-2 .overlap-group-2,
+.avatar-10.avatar-9-3 .overlap-group-2,
+.avatar-10.avatar-9-4 .overlap-group-2,
+.avatar-10.avatar-9-5 .overlap-group-2,
+.avatar-10.avatar-9-6 .overlap-group-2,
+.avatar-10.avatar-9-8 .overlap-group-2 {
   background-image: url(..//img/file---5@1x.png);
   height: 87px;
   margin-left: -22px;
@@ -89,29 +103,13 @@
   width: 26px;
 }
 
-.avatar-10.avatar-9-7 .overlap-group-6,
-.avatar-10.avatar-9 .overlap-group-6 {
+.avatar-10.avatar-9-7 .overlap-group-2,
+.avatar-10.avatar-9 .overlap-group-2 {
   background-image: url(..//img/file---5@1x.png);
   height: 162px;
   margin-left: -60px;
   margin-top: -60.0px;
   min-width: 162px;
   padding: 65.0px 67.7px;
-}
-
-.avatar-10.avatar-6-3 .overlap-group-6 {
-  background-image: url(..//img/file---5@1x.png);
-  height: 193px;
-  margin-top: -45px;
-  min-width: 192px;
-  padding: 57px 63px;
-}
-
-.avatar-10.avatar-6 .overlap-group-6 {
-  background-image: url(..//img/file---5@1x.png);
-  height: 133px;
-  margin-top: -15px;
-  min-width: 132px;
-  padding: 27px 33px;
 }
 

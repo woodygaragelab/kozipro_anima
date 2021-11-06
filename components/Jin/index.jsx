@@ -6,7 +6,7 @@ function Jin(props) {
 
   return (
     <div className="jin">
-      <div className="overlap-group12-2">
+      <div className="overlap-group12">
         <div className="jin-1 meiryo-bold-sundown-21px">{jin}</div>
         <img className="x1" src={x1} />
       </div>

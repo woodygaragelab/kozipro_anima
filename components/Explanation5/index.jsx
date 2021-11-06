@@ -5,7 +5,7 @@ import SimplifiedHeader2 from "../SimplifiedHeader2";
 import "./Explanation5.css";
 
 function Explanation5(props) {
-  const { text9, hooderScoreProps, x13Props, simplifiedHeader2Props } = props;
+  const { text6, hooderScoreProps, x13Props, simplifiedHeader2Props } = props;
 
   return (
     <div className="container-center-horizontal">
@@ -13,16 +13,14 @@ function Explanation5(props) {
         <HooderScore
           className={hooderScoreProps.className}
           x68Props={hooderScoreProps.x68Props}
+          x69Props={hooderScoreProps.x69Props}
           x70Props={hooderScoreProps.x70Props}
         />
-        <div className="overlap-group7-4">
-          <div className="text-9 sfcompact-bold-mahogany-18px">{text9}</div>
+        <div className="overlap-group7-5">
+          <div className="text-6 sfcompact-bold-mahogany-18px">{text6}</div>
           <X13 className={x13Props.className} avatar2Props={x13Props.avatar2Props} avatarProps={x13Props.avatarProps} />
         </div>
-        <SimplifiedHeader2
-          className={simplifiedHeader2Props.className}
-          detailedHeaderProps={simplifiedHeader2Props.detailedHeaderProps}
-        />
+        <SimplifiedHeader2 detailedHeader2Props={simplifiedHeader2Props.detailedHeader2Props} />
       </div>
     </div>
   );

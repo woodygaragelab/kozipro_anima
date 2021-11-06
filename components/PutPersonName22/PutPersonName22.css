@@ -1,21 +1,18 @@
-.put-person-name-1 {
+.put-person-name-5 {
   align-items: flex-end;
   display: flex;
   height: 26px;
-  margin-left: 1.78px;
-  margin-top: 165px;
   min-width: 297px;
-  z-index: 4;
 }
 
-.overlap-group3-8 {
+.overlap-group-45 {
   height: 28px;
   margin-bottom: -1.5px;
   position: relative;
   width: 297px;
 }
 
-.x5-2 {
+.x5-21 {
   height: 2px;
   left: 0;
   object-fit: cover;
@@ -34,15 +31,13 @@
   width: 297px;
 }
 
-.put-person-name-1.put-person-name-2 {
-  margin-left: unset;
-  margin-top: unset;
-  z-index: unset;
+.put-person-name-5.put-person-name-4 {
+  margin-top: 12px;
 }
 
-.put-person-name-1.put-person-name {
-  margin-left: unset;
-  margin-top: 12px;
-  z-index: unset;
+.put-person-name-5.put-person-name-6 {
+  margin-left: 1.78px;
+  margin-top: 165px;
+  z-index: 4;
 }
 

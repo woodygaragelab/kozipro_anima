@@ -1,17 +1,49 @@
 .login-5 {
   align-items: flex-start;
+  cursor: pointer;
   display: flex;
-  height: 54px;
-  left: 150px;
-  min-width: 44px;
-  position: absolute;
-  top: 13px;
+  margin-left: 1.0px;
+  margin-top: 58px;
+  min-width: 344px;
+  z-index: 1;
+}
+
+.overlap-group-46 {
+  border-radius: 8px;
+  height: 50px;
+  position: relative;
+  width: 344px;
 }
 
 .button-backgrounds-black-2 {
-  height: 0;
-  margin-left: -150px;
-  margin-top: -3px;
-  width: 0;
+  background-color: var(--new-york-pink);
+  border-radius: 8px;
+  cursor: pointer;
+  height: 50px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 344px;
+}
+
+.buttons-label-light-5 {
+  display: flex;
+  height: 44px;
+  left: 150px;
+  position: absolute;
+  top: 3px;
+  width: 45px;
+}
+
+.label-1 {
+  flex: 1;
+  height: 24px;
+  letter-spacing: -0.41px;
+  line-height: 22px;
+  margin-left: 1px;
+  margin-right: -1px;
+  margin-top: 10px;
+  text-align: center;
+  white-space: nowrap;
 }
 

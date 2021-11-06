@@ -1,12 +1,13 @@
 .x68 {
-  align-items: flex-end;
+  align-items: flex-start;
   display: flex;
   margin-top: 4.78px;
   min-width: 62px;
 }
 
-.overlap-group-12 {
+.overlap-group-9 {
   height: 44px;
+  margin-top: 0;
   position: relative;
   width: 64px;
 }
@@ -32,39 +33,39 @@
   width: 64px;
 }
 
-.x6-4 {
+.x6-1 {
   height: 28px;
-  left: 17px;
+  left: 16px;
   object-fit: cover;
   position: absolute;
   top: 0;
   width: 30px;
 }
 
-.x68.x68-1 .x6-4,
-.x68.x68-3 .x6-4,
-.x68.x68-4 .x6-4,
-.x68.x68-5 .x6-4,
-.x68.x68-6 .x6-4,
-.x68.x68-7 .x6-4,
-.x68.x68-9 .x6-4,
-.x68.x68-11 .x6-4 {
-  left: 16px;
+.x68.x68-1 .x6-1,
+.x68.x68-3 .x6-1,
+.x68.x68-10 .x6-1,
+.x68.x68-11 .x6-1 {
+  left: 17px;
 }
 
-.x68.x68-2,
 .x68.x68-3,
+.x68.x68-4,
+.x68.x68-5,
+.x68.x68-6,
+.x68.x68-7,
 .x68.x68-8,
-.x68.x68-9,
-.x68.x68-10 {
-  align-items: flex-start;
+.x68.x68-9 {
+  align-items: flex-end;
 }
 
-.x68.x68-2 .overlap-group-12,
-.x68.x68-3 .overlap-group-12,
-.x68.x68-8 .overlap-group-12,
-.x68.x68-9 .overlap-group-12,
-.x68.x68-10 .overlap-group-12 {
-  margin-top: 0;
+.x68.x68-3 .overlap-group-9,
+.x68.x68-4 .overlap-group-9,
+.x68.x68-5 .overlap-group-9,
+.x68.x68-6 .overlap-group-9,
+.x68.x68-7 .overlap-group-9,
+.x68.x68-8 .overlap-group-9,
+.x68.x68-9 .overlap-group-9 {
+  margin-top: unset;
 }
 

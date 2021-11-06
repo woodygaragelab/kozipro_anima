@@ -9,35 +9,35 @@ function X13(props) {
   return (
     <div className={`x13-1 ${className || ""}`}>
       <div className="flex-col-3">
-        <div className="flex-row-2">
-          <div className="overlap-group3-1">
+        <div className="flex-row-1">
+          <div className="overlap-group3-2">
             <Avatar />
-            <div className="place-1 meiryo-bold-alto-21px">Name</div>
+            <div className="place-2 meiryo-bold-alto-21px">Name</div>
           </div>
           <div className="flex-col-4">
-            <div className="overlap-group-17">
+            <div className="overlap-group-26">
               <Avatar />
-              <div className="place-1 meiryo-bold-alto-21px">Name</div>
+              <div className="place-2 meiryo-bold-alto-21px">Name</div>
             </div>
-            <div className="overlap-group-25">
+            <div className="overlap-group-30">
               <Avatar2 src={avatar2Props.src} />
-              <div className="me-1 meiryo-bold-sundown-21px">Me</div>
+              <div className="me-2 meiryo-bold-sundown-21px">Me</div>
             </div>
           </div>
         </div>
-        <div className="overlap-group2-14">
+        <div className="overlap-group2-16">
           <Avatar />
-          <div className="place-1 meiryo-bold-alto-21px">Name</div>
+          <div className="place-2 meiryo-bold-alto-21px">Name</div>
         </div>
       </div>
       <div className="flex-col-5">
-        <div className="overlap-group-17">
+        <div className="overlap-group-26">
           <Avatar />
-          <div className="place-1 meiryo-bold-alto-21px">Name</div>
+          <div className="place-2 meiryo-bold-alto-21px">Name</div>
         </div>
-        <div className="overlap-group5">
+        <div className="overlap-group5-2">
           <Avatar className={avatarProps.className} />
-          <div className="place-1 meiryo-bold-alto-21px">Name</div>
+          <div className="place-2 meiryo-bold-alto-21px">Name</div>
         </div>
       </div>
     </div>

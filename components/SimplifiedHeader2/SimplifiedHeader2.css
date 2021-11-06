@@ -2,20 +2,20 @@
   align-items: flex-start;
   display: flex;
   height: 90px;
-  left: 1px;
+  left: 0;
   min-width: 375px;
   position: fixed;
   top: 0;
   z-index: 2;
 }
 
-.overlap-group-32 {
+.overlap-group6-5 {
   height: 90px;
   position: relative;
   width: 375px;
 }
 
-.overlap-group-item {
+.overlap-group6-item {
   height: 44px;
   left: 0;
   position: absolute;
@@ -23,7 +23,7 @@
   width: 375px;
 }
 
-.x20-11 {
+.x20-10 {
   height: 21px;
   left: 338px;
   object-fit: cover;
@@ -32,8 +32,7 @@
   width: 25px;
 }
 
-.x19-4 {
-  cursor: pointer;
+.x19-2 {
   height: 25px;
   left: 9px;
   object-fit: cover;
@@ -42,25 +41,21 @@
   width: 22px;
 }
 
-.simplified-header-10.simplified-header-11 {
-  left: 0;
+.simplified-header-10.simplified-header-13 {
+  min-width: 100%;
+}
+
+.simplified-header-10.simplified-header-13 .x19-2,
+.simplified-header-10.simplified-header-14 .x19-2,
+.simplified-header-10.simplified-header-15 .x19-2 {
+  cursor: pointer;
+}
+
+.simplified-header-10.simplified-header-14 {
   z-index: 5;
 }
 
-.simplified-header-10.simplified-header-12,
-.simplified-header-10.simplified-header-13,
-.simplified-header-10.simplified-header-14 {
-  left: 0;
-}
-
-.simplified-header-10.simplified-header-12 .x19-4,
-.simplified-header-10.simplified-header-13 .x19-4,
-.simplified-header-10.simplified-header-14 .x19-4 {
-  cursor: unset;
-}
-
 .simplified-header-10.simplified-header-15 {
-  left: 0;
-  min-width: 100%;
+  left: 1px;
 }
 

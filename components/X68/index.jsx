@@ -6,11 +6,11 @@ function X68(props) {
 
   return (
     <div className={`x68 ${className || ""}`}>
-      <div className="overlap-group-12">
+      <div className="overlap-group-9">
         <div className="event-mark">
           <div className="heart-rate sfcompact-bold-dove-gray-13px">Heart rate</div>
         </div>
-        <img className="x6-4" src={x6} />
+        <img className="x6-1" src={x6} />
       </div>
     </div>
   );

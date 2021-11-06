@@ -1,48 +1,6 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
 
 @font-face {
-  font-family: "SFPro Text-Semibold";
-  font-style: normal;
-  font-weight: 600;
-  src: url("static/fonts/SF-Pro-Text-Semibold.otf") format("opentype");
-}
-@font-face {
-  font-family: "SFPro Text-Regular";
-  font-style: normal;
-  font-weight: 400;
-  src: url("static/fonts/SF-Pro-Text-Regular.otf") format("opentype");
-}
-@font-face {
-  font-family: "SFPro-Bold";
-  font-style: normal;
-  font-weight: 700;
-  src: url("static/fonts/SF-Pro.ttf") format("truetype");
-}
-@font-face {
-  font-family: "SFCompact-Bold";
-  font-style: normal;
-  font-weight: 700;
-  src: url("static/fonts/SF-Compact.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Meiryo-Bold";
-  font-style: normal;
-  font-weight: 700;
-  src: url("static/fonts/Meiryo Bold.ttf") format("truetype");
-}
-@font-face {
-  font-family: "SFCompact-Regular";
-  font-style: normal;
-  font-weight: 400;
-  src: url("static/fonts/SF-Compact.ttf") format("truetype");
-}
-@font-face {
-  font-family: "MyriadConceptRoman-Regular";
-  font-style: normal;
-  font-weight: 400;
-  src: url("static/fonts/Myriad Roman Regular.ttf") format("truetype");
-}
-@font-face {
   font-family: "SFPro-Medium";
   font-style: normal;
   font-weight: 500;
@@ -56,10 +14,52 @@
     format("truetype");
 }
 @font-face {
+  font-family: "SFPro-Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("static/fonts/SF-Pro.ttf") format("truetype");
+}
+@font-face {
   font-family: "SFProText-Semibold";
   font-style: normal;
   font-weight: 600;
   src: url("static/fonts/SF-Pro-Text-Semibold.otf") format("opentype");
+}
+@font-face {
+  font-family: "Meiryo-Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("static/fonts/Meiryo Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "SFCompact-Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("static/fonts/SF-Compact.ttf") format("truetype");
+}
+@font-face {
+  font-family: "SFPro Text-Semibold";
+  font-style: normal;
+  font-weight: 600;
+  src: url("static/fonts/SF-Pro-Text-Semibold.otf") format("opentype");
+}
+@font-face {
+  font-family: "SFCompact-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("static/fonts/SF-Compact.ttf") format("truetype");
+}
+@font-face {
+  font-family: "SFPro Text-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("static/fonts/SF-Pro-Text-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "MyriadConceptRoman-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("static/fonts/Myriad Roman Regular.ttf") format("truetype");
 }
 
 .screen a {

@@ -24,21 +24,21 @@
   width: 291px;
 }
 
-.flex-row-2 {
+.flex-row-1 {
   align-items: center;
   display: flex;
   height: 324px;
   min-width: 291px;
 }
 
-.overlap-group3-1 {
+.overlap-group3-2 {
   height: 129px;
   margin-top: 29.0px;
   position: relative;
   width: 102px;
 }
 
-.place-1 {
+.place-2 {
   left: 18px;
   letter-spacing: 0;
   line-height: 21px;
@@ -56,13 +56,13 @@
   width: 160px;
 }
 
-.overlap-group-17 {
+.overlap-group-26 {
   height: 129px;
   position: relative;
   width: 102px;
 }
 
-.overlap-group-25 {
+.overlap-group-30 {
   align-self: flex-end;
   height: 129px;
   margin-top: 66px;
@@ -70,7 +70,7 @@
   width: 102px;
 }
 
-.me-1 {
+.me-2 {
   left: 33px;
   letter-spacing: 0;
   line-height: 21px;
@@ -79,7 +79,7 @@
   white-space: nowrap;
 }
 
-.overlap-group2-14 {
+.overlap-group2-16 {
   height: 129px;
   margin-left: 44px;
   margin-top: 22px;
@@ -98,7 +98,7 @@
   width: 162px;
 }
 
-.overlap-group5 {
+.overlap-group5-2 {
   align-self: flex-end;
   height: 129px;
   margin-top: 76px;
