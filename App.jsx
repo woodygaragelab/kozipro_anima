@@ -255,7 +255,7 @@ const login423Data = {
 };
 
 const hooderMessageData = {
-    heartRate: "Heart rate",
+    heartRate: "Heart rate hMD",
     x6: "/img/file---6@1x.png",
     score: "Score",
     x7: "/img/file---7@1x.png",
@@ -821,7 +821,7 @@ const x698Data = {
 };
 
 const hooderScore22Data = {
-    heartRate: "Heart rate",
+    heartRate: "Heart rate hS22",
     x6: "/img/file---6@1x.png",
     message: "Message",
     x8: "/img/file---8@1x.png",
