@@ -2,41 +2,43 @@
   background-position: 50% 50%;
   background-size: cover;
   height: 25px;
-  left: 34px;
-  position: fixed;
-  top: 104px;
+  margin-bottom: 21.77px;
   width: 15px;
-  z-index: 3;
 }
 
 .back.forward {
-  left: 327px;
-  z-index: 4;
+  margin-left: 39px;
 }
 
 .back.back-1 {
+  left: 34px;
+  margin-bottom: unset;
+  position: fixed;
+  top: 104px;
   z-index: 7;
 }
 
 .back.forward-1 {
   left: 327px;
+  margin-bottom: unset;
+  position: fixed;
+  top: 104px;
   z-index: 8;
 }
 
 .back.back-2 {
-  left: unset;
-  margin-bottom: 22.77px;
-  position: unset;
-  top: unset;
-  z-index: unset;
+  left: 34px;
+  margin-bottom: unset;
+  position: fixed;
+  top: 104px;
+  z-index: 3;
 }
 
 .back.forward-2 {
-  left: unset;
-  margin-bottom: 22.77px;
-  margin-left: 39px;
-  position: unset;
-  top: unset;
-  z-index: unset;
+  left: 327px;
+  margin-bottom: unset;
+  position: fixed;
+  top: 104px;
+  z-index: 4;
 }
 

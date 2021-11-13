@@ -9,10 +9,10 @@
   width: 375px;
 }
 
-.flex-row-22 {
+.flex-row-3 {
   align-items: center;
   display: flex;
-  height: 242px;
+  height: 241px;
   margin-right: 0.59px;
   margin-top: 32px;
   min-width: 317px;
@@ -20,16 +20,16 @@
   z-index: 1;
 }
 
-.flex-col-32 {
+.flex-col-3 {
   align-items: center;
   display: flex;
   flex-direction: column;
   margin-left: 42px;
-  min-height: 242px;
+  min-height: 241px;
   width: 205px;
 }
 
-.x5-27 {
+.x5-1 {
   height: 205px;
   object-fit: cover;
   width: 205px;
@@ -39,9 +39,9 @@
   letter-spacing: 0;
   line-height: 15px;
   margin-left: 2.53px;
-  margin-top: 15px;
-  min-height: 22px;
-  min-width: 74px;
+  margin-top: 16px;
+  min-height: 20px;
+  min-width: 76px;
   text-align: center;
   text-decoration: underline;
   white-space: nowrap;

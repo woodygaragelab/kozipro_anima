@@ -1,0 +1,26 @@
+.x268 {
+  align-items: center;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  margin-top: 81px;
+  min-height: 128px;
+  position: relative;
+  width: 102px;
+}
+
+.place-1 {
+  letter-spacing: 0;
+  line-height: 21px;
+  margin-right: 7.0px;
+  min-height: 23px;
+  min-width: 59px;
+  white-space: nowrap;
+}
+
+.x268.x269 {
+  align-self: unset;
+  margin-right: -120.0px;
+  margin-top: 36px;
+}
+

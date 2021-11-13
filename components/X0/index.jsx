@@ -1,23 +1,23 @@
 import React from "react";
-import PutPersonName from "../PutPersonName";
+import PutPersonName2 from "../PutPersonName2";
 import "./X0.css";
 
 function X0(props) {
-  const { className, putPersonNameProps, putPersonName2Props, putPersonName3Props, putPersonName4Props } = props;
+  const { className } = props;
 
   return (
     <div className={`x0 ${className || ""}`}>
-      <div className="flex-row-20">
+      <div className="flex-row-6">
         <img className="hearticonpalepink-2" src="/img/heart-icon-palepink-1@1x.png" />
-        <div className="tttt-1 sfprotext-regular-normal-mountain-mist-15px">TT:TT</div>
-        <img className="hearticonpalepink-3" src="/img/heart-icon-palepink-1@1x.png" />
+        <div className="overlap-group-10">
+          <div className="tttt-1 sfprotext-regular-normal-mountain-mist-15px">TT:TT</div>
+          <img className="hearticonpalepink-3" src="/img/heart-icon-palepink-1@1x.png" />
+        </div>
       </div>
-      <div className="flex-col-31">
-        <PutPersonName className={putPersonNameProps.className} />
-        <PutPersonName className={putPersonName2Props.className} />
-        <PutPersonName className={putPersonName3Props.className} />
-        <PutPersonName className={putPersonName4Props.className} />
-      </div>
+      <PutPersonName2 />
+      <PutPersonName2 />
+      <PutPersonName2 />
+      <PutPersonName2 />
     </div>
   );
 }

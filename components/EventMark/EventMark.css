@@ -1,0 +1,30 @@
+.event-mark,
+.event-mark-1,
+.event-mark-2,
+.event-mark-3,
+.event-mark-4,
+.event-mark-5 {
+  display: flex;
+  height: 15px;
+  margin-left: 2.0px;
+  margin-top: 1px;
+  width: 68px;
+}
+
+.heart-rate,
+.heart-rate-1,
+.heart-rate-2,
+.heart-rate-3,
+.heart-rate-4,
+.heart-rate-5 {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 13px;
+  margin-bottom: -3px;
+  margin-right: -2px;
+  margin-top: 1px;
+  text-align: center;
+  white-space: nowrap;
+  width: 68px;
+}
+

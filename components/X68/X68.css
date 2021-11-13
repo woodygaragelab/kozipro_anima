@@ -1,71 +1,23 @@
-.x68 {
-  align-items: flex-start;
+.x68-1,
+.x68-2,
+.x68-3,
+.x68-4 {
+  align-items: center;
   display: flex;
+  flex-direction: column;
   margin-top: 4.78px;
-  min-width: 62px;
-}
-
-.overlap-group-9 {
-  height: 44px;
-  margin-top: 0;
+  min-height: 44px;
   position: relative;
-  width: 64px;
+  width: 66px;
 }
 
-.event-mark {
-  display: flex;
-  height: 17px;
-  left: 0;
-  position: absolute;
-  top: 27px;
-  width: 64px;
-}
-
-.heart-rate {
-  flex: 1;
-  letter-spacing: 0;
-  line-height: 13px;
-  margin-bottom: -4px;
-  margin-right: -2px;
-  margin-top: 2px;
-  text-align: center;
-  white-space: nowrap;
-  width: 64px;
-}
-
-.x6-1 {
+.x6-9,
+.x6-10,
+.x6-11,
+.x6-12 {
   height: 28px;
-  left: 16px;
+  margin-left: 0.73px;
   object-fit: cover;
-  position: absolute;
-  top: 0;
   width: 30px;
-}
-
-.x68.x68-1 .x6-1,
-.x68.x68-3 .x6-1,
-.x68.x68-10 .x6-1,
-.x68.x68-11 .x6-1 {
-  left: 17px;
-}
-
-.x68.x68-3,
-.x68.x68-4,
-.x68.x68-5,
-.x68.x68-6,
-.x68.x68-7,
-.x68.x68-8,
-.x68.x68-9 {
-  align-items: flex-end;
-}
-
-.x68.x68-3 .overlap-group-9,
-.x68.x68-4 .overlap-group-9,
-.x68.x68-5 .overlap-group-9,
-.x68.x68-6 .overlap-group-9,
-.x68.x68-7 .overlap-group-9,
-.x68.x68-8 .overlap-group-9,
-.x68.x68-9 .overlap-group-9 {
-  margin-top: unset;
 }
 

@@ -1,60 +1,33 @@
-.x70 {
+.x70-1 {
   align-items: flex-end;
   display: flex;
-  margin-left: 101px;
-  min-width: 53px;
-}
-
-.overlap-group2-1 {
+  flex-direction: column;
   height: 46px;
+  justify-content: space-between;
+  margin-left: 97px;
   position: relative;
-  width: 55px;
+  width: 57px;
 }
 
-.message-mark {
-  display: flex;
-  height: 17px;
-  left: 0;
-  position: absolute;
-  top: 29px;
-  width: 55px;
-}
-
-.message {
-  flex: 1;
-  letter-spacing: 0;
-  line-height: 13px;
-  margin-bottom: -4px;
-  margin-right: -2px;
-  margin-top: 2px;
-  white-space: nowrap;
-  width: 55px;
-}
-
-.x8 {
-  height: 30px;
-  left: 13px;
+.x8-1 {
+  height: 29.71px;
+  margin-right: 11.5px;
+  margin-top: 0;
   object-fit: cover;
-  position: absolute;
-  top: 0;
-  width: 32px;
+  width: 32.11px;
 }
 
-.x70.x70-1,
-.x70.x70-2,
-.x70.x70-5,
-.x70.x70-6,
-.x70.x70-7,
-.x70.x70-8,
-.x70.x70-9,
-.x70.x70-11,
-.x70.x70-12 {
-  margin-left: 99px;
+.x70-1.x70-2 {
+  margin-left: 96px;
 }
 
-.x70.x70-3,
-.x70.x70-4,
-.x70.x70-10 {
-  margin-left: 98px;
+.x70-1.x70-2 .x8-1,
+.x70-1.x70-3 .x8-1 {
+  width: 32.11px;
+}
+
+.x70-1.x70-5 .x8-1 {
+  height: 29.71px;
+  width: 32.11px;
 }
 

@@ -1,0 +1,45 @@
+.x271 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 79.0px;
+  min-height: 128px;
+  position: relative;
+  width: 102px;
+}
+
+.place {
+  letter-spacing: 0;
+  line-height: 21px;
+  margin-right: 7.0px;
+  min-height: 23px;
+  min-width: 59px;
+  white-space: nowrap;
+}
+
+.x271.x270 {
+  align-self: flex-end;
+  margin-left: unset;
+}
+
+.x271.x266 {
+  align-self: center;
+  margin-left: 118px;
+  margin-top: 6.0px;
+}
+
+.x271.x267,
+.x271.x264 {
+  margin-left: unset;
+}
+
+.x271.x265 {
+  align-self: center;
+  margin-left: 114.0px;
+}
+
+.x271.x272 {
+  align-self: flex-start;
+  margin-left: 41px;
+}
+

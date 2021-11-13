@@ -20,7 +20,7 @@
   z-index: 4;
 }
 
-.overlap-group1-21 {
+.overlap-group1-3 {
   align-items: center;
   background: linear-gradient(0deg, #ee9ca3 0%, #c15f62 0%, #c26264 20.8%, #c56b6e 36.64%, #cc7c7e 50.84%, #d59395 64.07%, #e0b0b2 76.65%, #eed4d5 88.55%, #ffffff 100%);
   border: 0.8px solid var(--white);
@@ -28,62 +28,62 @@
   height: 235px;
   margin-top: -0.38px;
   min-width: 377px;
-  padding: 7.7px 15.5px;
+  padding: 10.7px 15.5px;
 }
 
-.flex-col-28 {
+.flex-col-4 {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
-  margin-top: 24.76px;
-  min-height: 146px;
-  width: 18px;
+  margin-top: 22.76px;
+  min-height: 142px;
+  width: 19px;
 }
 
 .number {
   letter-spacing: 0;
   line-height: 18px;
-  margin-bottom: -2px;
-  min-height: 16px;
+  margin-bottom: -6px;
+  min-height: 12px;
   white-space: nowrap;
 }
 
 .number-1 {
   letter-spacing: 0;
   line-height: 18px;
-  margin-bottom: -2px;
-  margin-top: 50px;
-  min-height: 16px;
+  margin-bottom: -6px;
+  margin-top: 54px;
+  min-height: 12px;
   white-space: nowrap;
 }
 
 .number-2 {
   letter-spacing: 0;
   line-height: 18px;
-  margin-bottom: -2px;
+  margin-bottom: -6px;
   margin-left: 3.0px;
-  margin-top: 48px;
-  min-height: 16px;
+  margin-top: 52px;
+  min-height: 12px;
   white-space: nowrap;
 }
 
-.flex-col-29 {
+.flex-col-5 {
   align-items: flex-end;
   align-self: flex-end;
   display: flex;
   flex-direction: column;
-  margin-left: 3px;
-  min-height: 174px;
+  margin-left: 2px;
+  min-height: 171px;
   width: 319px;
 }
 
-.overlap-group-44 {
+.overlap-group-8 {
   height: 146px;
   position: relative;
   width: 319px;
 }
 
-.x8-16 {
+.x8-2 {
   height: 1px;
   left: 4px;
   object-fit: cover;
@@ -92,7 +92,7 @@
   width: 315px;
 }
 
-.x9-2 {
+.x9 {
   height: 1px;
   left: 4px;
   object-fit: cover;
@@ -101,7 +101,7 @@
   width: 315px;
 }
 
-.x10-2 {
+.x10 {
   height: 1px;
   left: 4px;
   object-fit: cover;
@@ -119,38 +119,48 @@
   width: 316px;
 }
 
-.flex-row-18 {
+.flex-row-4 {
   align-items: flex-start;
   display: flex;
-  height: 16px;
-  margin-right: 4.01px;
-  margin-top: 12px;
-  min-width: 310px;
+  height: 12px;
+  margin-right: 3.01px;
+  margin-top: 13px;
+  min-width: 311px;
 }
 
-.text-9 {
+.text-2 {
   letter-spacing: 0;
   line-height: 18px;
-  min-height: 16px;
-  min-width: 20px;
+  min-height: 12px;
+  min-width: 21px;
   white-space: nowrap;
 }
 
-.text-10 {
+.text-3 {
   letter-spacing: 0;
   line-height: 18px;
-  margin-left: 122px;
-  min-height: 16px;
-  min-width: 26px;
+  margin-left: 121px;
+  min-height: 12px;
+  min-width: 27px;
   white-space: nowrap;
 }
 
-.text-11 {
+.text-4 {
   letter-spacing: 0;
   line-height: 18px;
-  margin-left: 115px;
-  min-height: 16px;
+  margin-left: 114px;
+  min-height: 12px;
   white-space: nowrap;
+}
+
+.title {
+  left: 139px;
+  letter-spacing: 0;
+  line-height: 33px;
+  position: fixed;
+  top: 289px;
+  white-space: nowrap;
+  z-index: 1;
 }
 
 .graph {
@@ -158,17 +168,7 @@
   letter-spacing: 0;
   line-height: 33px;
   position: fixed;
-  top: 288px;
-  white-space: nowrap;
-  z-index: 1;
-}
-
-.graph-1 {
-  left: 139px;
-  letter-spacing: 0;
-  line-height: 33px;
-  position: fixed;
-  top: 288px;
+  top: 289px;
   white-space: nowrap;
   z-index: 2;
 }
@@ -192,20 +192,20 @@
   z-index: 10;
 }
 
-.x4-1 {
+.x4 {
   align-items: center;
   display: flex;
   flex-direction: column;
   margin-left: 0;
-  margin-top: 96px;
-  min-height: 176px;
+  margin-top: 98px;
+  min-height: 174px;
+  position: relative;
   width: 295px;
 }
 
-.flex-row-19 {
+.flex-row-5 {
   align-items: flex-start;
   display: flex;
-  height: 22px;
   margin-right: 2.78px;
   margin-top: 2px;
   min-width: 81px;
@@ -213,36 +213,33 @@
 
 .hearticonpalepink {
   height: 15px;
-  margin-top: 1.5px;
+  margin-top: 0.5px;
   object-fit: cover;
   width: 15px;
 }
 
+.overlap-group8 {
+  height: 20px;
+  margin-left: 8px;
+  position: relative;
+  width: 58px;
+}
+
 .tttt {
+  left: 0;
   letter-spacing: 0;
   line-height: 15px;
-  margin-left: 8px;
-  min-height: 22px;
-  min-width: 37px;
+  position: absolute;
+  top: 0;
   white-space: nowrap;
 }
 
 .hearticonpalepink-1 {
   height: 15px;
-  margin-left: 6px;
-  margin-top: 1.5px;
+  left: 43px;
   object-fit: cover;
+  position: absolute;
+  top: 0;
   width: 15px;
-}
-
-.flex-col-30 {
-  align-items: flex-start;
-  display: flex;
-  flex-direction: column;
-  margin-left: 1.78px;
-  margin-top: 10px;
-  min-height: 140px;
-  position: relative;
-  width: 297px;
 }
 

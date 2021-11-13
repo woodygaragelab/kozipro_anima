@@ -1,23 +1,22 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import ButtonsLabelLight from "../ButtonsLabelLight";
 import "./Login3.css";
 
 function Login3(props) {
-  const { white08PtRadius, buttonsLabelLightProps } = props;
+  const { white08PtRadius, label } = props;
 
   return (
     <Link to="/waitingactivity1">
-      <div className="login-4">
-        <div className="overlap-group3-10">
-          <a href="javascript:SubmitForm('form2')">
+      <div className="login-1">
+        <div className="overlap-group3">
+          <a href="javascript:SubmitForm('form4')">
             <div className="button-backgrounds-black-1">
               <div className="white-03pt-radius hidden"></div>
               <div className="white-04pt-radius hidden"></div>
               <div className="white-05pt-radius hidden"></div>
               <div className="white-06pt-radius hidden"></div>
               <div className="white-07pt-radius hidden"></div>
-              <a href="javascript:SubmitForm('form2')">
+              <a href="javascript:SubmitForm('form4')">
                 <img className="white-08pt-radius" src={white08PtRadius} />
               </a>
               <div className="white-09pt-radius hidden"></div>
@@ -29,7 +28,10 @@ function Login3(props) {
               <div className="white-max-radius hidden"></div>
             </div>
           </a>
-          <ButtonsLabelLight className={buttonsLabelLightProps.className} />
+          <div className="overlap-group-13">
+            <div className="frame"></div>
+            <div className="label-1 sfprotext-semi-bold-white-17px">{label}</div>
+          </div>
         </div>
       </div>
     </Link>

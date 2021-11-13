@@ -10,7 +10,7 @@
   width: 375px;
 }
 
-.heart {
+.heart-2 {
   background-position: 50% 50%;
   background-size: cover;
   height: 123px;
@@ -19,13 +19,13 @@
   z-index: 4;
 }
 
-.heart video {
+.heart-2 video {
   height: 100%;
   object-fit: cover;
   width: 100%;
 }
 
-.heart img {
+.heart-2 img {
   object-fit: cover;
 }
 

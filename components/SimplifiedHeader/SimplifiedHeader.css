@@ -6,16 +6,16 @@
   min-width: 375px;
   position: fixed;
   top: 0;
-  z-index: 2;
+  z-index: 3;
 }
 
-.overlap-group-15 {
+.overlap-group2 {
   height: 90px;
   position: relative;
   width: 375px;
 }
 
-.x20 {
+.x20-1 {
   height: 21px;
   left: 338px;
   object-fit: cover;
@@ -25,7 +25,6 @@
 }
 
 .x19 {
-  cursor: pointer;
   height: 25px;
   left: 9px;
   object-fit: cover;
@@ -35,23 +34,22 @@
 }
 
 .simplified-header.simplified-header-1 {
-  left: 1px;
+  min-width: 100%;
+  z-index: 2;
 }
 
 .simplified-header.simplified-header-1 .x19,
-.simplified-header.simplified-header-2 .x19,
-.simplified-header.simplified-header-3 .x19,
-.simplified-header.simplified-header-4 .x19,
-.simplified-header.simplified-header-5 .x19,
-.simplified-header.simplified-header-6 .x19,
-.simplified-header.simplified-header-7 .x19,
-.simplified-header.simplified-header-8 .x19,
-.simplified-header.simplified-header-9 .x19 {
-  cursor: unset;
+.simplified-header.simplified-header-2 .x19 {
+  cursor: pointer;
 }
 
-.simplified-header.simplified-header-8,
-.simplified-header.simplified-header-9 {
-  z-index: 3;
+.simplified-header.simplified-header-2,
+.simplified-header.simplified-header-5 {
+  z-index: 2;
+}
+
+.simplified-header.simplified-header-4 {
+  left: 1px;
+  z-index: 2;
 }
 

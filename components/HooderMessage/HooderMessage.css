@@ -8,104 +8,89 @@
   z-index: 7;
 }
 
-.hooder-1 {
+.hooder-6 {
   align-items: flex-start;
   background-color: var(--white-2);
   display: flex;
   flex: 1;
   min-width: 375px;
   opacity: 0.72;
-  padding: 10.4px 13px;
-  position: relative;
+  padding: 10.4px 11px;
 }
 
-.x68-12 {
-  align-items: flex-start;
+.x68-6 {
+  align-items: center;
   cursor: pointer;
   display: flex;
+  flex-direction: column;
   margin-top: 4.78px;
-  min-width: 62px;
-}
-
-.overlap-group-24 {
-  height: 44px;
-  margin-top: 0;
+  min-height: 44px;
   position: relative;
-  width: 64px;
+  width: 66px;
 }
 
-.event-mark-12 {
-  display: flex;
-  height: 17px;
-  left: 0;
-  position: absolute;
-  top: 27px;
-  width: 64px;
-}
-
-.heart-rate-12 {
-  flex: 1;
-  letter-spacing: 0;
-  line-height: 13px;
-  margin-bottom: -4px;
-  margin-right: -2px;
-  margin-top: 2px;
-  text-align: center;
-  white-space: nowrap;
-  width: 64px;
-}
-
-.x6-11 {
+.x6-14 {
   height: 28px;
-  left: 17px;
+  margin-left: 0.73px;
   object-fit: cover;
-  position: absolute;
-  top: 0;
   width: 30px;
 }
 
-.x69-7 {
-  align-items: flex-end;
+.x69-4 {
   cursor: pointer;
   display: flex;
-  margin-left: 94px;
-  margin-top: 2.73px;
-  min-width: 34px;
-}
-
-.overlap-group1-11 {
+  flex-direction: column;
   height: 44px;
+  justify-content: space-between;
+  margin-left: 90px;
+  margin-top: 2.73px;
   position: relative;
-  width: 36px;
+  width: 38px;
 }
 
-.heart-mark-7 {
+.x7-5 {
+  flex: 1;
+  height: 28.12px;
+  margin-left: 4px;
+  margin-right: 3.6px;
+  margin-top: 0;
+  max-height: 28.12px;
+  object-fit: cover;
+}
+
+.x70-4 {
+  align-items: flex-end;
   display: flex;
-  height: 17px;
-  left: 0;
-  position: absolute;
-  top: 27px;
-  width: 36px;
+  flex-direction: column;
+  height: 46px;
+  justify-content: space-between;
+  margin-left: 96px;
+  width: 57px;
 }
 
-.score-8 {
+.x8-3 {
+  height: 30.71px;
+  margin-right: 11.0px;
+  margin-top: -0.5px;
+  object-fit: cover;
+  width: 33.11px;
+}
+
+.message-mark-6 {
+  display: flex;
+  flex: 1;
+  height: 15px;
+  max-height: 15px;
+}
+
+.message-6 {
   flex: 1;
   letter-spacing: 0;
   line-height: 13px;
-  margin-bottom: -4px;
+  margin-bottom: -3px;
   margin-right: -2px;
-  margin-top: 2px;
-  text-align: center;
+  margin-top: 1px;
   white-space: nowrap;
-  width: 36px;
-}
-
-.x7-7 {
-  height: 28px;
-  left: 2px;
-  object-fit: cover;
-  position: absolute;
-  top: 0;
-  width: 30px;
+  width: 59px;
 }
 

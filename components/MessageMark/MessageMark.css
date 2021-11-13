@@ -1,0 +1,28 @@
+.message-mark,
+.message-mark-1,
+.message-mark-2,
+.message-mark-3,
+.message-mark-4,
+.message-mark-5 {
+  display: flex;
+  flex: 1;
+  height: 15px;
+  max-height: 15px;
+}
+
+.message,
+.message-1,
+.message-2,
+.message-3,
+.message-4,
+.message-5 {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 13px;
+  margin-bottom: -3px;
+  margin-right: -2px;
+  margin-top: 1px;
+  white-space: nowrap;
+  width: 59px;
+}
+

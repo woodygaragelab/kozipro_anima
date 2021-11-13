@@ -2,11 +2,11 @@ import React from "react";
 import "./Avatar2.css";
 
 function Avatar2(props) {
-  const { src, className } = props;
+  const { src } = props;
 
   return (
-    <div className={`avatar-15 ${className || ""}`}>
-      <img className="x3-34" src={src} />
+    <div className="avatar-8">
+      <img className="x3-9" src={src} />
     </div>
   );
 }

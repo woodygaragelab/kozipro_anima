@@ -1,19 +1,18 @@
 .days {
-  align-items: flex-end;
+  align-items: center;
   display: flex;
-  height: 32px;
-  left: 126px;
-  min-width: 126px;
+  height: 30px;
+  left: 132px;
+  min-width: 114px;
   position: fixed;
-  top: 100px;
-  z-index: 5;
+  top: 102px;
+  z-index: 3;
 }
 
-.overlap-group1-10 {
-  height: 31px;
-  margin-bottom: -0.5px;
+.overlap-group-9 {
+  height: 30px;
   position: relative;
-  width: 126px;
+  width: 114px;
 }
 
 .yyyymmdd {
@@ -22,22 +21,22 @@
   line-height: 20px;
   position: absolute;
   text-align: center;
-  top: 2px;
+  top: 3px;
   white-space: nowrap;
 }
 
-.x9 {
+.x9-1 {
   height: 30px;
-  left: 12px;
+  left: 6px;
   object-fit: cover;
   position: absolute;
   top: 0;
   width: 0;
 }
 
-.x10 {
+.x10-1 {
   height: 30px;
-  left: 83px;
+  left: 77px;
   object-fit: cover;
   position: absolute;
   top: 0;
@@ -45,6 +44,6 @@
 }
 
 .days.days-1 {
-  z-index: 3;
+  z-index: 5;
 }
 

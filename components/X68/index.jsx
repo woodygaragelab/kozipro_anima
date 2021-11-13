@@ -1,17 +1,14 @@
 import React from "react";
+import EventMark from "../EventMark";
 import "./X68.css";
 
 function X68(props) {
-  const { x6, className } = props;
+  const { x6 } = props;
 
   return (
-    <div className={`x68 ${className || ""}`}>
-      <div className="overlap-group-9">
-        <div className="event-mark">
-          <div className="heart-rate sfcompact-bold-dove-gray-13px">Heart rate</div>
-        </div>
-        <img className="x6-1" src={x6} />
-      </div>
+    <div className="x68-1">
+      <img className="x6-9" src={x6} />
+      <EventMark />
     </div>
   );
 }

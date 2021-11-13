@@ -1,0 +1,108 @@
+.login1 {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 812px;
+  position: relative;
+  width: 375px;
+}
+
+.x273 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 2.28px;
+  margin-top: 470px;
+  min-height: 103px;
+  width: 296px;
+  z-index: 2;
+}
+
+.overlap-group1 {
+  height: 26px;
+  margin-left: 1.55px;
+  position: relative;
+  width: 297px;
+}
+
+.x5 {
+  height: 2px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 23px;
+  width: 295px;
+}
+
+.id {
+  background-color: transparent;
+  border: 0;
+  height: 26px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 15px;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  width: 297px;
+}
+
+.id::placeholder,
+.password::placeholder {
+  color: #93939a99;
+}
+
+.password {
+  background-color: transparent;
+  border: 0;
+  height: 20px;
+  letter-spacing: 0;
+  line-height: 15px;
+  margin-left: 1.72px;
+  margin-top: 19px;
+  padding: 0;
+  width: 297px;
+}
+
+.x20 {
+  height: 1px;
+  margin-top: 1px;
+  object-fit: cover;
+  width: 296px;
+}
+
+.flex-row {
+  align-items: flex-start;
+  display: flex;
+  height: 20px;
+  margin-left: 15.82px;
+  margin-top: 20px;
+  min-width: 244px;
+}
+
+.text-1 {
+  letter-spacing: 0;
+  line-height: 15px;
+  min-height: 20px;
+  min-width: 164px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.click-here {
+  color: #cc5d5d;
+  cursor: pointer;
+  font-family: var(--font-family-sfpro_text-regular);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 15px;
+  margin-left: 8px;
+  min-height: 20px;
+  min-width: 72px;
+  text-align: center;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+

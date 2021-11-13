@@ -1,35 +1,33 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import X702 from "../X702";
+import EventMark from "../EventMark";
+import HeartMark from "../HeartMark";
 import "./HooderMessage.css";
 
 function HooderMessage(props) {
-  const { heartRate, x6, score, x7 } = props;
+  const { x6, x7, x8, message } = props;
 
   return (
     <div className="hooder-message">
-      <div className="hooder-1 border-2px-mist-gray">
+      <div className="hooder-6 border-2px-mist-gray">
         <Link to="/eventactivity2">
-          <div className="x68-12">
-            <div className="overlap-group-24">
-              <div className="event-mark-12">
-                <div className="heart-rate-12 sfcompact-bold-dove-gray-13px">{heartRate}</div>
-              </div>
-              <img className="x6-11" src={x6} />
-            </div>
+          <div className="x68-6">
+            <img className="x6-14" src={x6} />
+            <EventMark />
           </div>
         </Link>
         <Link to="/main">
-          <div className="x69-7">
-            <div className="overlap-group1-11">
-              <div className="heart-mark-7">
-                <div className="score-8 sfcompact-bold-dove-gray-13px">{score}</div>
-              </div>
-              <img className="x7-7" src={x7} />
-            </div>
+          <div className="x69-4">
+            <img className="x7-5" src={x7} />
+            <HeartMark />
           </div>
         </Link>
-        <X702 />
+        <div className="x70-4">
+          <img className="x8-3" src={x8} />
+          <div className="message-mark-6">
+            <div className="message-6 sfcompact-bold-brick-red-13px">{message}</div>
+          </div>
+        </div>
       </div>
     </div>
   );

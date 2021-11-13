@@ -1,17 +1,48 @@
-.login-3 {
+.login {
   align-items: flex-start;
+  cursor: pointer;
   display: flex;
-  height: 54px;
-  left: 150px;
-  min-width: 44px;
-  position: absolute;
-  top: 13px;
+  margin-left: 1.0px;
+  margin-top: 58px;
+  min-width: 344px;
+  z-index: 1;
+}
+
+.overlap-group-4 {
+  border-radius: 8px;
+  height: 50px;
+  position: relative;
+  width: 344px;
 }
 
 .button-backgrounds-black {
-  height: 0;
-  margin-left: -150px;
-  margin-top: -3px;
-  width: 0;
+  background-color: var(--new-york-pink);
+  border-radius: 8px;
+  cursor: pointer;
+  height: 50px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 344px;
+}
+
+.buttons-label-light {
+  display: flex;
+  height: 44px;
+  left: 150px;
+  position: absolute;
+  top: 3px;
+  width: 46px;
+}
+
+.label {
+  flex: 1;
+  height: 22px;
+  letter-spacing: -0.41px;
+  line-height: 22px;
+  margin-right: -2px;
+  margin-top: 11px;
+  text-align: center;
+  white-space: nowrap;
 }
 

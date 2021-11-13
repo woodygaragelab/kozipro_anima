@@ -1,18 +1,33 @@
 import React from "react";
-import X68 from "../X68";
-import X69 from "../X69";
-import X70 from "../X70";
+import { Link } from "react-router-dom";
+import EventMark from "../EventMark";
+import MessageMark from "../MessageMark";
 import "./HooderScore.css";
 
 function HooderScore(props) {
-  const { className, x68Props, x69Props, x70Props } = props;
+  const { x6, x7, score, x8 } = props;
 
   return (
-    <div className={`hooder-score ${className || ""}`}>
-      <div className="hooder-9 border-2px-mist-gray">
-        <X68 x6={x68Props.x6} className={x68Props.className} />
-        <X69 className={x69Props.className} />
-        <X70 className={x70Props.className} />
+    <div className="hooder-score">
+      <div className="hooder border-2px-mist-gray">
+        <Link to="/eventactivity2">
+          <div className="x68">
+            <img className="x6-8" src={x6} />
+            <EventMark />
+          </div>
+        </Link>
+        <div className="x69">
+          <img className="x7" src={x7} />
+          <div className="heart-mark">
+            <div className="score">{score}</div>
+          </div>
+        </div>
+        <Link to="/textinputactivity1">
+          <div className="x70">
+            <img className="x8" src={x8} />
+            <MessageMark />
+          </div>
+        </Link>
       </div>
     </div>
   );

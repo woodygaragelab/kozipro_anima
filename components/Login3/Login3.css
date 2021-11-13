@@ -1,4 +1,4 @@
-.login-4 {
+.login-1 {
   align-items: flex-start;
   cursor: pointer;
   display: flex;
@@ -8,7 +8,7 @@
   z-index: 9;
 }
 
-.overlap-group3-10 {
+.overlap-group3 {
   border-radius: 2px;
   height: 50px;
   position: relative;
@@ -141,5 +141,31 @@
   opacity: 0;
   position: absolute;
   top: 0;
+}
+
+.overlap-group-13 {
+  height: 44px;
+  left: 150px;
+  position: absolute;
+  top: 3px;
+  width: 45px;
+}
+
+.frame {
+  height: 44px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 44px;
+}
+
+.label-1 {
+  left: 1px;
+  letter-spacing: -0.41px;
+  line-height: 22px;
+  position: absolute;
+  text-align: center;
+  top: 11px;
+  white-space: nowrap;
 }
 
