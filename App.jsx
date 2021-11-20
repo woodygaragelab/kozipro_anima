@@ -3,12 +3,12 @@ import React from "react";
 import { Switch, BrowserRouter as Router, Route } from "react-router-dom";
 import Login from "./components/Login";
 import Main from "./components/Main";
+import WaitingActivity1 from "./components/WaitingActivity1";
+import Fail from "./components/Fail";
 import Photochoose1 from "./components/Photochoose1";
 import EventActivity2 from "./components/EventActivity2";
 import TextInputActivity1 from "./components/TextInputActivity1";
-import WaitingActivity1 from "./components/WaitingActivity1";
 import WaitingActivity2 from "./components/WaitingActivity2";
-import Fail from "./components/Fail";
 
 function App() {
   return (
@@ -19,6 +19,20 @@ function App() {
         </Route>
         <Route path="/main">
           <Main {...mainData} />
+        </Route>
+        <Route path="/waitingactivity1">
+          <WaitingActivity1
+            heart="https://anima-uploads.s3.amazonaws.com/projects/618616dc64d833887f149d69/files/loadingimage.gif"
+            heart2="https://anima-uploads.s3.amazonaws.com/projects/61558e45ee42a07e6b5724d6/files/heart-gif-brown.gif"
+            hooderStandardProps={waitingActivity1Data.hooderStandardProps}
+          />
+        </Route>
+        <Route path="/fail">
+          <Fail
+            tryAgain="Try again!"
+            simplifiedHeaderProps={failData.simplifiedHeaderProps}
+            hooderStandardProps={failData.hooderStandardProps}
+          />
         </Route>
         <Route path="/photochoose1">
           <Photochoose1
@@ -35,25 +49,12 @@ function App() {
         <Route path="/textinputactivity1">
           <TextInputActivity1 {...textInputActivity1Data} />
         </Route>
-        <Route path="/waitingactivity1">
-          <WaitingActivity1
-            heart="https://anima-uploads.s3.amazonaws.com/projects/61558e45ee42a07e6b5724d6/files/heart-gif-brown.gif"
-            hooderStandardProps={waitingActivity1Data.hooderStandardProps}
-          />
-        </Route>
         <Route path="/waitingactivity2">
           <WaitingActivity2
-            heart="https://anima-uploads.s3.amazonaws.com/projects/61558e45ee42a07e6b5724d6/files/heartbeats.gif"
+            heart="https://anima-uploads.s3.amazonaws.com/projects/618616dc64d833887f149d69/files/loadingimage.gif"
             simplifiedHeaderProps={waitingActivity2Data.simplifiedHeaderProps}
             loadingProps={waitingActivity2Data.loadingProps}
             hooderStandardProps={waitingActivity2Data.hooderStandardProps}
-          />
-        </Route>
-        <Route path="/fail">
-          <Fail
-            tryAgain="Try again!"
-            simplifiedHeaderProps={failData.simplifiedHeaderProps}
-            hooderStandardProps={failData.hooderStandardProps}
           />
         </Route>
       </Switch>
@@ -149,6 +150,56 @@ const mainData = {
     hooderScoreProps: hooderScoreData,
 };
 
+const x68Data = {
+    x6: "/img/file---6@1x.png",
+};
+
+const x69Data = {
+    className: "",
+};
+
+const x70Data = {
+    className: "",
+};
+
+const hooderStandardData = {
+    x68Props: x68Data,
+    x69Props: x69Data,
+    x70Props: x70Data,
+};
+
+const waitingActivity1Data = {
+    hooderStandardProps: hooderStandardData,
+};
+
+const simplifiedHeader4Data = {
+    className: "simplified-header-3",
+};
+
+const x682Data = {
+    x6: "/img/file---6@1x.png",
+};
+
+const x692Data = {
+    className: "x69-2",
+};
+
+const x702Data = {
+    className: "x70-2",
+};
+
+const hooderStandard2Data = {
+    className: "hooder-standard-1",
+    x68Props: x682Data,
+    x69Props: x692Data,
+    x70Props: x702Data,
+};
+
+const failData = {
+    simplifiedHeaderProps: simplifiedHeader4Data,
+    hooderStandardProps: hooderStandard2Data,
+};
+
 const backData = {
     src: "/img/file---30@1x.png",
 };
@@ -158,23 +209,29 @@ const back2Data = {
     className: "forward",
 };
 
-const x68Data = {
+const x683Data = {
     x6: "/img/file---6@1x.png",
 };
 
-const x69Data = {
+const x693Data = {
     className: "",
 };
 
-const hooderStandardData = {
-    x68Props: x68Data,
-    x69Props: x69Data,
+const x703Data = {
+    className: "x70-3",
+};
+
+const hooderStandard3Data = {
+    className: "hooder-standard-2",
+    x68Props: x683Data,
+    x69Props: x693Data,
+    x70Props: x703Data,
 };
 
 const photochoose1Data = {
     backProps: backData,
     back2Props: back2Data,
-    hooderStandardProps: hooderStandardData,
+    hooderStandardProps: hooderStandard3Data,
 };
 
 const simplifiedHeader23Data = {
@@ -224,19 +281,19 @@ const login3Data = {
     label: "Send",
 };
 
-const x692Data = {
-    className: "x69-2",
+const x694Data = {
+    className: "x69-4",
 };
 
-const x702Data = {
-    className: "x70-2",
+const x704Data = {
+    className: "x70-4",
 };
 
 const hooderHeartrateData = {
     x6: "/img/file---6@1x.png",
     heartRate: "Heart rate",
-    x69Props: x692Data,
-    x70Props: x702Data,
+    x69Props: x694Data,
+    x70Props: x704Data,
 };
 
 const eventActivity2Data = {
@@ -252,9 +309,9 @@ const eventActivity2Data = {
     text4: "23:59",
     title: "Graph",
     graph: "Graph",
-    heart_Icon_Palepink: "/img/heart-icon-palepink-1@1x.png",
+    heart_Icon_Palepink: "/img/heart-icon-palepink-10@1x.png",
     ttTt: "TT:TT",
-    heart_Icon_Palepink2: "/img/heart-icon-palepink-1@1x.png",
+    heart_Icon_Palepink2: "/img/heart-icon-palepink-10@1x.png",
     simplifiedHeader2Props: simplifiedHeader23Data,
     backProps: back3Data,
     back2Props: back4Data,
@@ -269,8 +326,8 @@ const eventActivity2Data = {
     hooderHeartrateProps: hooderHeartrateData,
 };
 
-const simplifiedHeader3Data = {
-    className: "simplified-header-2",
+const simplifiedHeader5Data = {
+    className: "simplified-header-4",
 };
 
 const days2Data = {
@@ -337,7 +394,7 @@ const textInputActivity1Data = {
     inputPlaceholder3: "Paste message",
     inputType4: "text",
     inputPlaceholder4: "Paste message",
-    simplifiedHeaderProps: simplifiedHeader3Data,
+    simplifiedHeaderProps: simplifiedHeader5Data,
     daysProps: days2Data,
     backProps: back5Data,
     back2Props: back6Data,
@@ -352,49 +409,12 @@ const textInputActivity1Data = {
     hooderMessageProps: hooderMessageData,
 };
 
-const x682Data = {
-    x6: "/img/file---6@1x.png",
-};
-
-const x703Data = {
-    className: "x70-3",
-};
-
-const hooderStandard2Data = {
-    className: "hooder-standard-1",
-    x68Props: x682Data,
-    x69Props: x703Data,
-};
-
-const waitingActivity1Data = {
-    hooderStandardProps: hooderStandard2Data,
-};
-
-const simplifiedHeader5Data = {
-    className: "simplified-header-4",
+const simplifiedHeader6Data = {
+    className: "simplified-header-5",
 };
 
 const loading2Data = {
     className: "loading-2",
-};
-
-const x683Data = {
-    x6: "/img/file---6@1x.png",
-};
-
-const hooderStandard3Data = {
-    className: "hooder-standard-2",
-    x68Props: x683Data,
-};
-
-const waitingActivity2Data = {
-    simplifiedHeaderProps: simplifiedHeader5Data,
-    loadingProps: loading2Data,
-    hooderStandardProps: hooderStandard3Data,
-};
-
-const simplifiedHeader6Data = {
-    className: "simplified-header-5",
 };
 
 const x684Data = {
@@ -402,7 +422,7 @@ const x684Data = {
 };
 
 const x695Data = {
-    className: "x69-5",
+    className: "",
 };
 
 const x705Data = {
@@ -413,11 +433,12 @@ const hooderStandard4Data = {
     className: "hooder-standard-3",
     x68Props: x684Data,
     x69Props: x695Data,
-    x69Props2: x705Data,
+    x70Props: x705Data,
 };
 
-const failData = {
+const waitingActivity2Data = {
     simplifiedHeaderProps: simplifiedHeader6Data,
+    loadingProps: loading2Data,
     hooderStandardProps: hooderStandard4Data,
 };
 

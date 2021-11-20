@@ -11,10 +11,24 @@
 
 .heart {
   align-items: flex-start;
+  background-position: 50% 50%;
+  background-size: cover;
   display: flex;
   margin-top: 303px;
   min-width: 123px;
   z-index: 1;
+}
+
+.heart video,
+.heart-1 video {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.heart img,
+.heart-1 img {
+  object-fit: cover;
 }
 
 .heart-1 {
@@ -23,15 +37,5 @@
   cursor: pointer;
   height: 123px;
   width: 123px;
-}
-
-.heart-1 video {
-  height: 100%;
-  object-fit: cover;
-  width: 100%;
-}
-
-.heart-1 img {
-  object-fit: cover;
 }
 

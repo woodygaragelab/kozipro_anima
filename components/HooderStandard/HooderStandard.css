@@ -5,7 +5,7 @@
   position: fixed;
   top: 724px;
   width: 377px;
-  z-index: 3;
+  z-index: 4;
 }
 
 .hooder-1 {
@@ -20,15 +20,17 @@
 }
 
 .hooder-standard.hooder-standard-1 {
-  z-index: 4;
+  left: 0;
+  z-index: 3;
 }
 
 .hooder-standard.hooder-standard-2 {
-  left: -2px;
-  top: 727px;
+  z-index: 3;
 }
 
 .hooder-standard.hooder-standard-3 {
-  left: 0;
+  left: -2px;
+  top: 727px;
+  z-index: 3;
 }
 

@@ -39,16 +39,16 @@
 }
 
 .simplified-header.simplified-header-1 .x19,
-.simplified-header.simplified-header-2 .x19 {
+.simplified-header.simplified-header-4 .x19 {
   cursor: pointer;
 }
 
-.simplified-header.simplified-header-2,
-.simplified-header.simplified-header-5 {
+.simplified-header.simplified-header-3,
+.simplified-header.simplified-header-4 {
   z-index: 2;
 }
 
-.simplified-header.simplified-header-4 {
+.simplified-header.simplified-header-5 {
   left: 1px;
   z-index: 2;
 }

@@ -14,7 +14,12 @@ function WaitingActivity2(props) {
         <SimplifiedHeader className={simplifiedHeaderProps.className} />
         <div className="heart-2" style={{ backgroundImage: `url(${heart})` }}></div>
         <Loading className={loadingProps.className} />
-        <HooderStandard className={hooderStandardProps.className} x68Props={hooderStandardProps.x68Props} />
+        <HooderStandard
+          className={hooderStandardProps.className}
+          x68Props={hooderStandardProps.x68Props}
+          x69Props={hooderStandardProps.x69Props}
+          x70Props={hooderStandardProps.x70Props}
+        />
       </div>
     </div>
   );

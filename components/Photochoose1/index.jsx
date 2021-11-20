@@ -21,7 +21,12 @@ function Photochoose1(props) {
           </div>
           <Back src={back2Props.src} className={back2Props.className} />
         </div>
-        <HooderStandard x68Props={hooderStandardProps.x68Props} x69Props={hooderStandardProps.x69Props} />
+        <HooderStandard
+          className={hooderStandardProps.className}
+          x68Props={hooderStandardProps.x68Props}
+          x69Props={hooderStandardProps.x69Props}
+          x70Props={hooderStandardProps.x70Props}
+        />
       </div>
     </div>
   );

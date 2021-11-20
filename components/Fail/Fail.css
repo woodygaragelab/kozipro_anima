@@ -11,7 +11,7 @@
 .try-again {
   color: var(--mountain-mist);
   font-family: var(--font-family-sfpro_text-regular);
-  font-size: 25px;
+  font-size: var(--font-size-xxxl);
   font-weight: 400;
   letter-spacing: 0;
   line-height: 25px;

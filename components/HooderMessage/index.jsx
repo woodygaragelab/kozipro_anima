@@ -17,12 +17,12 @@ function HooderMessage(props) {
           </div>
         </Link>
         <Link to="/main">
-          <div className="x69-4">
-            <img className="x7-5" src={x7} />
+          <div className="x69-5">
+            <img className="x7-2" src={x7} />
             <HeartMark />
           </div>
         </Link>
-        <div className="x70-4">
+        <div className="x70-6">
           <img className="x8-3" src={x8} />
           <div className="message-mark-6">
             <div className="message-6 sfcompact-bold-brick-red-13px">{message}</div>

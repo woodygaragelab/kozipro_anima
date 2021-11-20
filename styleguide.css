@@ -18,7 +18,7 @@
   --font-size-xl: 20px;
   --font-size-xs: 10px;
   --font-size-xxl: 21px;
-  --font-size-xxxl: 33px;
+  --font-size-xxxl: 25px;
  
   --font-family-meiryo-bold: "Meiryo-Bold", Helvetica;
   --font-family-meiryo-regular: "Meiryo-Regular", Helvetica;
@@ -77,6 +77,14 @@
   font-weight: 400;
 }
 
+.sfprotext-regular-normal-new-york-pink-20px {
+  color: var(--new-york-pink);
+  font-family: var(--font-family-sfpro_text-regular);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}
+
 .sfcompact-regular-normal-new-york-pink-20px {
   color: var(--new-york-pink);
   font-family: var(--font-family-sfcompact-regular);
@@ -88,7 +96,7 @@
 .meiryo-regular-normal-white-33px {
   color: var(--white);
   font-family: var(--font-family-meiryo-regular);
-  font-size: var(--font-size-xxxl);
+  font-size: 33px;
   font-style: normal;
   font-weight: 400;
 }
@@ -99,14 +107,6 @@
   font-size: var(--font-size-s);
   font-style: normal;
   font-weight: 700;
-}
-
-.sfprotext-regular-normal-new-york-pink-20px {
-  color: var(--new-york-pink);
-  font-family: var(--font-family-sfpro_text-regular);
-  font-size: var(--font-size-xl);
-  font-style: normal;
-  font-weight: 400;
 }
 
 .border-1px-my-pink {

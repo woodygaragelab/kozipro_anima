@@ -14,7 +14,7 @@ function Fail(props) {
           className={hooderStandardProps.className}
           x68Props={hooderStandardProps.x68Props}
           x69Props={hooderStandardProps.x69Props}
-          x69Props2={hooderStandardProps.x69Props2}
+          x70Props={hooderStandardProps.x70Props}
         />
         <div className="try-again">{tryAgain}</div>
       </div>
