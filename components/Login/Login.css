@@ -8,15 +8,38 @@
   width: 375px;
 }
 
+.overlap-group2 {
+  height: 90px;
+  position: relative;
+  width: 375px;
+}
+
+.x20 {
+  height: 21px;
+  left: 338px;
+  object-fit: cover;
+  position: absolute;
+  top: 58px;
+  width: 25px;
+}
+
+.x19 {
+  height: 25px;
+  left: 9px;
+  object-fit: cover;
+  position: absolute;
+  top: 54px;
+  width: 22px;
+}
+
 .x273 {
   align-items: center;
   display: flex;
   flex-direction: column;
   margin-left: 2.28px;
-  margin-top: 470px;
+  margin-top: 380px;
   min-height: 103px;
   width: 296px;
-  z-index: 2;
 }
 
 .overlap-group1 {
@@ -65,7 +88,7 @@
   width: 297px;
 }
 
-.x20 {
+.x20-1 {
   height: 1px;
   margin-top: 1px;
   object-fit: cover;

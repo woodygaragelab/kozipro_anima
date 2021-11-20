@@ -12,7 +12,7 @@ function HooderMessage(props) {
       <div className="hooder-6 border-2px-mist-gray">
         <Link to="/eventactivity2">
           <div className="x68-6">
-            <img className="x6-14" src={x6} />
+            <img className="x6-7" src={x6} />
             <EventMark />
           </div>
         </Link>

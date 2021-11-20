@@ -9,7 +9,10 @@ function Fail(props) {
   return (
     <div className="container-center-horizontal">
       <div className="fail screen">
-        <SimplifiedHeader className={simplifiedHeaderProps.className} />
+        <SimplifiedHeader
+          className={simplifiedHeaderProps.className}
+          detailedHeaderProps={simplifiedHeaderProps.detailedHeaderProps}
+        />
         <HooderStandard
           className={hooderStandardProps.className}
           x68Props={hooderStandardProps.x68Props}

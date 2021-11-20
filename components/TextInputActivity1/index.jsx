@@ -36,7 +36,10 @@ function TextInputActivity1(props) {
   return (
     <div className="container-center-horizontal">
       <div className="textinputactivity1 screen">
-        <SimplifiedHeader className={simplifiedHeaderProps.className} />
+        <SimplifiedHeader
+          className={simplifiedHeaderProps.className}
+          detailedHeaderProps={simplifiedHeaderProps.detailedHeaderProps}
+        />
         <Days className={daysProps.className} />
         <Back src={backProps.src} className={backProps.className} />
         <Back src={back2Props.src} className={back2Props.className} />

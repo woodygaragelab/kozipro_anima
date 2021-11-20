@@ -52,7 +52,7 @@ function Main(props) {
         </div>
         <X268 className={x2682Props.className} avatarProps={x2682Props.avatarProps} />
       </div>
-      <SimplifiedHeader className={simplifiedHeaderProps.className} />
+      <SimplifiedHeader detailedHeaderProps={simplifiedHeaderProps.detailedHeaderProps} />
       <HooderScore
         x6={hooderScoreProps.x6}
         x7={hooderScoreProps.x7}

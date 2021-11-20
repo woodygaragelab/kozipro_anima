@@ -6,12 +6,12 @@ import HooderStandard from "../HooderStandard";
 import "./Photochoose1.css";
 
 function Photochoose1(props) {
-  const { x5, addPhoto, backProps, back2Props, hooderStandardProps } = props;
+  const { x5, addPhoto, simplifiedHeader2Props, backProps, back2Props, hooderStandardProps } = props;
 
   return (
     <div className="container-center-horizontal">
       <div className="photochoose1 screen">
-        <SimplifiedHeader2 />
+        <SimplifiedHeader2 detailedHeaderProps={simplifiedHeader2Props.detailedHeaderProps} />
         <PutPersonName />
         <div className="flex-row-3">
           <Back src={backProps.src} />

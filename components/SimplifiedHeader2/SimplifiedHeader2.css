@@ -1,4 +1,4 @@
-.simplified-header-6 {
+.simplified-header-5 {
   align-items: flex-start;
   display: flex;
   height: 90px;
@@ -32,7 +32,7 @@
   width: 25px;
 }
 
-.x19-1 {
+.x19-2 {
   cursor: pointer;
   height: 25px;
   left: 9px;
@@ -42,7 +42,7 @@
   width: 22px;
 }
 
-.simplified-header-6.simplified-header-7 {
+.simplified-header-5.simplified-header-6 {
   left: 0;
   z-index: 5;
 }

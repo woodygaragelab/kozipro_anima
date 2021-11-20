@@ -7,7 +7,7 @@
   min-width: 102px;
 }
 
-.overlap-group-5 {
+.overlap-group-1 {
   align-items: flex-start;
   background-image: url(..//img/file---5@1x.png);
   background-position: 50% 50%;
@@ -26,8 +26,8 @@
   width: 65px;
 }
 
-.avatar-1.avatar-7 .overlap-group-5,
-.avatar-1.avatar .overlap-group-5 {
+.avatar-1.avatar-7 .overlap-group-1,
+.avatar-1.avatar .overlap-group-1 {
   height: 223px;
   margin-top: -60px;
   min-width: 222px;

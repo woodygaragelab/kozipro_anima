@@ -42,7 +42,10 @@ function EventActivity2(props) {
   return (
     <div className="container-center-horizontal">
       <form className="eventactivity2 screen" name="form4" action="form4" method="post">
-        <SimplifiedHeader2 className={simplifiedHeader2Props.className} />
+        <SimplifiedHeader2
+          className={simplifiedHeader2Props.className}
+          detailedHeaderProps={simplifiedHeader2Props.detailedHeaderProps}
+        />
         <Days />
         <Back src={backProps.src} className={backProps.className} />
         <Back src={back2Props.src} className={back2Props.className} />
