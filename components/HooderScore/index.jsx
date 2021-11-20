@@ -12,7 +12,7 @@ function HooderScore(props) {
       <div className="hooder border-2px-mist-gray">
         <Link to="/eventactivity2">
           <div className="x68">
-            <img className="x6-1" src={x6} />
+            <img className="x6-7" src={x6} />
             <EventMark />
           </div>
         </Link>

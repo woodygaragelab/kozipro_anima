@@ -9,6 +9,46 @@
   width: 375px;
 }
 
+.simplified-header-5 {
+  align-items: flex-start;
+  display: flex;
+  min-width: 375px;
+  z-index: 5;
+}
+
+.overlap-group2 {
+  height: 90px;
+  position: relative;
+  width: 375px;
+}
+
+.overlap-group2-item {
+  height: 44px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 375px;
+}
+
+.x20-5 {
+  height: 21px;
+  left: 338px;
+  object-fit: cover;
+  position: absolute;
+  top: 58px;
+  width: 25px;
+}
+
+.x19-5 {
+  cursor: pointer;
+  height: 25px;
+  left: 9px;
+  object-fit: cover;
+  position: absolute;
+  top: 54px;
+  width: 22px;
+}
+
 .x109 {
   align-items: flex-start;
   display: flex;
@@ -20,7 +60,7 @@
   z-index: 4;
 }
 
-.overlap-group1-3 {
+.overlap-group1-2 {
   align-items: center;
   background: linear-gradient(0deg, #ee9ca3 0%, #c15f62 0%, #c26264 20.8%, #c56b6e 36.64%, #cc7c7e 50.84%, #d59395 64.07%, #e0b0b2 76.65%, #eed4d5 88.55%, #ffffff 100%);
   border: 0.8px solid var(--white);
@@ -183,7 +223,7 @@
   display: flex;
   flex-direction: column;
   margin-left: 2.78px;
-  margin-top: 409px;
+  margin-top: 319px;
   min-height: 192px;
   overflow-y: scroll;
   padding: 0 0.0px;

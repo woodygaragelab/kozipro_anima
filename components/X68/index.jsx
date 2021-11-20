@@ -7,7 +7,7 @@ function X68(props) {
 
   return (
     <div className="x68-1">
-      <img className="x6-2" src={x6} />
+      <img className="x6-8" src={x6} />
       <EventMark />
     </div>
   );

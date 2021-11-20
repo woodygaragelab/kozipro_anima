@@ -9,6 +9,47 @@
   width: 375px;
 }
 
+.simplified-header-4 {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 2.0px;
+  min-width: 375px;
+  z-index: 2;
+}
+
+.overlap-group-6 {
+  height: 90px;
+  position: relative;
+  width: 375px;
+}
+
+.overlap-group-item {
+  height: 44px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 375px;
+}
+
+.x20-4 {
+  height: 21px;
+  left: 338px;
+  object-fit: cover;
+  position: absolute;
+  top: 58px;
+  width: 25px;
+}
+
+.x19-4 {
+  cursor: pointer;
+  height: 25px;
+  left: 9px;
+  object-fit: cover;
+  position: absolute;
+  top: 54px;
+  width: 22px;
+}
+
 .flex-row-3 {
   align-items: center;
   display: flex;
@@ -29,7 +70,7 @@
   width: 205px;
 }
 
-.x5-1 {
+.x5 {
   height: 205px;
   object-fit: cover;
   width: 205px;

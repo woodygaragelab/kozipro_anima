@@ -11,10 +11,7 @@ function WaitingActivity2(props) {
   return (
     <div className="container-center-horizontal">
       <div className="waitingactivity2 screen" onclick="window.open('main.html', '_self');">
-        <SimplifiedHeader
-          className={simplifiedHeaderProps.className}
-          detailedHeaderProps={simplifiedHeaderProps.detailedHeaderProps}
-        />
+        <SimplifiedHeader className={simplifiedHeaderProps.className} />
         <div className="heart-2" style={{ backgroundImage: `url(${heart})` }}></div>
         <Loading className={loadingProps.className} />
         <HooderStandard

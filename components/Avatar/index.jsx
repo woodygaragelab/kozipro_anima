@@ -6,7 +6,7 @@ function Avatar(props) {
 
   return (
     <div className={`avatar-1 ${className || ""}`}>
-      <div className="overlap-group-1">
+      <div className="overlap-group-2">
         <img className="x3" src="/img/file-3@1x.png" />
       </div>
     </div>

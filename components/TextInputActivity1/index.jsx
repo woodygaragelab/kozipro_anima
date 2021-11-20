@@ -1,5 +1,6 @@
 import React from "react";
-import SimplifiedHeader from "../SimplifiedHeader";
+import { Link } from "react-router-dom";
+import DetailedHeader from "../DetailedHeader";
 import Days from "../Days";
 import Back from "../Back";
 import PutPersonName2 from "../PutPersonName2";
@@ -10,6 +11,8 @@ import "./TextInputActivity1.css";
 
 function TextInputActivity1(props) {
   const {
+    x20,
+    x19,
     inputType,
     inputPlaceholder,
     inputType2,
@@ -18,7 +21,6 @@ function TextInputActivity1(props) {
     inputPlaceholder3,
     inputType4,
     inputPlaceholder4,
-    simplifiedHeaderProps,
     daysProps,
     backProps,
     back2Props,
@@ -36,15 +38,20 @@ function TextInputActivity1(props) {
   return (
     <div className="container-center-horizontal">
       <div className="textinputactivity1 screen">
-        <SimplifiedHeader
-          className={simplifiedHeaderProps.className}
-          detailedHeaderProps={simplifiedHeaderProps.detailedHeaderProps}
-        />
+        <div className="simplified-header-6">
+          <div className="overlap-group-15">
+            <DetailedHeader />
+            <img className="x20-6" src={x20} />
+            <Link to="/login1">
+              <img className="x19-6" src={x19} />
+            </Link>
+          </div>
+        </div>
         <Days className={daysProps.className} />
         <Back src={backProps.src} className={backProps.className} />
         <Back src={back2Props.src} className={back2Props.className} />
         <div className="x30">
-          <div className="overlap-group1-5">
+          <div className="overlap-group1-4">
             <div className="x274">
               <PutPersonName2 className={putPersonName2Props.className} />
               <div className="x90 border-1px-mountain-mist"></div>

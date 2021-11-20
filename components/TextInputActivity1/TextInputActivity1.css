@@ -8,6 +8,38 @@
   width: 375px;
 }
 
+.simplified-header-6 {
+  align-items: flex-start;
+  display: flex;
+  min-width: 375px;
+  z-index: 2;
+}
+
+.overlap-group-15 {
+  height: 90px;
+  position: relative;
+  width: 375px;
+}
+
+.x20-6 {
+  height: 21px;
+  left: 338px;
+  object-fit: cover;
+  position: absolute;
+  top: 58px;
+  width: 25px;
+}
+
+.x19-6 {
+  cursor: pointer;
+  height: 25px;
+  left: 9px;
+  object-fit: cover;
+  position: absolute;
+  top: 54px;
+  width: 22px;
+}
+
 .x30::-webkit-scrollbar {
   display: none;
   width: 0;
@@ -17,14 +49,14 @@
   align-items: flex-start;
   display: flex;
   flex-direction: column;
-  margin-top: 146px;
+  margin-top: 56px;
   min-height: 465px;
   overflow-y: scroll;
   width: 305px;
   z-index: 6;
 }
 
-.overlap-group1-5 {
+.overlap-group1-4 {
   height: 446px;
   position: relative;
   width: 305px;

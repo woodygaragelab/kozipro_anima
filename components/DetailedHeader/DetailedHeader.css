@@ -1,22 +1,40 @@
-.detailed-header {
+.detailed-header,
+.detailed-header-1,
+.detailed-header-2,
+.detailed-header-3,
+.detailed-header-4,
+.detailed-header-5,
+.detailed-header-6 {
+  align-items: flex-end;
   background-color: var(--remy);
   display: flex;
   height: 90px;
   left: 0;
-  position: fixed;
+  min-width: 375px;
+  padding: 19px 150.5px;
+  position: absolute;
   top: 0;
-  width: 100%;
 }
 
-.x6 {
+.x6,
+.x6-1,
+.x6-2,
+.x6-3,
+.x6-4,
+.x6-5,
+.x6-6 {
   display: flex;
   height: 24px;
-  margin-left: 150.5px;
-  margin-top: 48px;
   width: 74px;
 }
 
-.kozipro {
+.kozipro-1,
+.kozipro-2,
+.kozipro-3,
+.kozipro-4,
+.kozipro-5,
+.kozipro-6,
+.kozipro-7 {
   flex: 1;
   letter-spacing: 0;
   line-height: 20px;
@@ -26,29 +44,5 @@
   text-align: center;
   white-space: nowrap;
   width: 74px;
-}
-
-.detailed-header.detailed-header-1,
-.detailed-header.detailed-header-2,
-.detailed-header.detailed-header-3,
-.detailed-header.detailed-header-4,
-.detailed-header.detailed-header-5,
-.detailed-header.detailed-header-6,
-.detailed-header.detailed-header-7 {
-  align-items: flex-end;
-  min-width: 375px;
-  padding: 19px 150.5px;
-  width: unset;
-}
-
-.detailed-header.detailed-header-1 .x6,
-.detailed-header.detailed-header-2 .x6,
-.detailed-header.detailed-header-3 .x6,
-.detailed-header.detailed-header-4 .x6,
-.detailed-header.detailed-header-5 .x6,
-.detailed-header.detailed-header-6 .x6,
-.detailed-header.detailed-header-7 .x6 {
-  margin-left: unset;
-  margin-top: unset;
 }
 

@@ -24,7 +24,6 @@ function App() {
           <WaitingActivity1
             heart="https://anima-uploads.s3.amazonaws.com/projects/618616dc64d833887f149d69/files/loadingimage.gif"
             heart2="https://anima-uploads.s3.amazonaws.com/projects/61558e45ee42a07e6b5724d6/files/heart-gif-brown.gif"
-            simplifiedHeaderProps={waitingActivity1Data.simplifiedHeaderProps}
             hooderStandardProps={waitingActivity1Data.hooderStandardProps}
           />
         </Route>
@@ -37,9 +36,10 @@ function App() {
         </Route>
         <Route path="/photochoose1">
           <Photochoose1
+            x20="/img/file----20@1x.png"
+            x19="/img/file----19@1x.png"
             x5="/img/file---5@1x.png"
             addPhoto="Add Photo"
-            simplifiedHeader2Props={photochoose1Data.simplifiedHeader2Props}
             backProps={photochoose1Data.backProps}
             back2Props={photochoose1Data.back2Props}
             hooderStandardProps={photochoose1Data.hooderStandardProps}
@@ -69,18 +69,23 @@ const login2Data = {
     children: "Login",
 };
 
+const headerData = {
+    logoutIcon: "/img/file----19@1x.png",
+    kozipro: "Kozipro",
+    setting: "/img/setting@1x.png",
+};
+
 const loginData = {
-    x20: "/img/file----20@1x.png",
-    x19: "/img/file----19@1x.png",
-    x5: "/img/file--5@1x.png",
+    line1: "/img/file--5@1x.png",
     inputType: "email",
     inputPlaceholder: "ID",
     inputType2: "password",
     inputPlaceholder2: "Password",
-    x202: "/img/file---20@1x.png",
+    line2: "/img/file--5@1x.png",
     text1: "Forget your password?",
     clickHere: "Click here",
     login2Props: login2Data,
+    headerProps: headerData,
 };
 
 const x2712Data = {
@@ -128,14 +133,6 @@ const x2682Data = {
     avatarProps: avatar9Data,
 };
 
-const detailedHeader2Data = {
-    className: "detailed-header-1",
-};
-
-const simplifiedHeaderData = {
-    detailedHeaderProps: detailedHeader2Data,
-};
-
 const hooderScoreData = {
     x6: "/img/file---6@1x.png",
     x7: "/img/file---7@1x.png",
@@ -144,6 +141,8 @@ const hooderScoreData = {
 };
 
 const mainData = {
+    x20: "/img/file----20@1x.png",
+    x19: "/img/file----19@1x.png",
     me: "Me",
     x271Props: x2712Data,
     x2712Props: x2713Data,
@@ -154,17 +153,7 @@ const mainData = {
     x268Props: x268Data,
     x2716Props: x2717Data,
     x2682Props: x2682Data,
-    simplifiedHeaderProps: simplifiedHeaderData,
     hooderScoreProps: hooderScoreData,
-};
-
-const detailedHeader3Data = {
-    className: "detailed-header-2",
-};
-
-const simplifiedHeader2Data = {
-    className: "simplified-header-1",
-    detailedHeaderProps: detailedHeader3Data,
 };
 
 const x68Data = {
@@ -186,17 +175,11 @@ const hooderStandardData = {
 };
 
 const waitingActivity1Data = {
-    simplifiedHeaderProps: simplifiedHeader2Data,
     hooderStandardProps: hooderStandardData,
 };
 
-const detailedHeader4Data = {
-    className: "detailed-header-3",
-};
-
-const simplifiedHeader3Data = {
+const simplifiedHeader2Data = {
     className: "simplified-header-2",
-    detailedHeaderProps: detailedHeader4Data,
 };
 
 const x682Data = {
@@ -219,16 +202,8 @@ const hooderStandard2Data = {
 };
 
 const failData = {
-    simplifiedHeaderProps: simplifiedHeader3Data,
+    simplifiedHeaderProps: simplifiedHeader2Data,
     hooderStandardProps: hooderStandard2Data,
-};
-
-const detailedHeader5Data = {
-    className: "detailed-header-4",
-};
-
-const simplifiedHeader22Data = {
-    detailedHeaderProps: detailedHeader5Data,
 };
 
 const backData = {
@@ -260,19 +235,13 @@ const hooderStandard3Data = {
 };
 
 const photochoose1Data = {
-    simplifiedHeader2Props: simplifiedHeader22Data,
+    x20: "/img/file----20@1x.png",
+    x19: "/img/file----19@1x.png",
+    x5: "/img/file---5@1x.png",
+    addPhoto: "Add Photo",
     backProps: backData,
     back2Props: back2Data,
     hooderStandardProps: hooderStandard3Data,
-};
-
-const detailedHeader6Data = {
-    className: "detailed-header-5",
-};
-
-const simplifiedHeader23Data = {
-    className: "simplified-header-6",
-    detailedHeaderProps: detailedHeader6Data,
 };
 
 const back3Data = {
@@ -334,6 +303,8 @@ const hooderHeartrateData = {
 };
 
 const eventActivity2Data = {
+    x20: "/img/file----20@1x.png",
+    x19: "/img/file----19@1x.png",
     number: "186",
     number2: "117",
     number3: "48",
@@ -349,7 +320,6 @@ const eventActivity2Data = {
     heart_Icon_Palepink: "/img/heart-icon-palepink-10@1x.png",
     ttTt: "TT:TT",
     heart_Icon_Palepink2: "/img/heart-icon-palepink-10@1x.png",
-    simplifiedHeader2Props: simplifiedHeader23Data,
     backProps: back3Data,
     back2Props: back4Data,
     x0Props: x02Data,
@@ -361,15 +331,6 @@ const eventActivity2Data = {
     putPersonName4Props: putPersonName6Data,
     login3Props: login3Data,
     hooderHeartrateProps: hooderHeartrateData,
-};
-
-const detailedHeader7Data = {
-    className: "detailed-header-6",
-};
-
-const simplifiedHeader4Data = {
-    className: "simplified-header-3",
-    detailedHeaderProps: detailedHeader7Data,
 };
 
 const days2Data = {
@@ -428,6 +389,8 @@ const hooderMessageData = {
 };
 
 const textInputActivity1Data = {
+    x20: "/img/file----20@1x.png",
+    x19: "/img/file----19@1x.png",
     inputType: "text",
     inputPlaceholder: "Paste message",
     inputType2: "text",
@@ -436,7 +399,6 @@ const textInputActivity1Data = {
     inputPlaceholder3: "Paste message",
     inputType4: "text",
     inputPlaceholder4: "Paste message",
-    simplifiedHeaderProps: simplifiedHeader4Data,
     daysProps: days2Data,
     backProps: back5Data,
     back2Props: back6Data,
@@ -451,13 +413,8 @@ const textInputActivity1Data = {
     hooderMessageProps: hooderMessageData,
 };
 
-const detailedHeader8Data = {
-    className: "detailed-header-7",
-};
-
-const simplifiedHeader5Data = {
-    className: "simplified-header-4",
-    detailedHeaderProps: detailedHeader8Data,
+const simplifiedHeader3Data = {
+    className: "simplified-header-3",
 };
 
 const loading2Data = {
@@ -484,7 +441,7 @@ const hooderStandard4Data = {
 };
 
 const waitingActivity2Data = {
-    simplifiedHeaderProps: simplifiedHeader5Data,
+    simplifiedHeaderProps: simplifiedHeader3Data,
     loadingProps: loading2Data,
     hooderStandardProps: hooderStandard4Data,
 };

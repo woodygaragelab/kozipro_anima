@@ -10,7 +10,7 @@ function HooderHeartrate(props) {
     <div className="hooder-heartrate">
       <div className="hooder-5 border-2px-mist-gray">
         <div className="x68-5">
-          <img className="x6-6" src={x6} />
+          <img className="x6-12" src={x6} />
           <div className="event-mark-6">
             <div className="heart-rate-6 sfcompact-bold-brick-red-13px">{heartRate}</div>
           </div>

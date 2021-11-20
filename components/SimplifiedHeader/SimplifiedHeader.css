@@ -1,21 +1,17 @@
-.simplified-header {
+.simplified-header-1 {
   align-items: flex-start;
   display: flex;
-  height: 90px;
-  left: 0;
-  min-width: 100%;
-  position: fixed;
-  top: 0;
-  z-index: 2;
+  min-width: 375px;
+  z-index: 3;
 }
 
-.overlap-group1-1 {
+.overlap-group-3 {
   height: 90px;
   position: relative;
-  width: 500px;
+  width: 375px;
 }
 
-.x20-2 {
+.x20-1 {
   height: 21px;
   left: 338px;
   object-fit: cover;
@@ -25,7 +21,6 @@
 }
 
 .x19-1 {
-  cursor: pointer;
   height: 25px;
   left: 9px;
   object-fit: cover;
@@ -34,24 +29,12 @@
   width: 22px;
 }
 
-.simplified-header.simplified-header-1 {
-  min-width: 375px;
-  z-index: 3;
+.simplified-header-1.simplified-header-2 {
+  z-index: 2;
 }
 
-.simplified-header.simplified-header-1 .x19-1,
-.simplified-header.simplified-header-2 .x19-1,
-.simplified-header.simplified-header-4 .x19-1 {
-  cursor: unset;
-}
-
-.simplified-header.simplified-header-2,
-.simplified-header.simplified-header-3 {
-  min-width: 375px;
-}
-
-.simplified-header.simplified-header-4 {
-  left: 1px;
-  min-width: 375px;
+.simplified-header-1.simplified-header-3 {
+  margin-left: 2.0px;
+  z-index: 2;
 }
 

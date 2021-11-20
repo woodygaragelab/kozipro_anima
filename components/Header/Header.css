@@ -1,0 +1,35 @@
+.header {
+  align-items: flex-end;
+  background-color: var(--remy);
+  display: flex;
+  height: 90px;
+  left: 0;
+  min-width: 100%;
+  padding: 12px 8px;
+  position: fixed;
+  top: 0;
+}
+
+.logout-icon {
+  height: 25px;
+  object-fit: cover;
+  width: 22px;
+}
+
+.kozipro {
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-bottom: 3px;
+  margin-left: 120px;
+  min-height: 26px;
+  min-width: 74px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.setting {
+  height: 21px;
+  object-fit: cover;
+  width: 25px;
+}
+

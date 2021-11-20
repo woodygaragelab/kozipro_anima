@@ -1,5 +1,6 @@
 import React from "react";
-import SimplifiedHeader2 from "../SimplifiedHeader2";
+import { Link } from "react-router-dom";
+import DetailedHeader from "../DetailedHeader";
 import Days from "../Days";
 import Back from "../Back";
 import X0 from "../X0";
@@ -10,6 +11,8 @@ import "./EventActivity2.css";
 
 function EventActivity2(props) {
   const {
+    x20,
+    x19,
     number,
     number2,
     number3,
@@ -25,7 +28,6 @@ function EventActivity2(props) {
     heart_Icon_Palepink,
     ttTt,
     heart_Icon_Palepink2,
-    simplifiedHeader2Props,
     backProps,
     back2Props,
     x0Props,
@@ -42,15 +44,22 @@ function EventActivity2(props) {
   return (
     <div className="container-center-horizontal">
       <form className="eventactivity2 screen" name="form4" action="form4" method="post">
-        <SimplifiedHeader2
-          className={simplifiedHeader2Props.className}
-          detailedHeaderProps={simplifiedHeader2Props.detailedHeaderProps}
-        />
+        <div className="simplified-header-5">
+          <div className="overlap-group2">
+            <div className="overlap-group2-item"></div>
+            <div className="overlap-group2-item"></div>
+            <DetailedHeader />
+            <img className="x20-5" src={x20} />
+            <Link to="/login1">
+              <img className="x19-5" src={x19} />
+            </Link>
+          </div>
+        </div>
         <Days />
         <Back src={backProps.src} className={backProps.className} />
         <Back src={back2Props.src} className={back2Props.className} />
         <div className="x109">
-          <div className="overlap-group1-3">
+          <div className="overlap-group1-2">
             <div className="flex-col-4 myriadconceptroman-regular-normal-white-10px">
               <div className="number">{number}</div>
               <div className="number-1">{number2}</div>

@@ -8,7 +8,7 @@ function Login2(props) {
   return (
     <a href="javascript:SubmitForm('form2')">
       <div className="login">
-        <div className="overlap-group">
+        <div className="overlap-group-1">
           <Link to="/main">
             <div className="button-backgrounds-black"></div>
           </Link>

@@ -1,12 +1,47 @@
 .main {
   background-color: var(--white);
   display: flex;
+  flex-direction: column;
   height: 100vh;
   min-height: 812px;
   min-width: 375px;
   overflow: hidden;
   position: relative;
   width: 100%;
+}
+
+.simplified-header {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  max-height: 90px;
+  min-width: 100%;
+  z-index: 2;
+}
+
+.overlap-group1 {
+  height: 90px;
+  position: relative;
+  width: 375px;
+}
+
+.x20 {
+  height: 21px;
+  left: 338px;
+  object-fit: cover;
+  position: absolute;
+  top: 58px;
+  width: 25px;
+}
+
+.x19 {
+  cursor: pointer;
+  height: 25px;
+  left: 9px;
+  object-fit: cover;
+  position: absolute;
+  top: 54px;
+  width: 22px;
 }
 
 .x14::-webkit-scrollbar {
@@ -21,11 +56,9 @@
   flex-direction: column;
   margin-bottom: 83px;
   margin-left: -0.5px;
-  margin-top: 90px;
   min-height: calc(100.00% - 173px);
   overflow: scroll;
   position: relative;
-  width: 375.5px;
   z-index: 1;
 }
 

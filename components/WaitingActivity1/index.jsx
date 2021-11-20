@@ -6,15 +6,12 @@ import HooderStandard from "../HooderStandard";
 import "./WaitingActivity1.css";
 
 function WaitingActivity1(props) {
-  const { heart, heart2, simplifiedHeaderProps, hooderStandardProps } = props;
+  const { heart, heart2, hooderStandardProps } = props;
 
   return (
     <div className="container-center-horizontal">
       <div className="waitingactivity1 screen">
-        <SimplifiedHeader
-          className={simplifiedHeaderProps.className}
-          detailedHeaderProps={simplifiedHeaderProps.detailedHeaderProps}
-        />
+        <SimplifiedHeader />
         <div className="heart" style={{ backgroundImage: `url(${heart})` }}>
           <Link to="/main">
             <div className="heart-1" style={{ backgroundImage: `url(${heart2})` }}></div>

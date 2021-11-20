@@ -1,13 +1,15 @@
 .login {
   align-items: flex-start;
+  bottom: calc(17.19% - 9px);
   cursor: pointer;
   display: flex;
-  margin-left: 1.0px;
-  margin-top: 58px;
+  height: 50px;
   min-width: 344px;
+  position: fixed;
+  right: calc(48.39% - 166px);
 }
 
-.overlap-group {
+.overlap-group-1 {
   border-radius: 8px;
   height: 50px;
   position: relative;

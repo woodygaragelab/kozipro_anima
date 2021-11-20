@@ -6,8 +6,8 @@ function PutPersonName(props) {
 
   return (
     <div className={`put-person-name-1 ${className || ""}`}>
-      <div className="overlap-group1-2">
-        <img className="x5-2" src="/img/file--5@1x.png" />
+      <div className="overlap-group1-1">
+        <img className="x5-1" src="/img/file--5@1x.png" />
         <div className="place-3 sfprotext-regular-normal-mountain-mist-15px">name</div>
       </div>
     </div>
