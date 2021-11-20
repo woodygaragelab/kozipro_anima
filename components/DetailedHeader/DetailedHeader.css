@@ -3,9 +3,9 @@
   display: flex;
   height: 90px;
   left: 0;
-  position: absolute;
+  position: fixed;
   top: 0;
-  width: 375px;
+  width: 100%;
 }
 
 .x6 {
